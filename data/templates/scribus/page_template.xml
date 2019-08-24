@@ -1,0 +1,8 @@
+
+    <PAGE PAGEXPOS="{{x_pos}}" PAGEYPOS="20" PAGEWIDTH="297.64" PAGEHEIGHT="419.53" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="0" NAM="" MNAM="{{master_page}}"  Size="A6" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+    
+    <PAGE PAGEXPOS="100" PAGEYPOS="479.53" PAGEWIDTH="297.64" PAGEHEIGHT="419.53" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="1" NAM="" MNAM="Normal Left" Size="A6" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+
+x_pos = 397.64, 100
+y_pos = 20, 479.53
+master_page = "Normal Right", "Normal Left"
