@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookID" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>Lent</dc:title>
+	    <dc:language>en</dc:language>
+        <dc:rights>George Boronat</dc:rights>
+        <dc:creator opf:role="aut">George Boronat</dc:creator>
+        <dc:identifier id="BookID" opf:scheme="UUID">iPray_Lent_2016</dc:identifier>
+        <meta name="cover" content="cover"/>
+    </metadata>
+    <manifest>
+        <item id="cover"              href="Images/cover.jpeg"            media-type="image/jpeg"/>
+        <item id="sub_cover"          href="Images/sub_cover.jpg"         media-type="image/jpeg"/>
+        <item id="ncx"                href="toc.ncx"                      media-type="application/x-dtbncx+xml"/>
+        <item id="stylesheet.css"     href="Styles/stylesheet.css"        media-type="text/css"/>
+		<item id="content" 		      href="Text/content.xhtml"           media-type="application/xhtml+xml"/>
+        <item id="commonPrayers"      href="Text/commonPrayers.xhtml"     media-type="application/xhtml+xml"/>
+        <item id="tableOfContents"    href="Text/tableOfContents.xhtml"   media-type="application/xhtml+xml"/>
+        <item id="copyrightPage"      href="Text/copyrightPage.xhtml"     media-type="application/xhtml+xml"/>
+        <item id="subcover"           href="Text/subcover.xhtml"          media-type="application/xhtml+xml"/>
+        <item id="oswald_regular"     href="Fonts/Oswald-Regular.otf"     media-type="application/vnd.ms-opentype"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="subcover"/>
+        <itemref idref="copyrightPage"/>
+        <itemref idref="tableOfContents"/>
+		<itemref idref="content"/>
+        <itemref idref="commonPrayers"/>
+    </spine>
+</package>
