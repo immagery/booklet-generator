@@ -1,0 +1,28 @@
+{
+    "name": "monthly_booklet",
+    "cover": {
+        "filename": "cover.sla",
+        "L": "Normal Left",
+        "R": "Normal Right"
+    },
+    "main_text": {
+        "filename": "base_booklet.sla",
+        "L": "Normal Left",
+        "R": "Normal Right"
+    },
+    "intro": {
+        "filename": "intro.sla",
+        "L": "Normal Left",
+        "R": "Normal Right"
+    },
+    "prayers": {
+        "filename": "prayers.sla",
+        "L": "Normal Left",
+        "R": "Normal Right"
+    },
+    "exam": {
+        "filename": "exam.sla",
+        "L": "Normal Left",
+        "R": "Normal Right"
+    }
+}
