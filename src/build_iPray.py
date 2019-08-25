@@ -45,7 +45,7 @@ for language, data_base_name in base_config['spreadsheet'].items():
     if data_base_handle is None:
         continue
 
-    print("Found data base for ", language)
+    print("Found a {0} data base.".format(language))
     data_base[language] = read_data_base(data_base_handle)
 
 # Build the different mediums based on the tasks config file
@@ -67,4 +67,4 @@ for medium in base_config['mediums']:
         out_path = os.path.join(
             session_path, session_config["export_path"], language, tasks_path, medium)
 
-        build_functions[medium](base_config['mediums'][medium], data_base[language],  out_path)
+        build_functions[medium](base_config['mediums'][medium], data_base[language], session_path, out_path)

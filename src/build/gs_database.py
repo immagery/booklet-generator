@@ -1,12 +1,20 @@
 import pprint
 from .namesSpecs import monthNumber, weekdays, getWeekDay
 
-def split_date(date_key):
+
+def split_date_key(date_key):
     if '/' in date_key:
         elements = date_key.split('/')
         if len(elements) == 3:
-            return elements[0],elements[1],elements[2] 
+            return elements[0], elements[1], elements[2]
     return 1, 1, 2019
+
+
+def build_date_key(day, month, year):
+    day_str = str(day) if day < 10 else "0"+str(day)
+    month_str = str(month) if month < 10 else "0"+str(month)
+    return "{0}/{1}/{2}".format(day_str, month_str, year)
+
 
 class DaySpec(object):
     def __init__(self):
@@ -32,7 +40,7 @@ class DaySpec(object):
             if attr in day.__dict__:
                 day.__dict__[attr] = day_data[attr]
         day.version = version
-        day.day, day.month, day.year = split_date(date_key)
+        day.day, day.month, day.year = split_date_key(date_key)
         return day
 
     def getFullStringDay(self):
@@ -65,11 +73,10 @@ class DaySpec(object):
 class DataBaseHandler:
     def __init__(self, spreadsheet_link):
         self.gs = spreadsheet_link
-
         self.days = {}
 
         for sheet in self.gs:
-            print("processing: ", sheet.title, sheet.col_count)
+            print("processing sheet {0} with {1} days.".format(sheet.title, sheet.col_count))
             sheet_day_values = sheet.get_all_values()
 
             keys_used_in_table = [sheet_day_values[i][0]
