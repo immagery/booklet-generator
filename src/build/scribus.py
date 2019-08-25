@@ -7,3 +7,7 @@ def read_template(file_name):
         raise Exception("The template file {} can't be opened or read".format(file_name))
 
     return Template( template_xml )
+
+
+def build_pdf (*args, **kargs) :
+	printf("Build PDFFFFF!!!!")

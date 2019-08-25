@@ -4,6 +4,8 @@ import copy
 import os
 import shutil
 
+import json
+
 def zip_tree(tree, destination):
     #http://stackoverflow.com/a/17080988/113036
     relroot = os.path.abspath(os.path.join(tree, os.pardir))
@@ -17,7 +19,6 @@ def zip_tree(tree, destination):
                     arcname = os.path.join(os.path.relpath(root, tree), file)
                     zip.write(filename, arcname)
 
-
 def copyDirectory(src, dest):
     src_files = os.listdir(src)
     for file_name in src_files:
@@ -28,3 +29,17 @@ def copyDirectory(src, dest):
         else:
             os.mkdir(newDest)
             copyDirectory(full_file_name, newDest)
+
+def read_json_file(file_name):
+    """Returns a dictionary as representation of the json file file_name.
+
+    :param file_name: path to the json file to read
+    :type file_name: str
+
+    """
+    try:
+        file_name_text = open(file_name, "r").read()
+    except:
+        raise Exception("The configuration file {} could not be opened.".format(file_name_text))
+
+    return json.loads( file_name_text )

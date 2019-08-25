@@ -48,17 +48,6 @@
                 <PageNames Name="Left Page"/>
                 <PageNames Name="Right Page"/>
             </Set>
-            <Set Name="3-Fold" FirstPage="0" Rows="1" Columns="3">
-                <PageNames Name="Left Page"/>
-                <PageNames Name="Middle"/>
-                <PageNames Name="Right Page"/>
-            </Set>
-            <Set Name="4-Fold" FirstPage="0" Rows="1" Columns="4">
-                <PageNames Name="Left Page"/>
-                <PageNames Name="Middle Left"/>
-                <PageNames Name="Middle Right"/>
-                <PageNames Name="Right Page"/>
-            </Set>
         </PageSets>
         <Sections>
             <Section Number="0" Name="0" From="0" To="1" Type="Type_1_2_3" Start="1" Reversed="0" Active="1"/>

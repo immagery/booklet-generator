@@ -316,3 +316,10 @@ def processEpubLeaflet( definitions, leafletDays ):
 	#shutil.rmtree(definitions["result"])
 
 	print "congratulations: ePub ready for conversion to mobi!!!"
+
+
+def build_epub (*args, **kargs) :
+	printf("Build epub!!!!")
+
+def build_mobi (*args, **kargs) :
+	printf("Build mobi!!!!")

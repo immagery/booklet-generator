@@ -6,5 +6,5 @@
         "https://spreadsheets.google.com/feeds",
         "https://www.googleapis.com/auth/drive"
     ],
-    "export_folder" : "export"
+    "export_path" : "export"
 }

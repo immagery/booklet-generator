@@ -1,8 +1,3 @@
-#import iPray_full_2019
-
-#baseTextsDirectory = "/Users/jorgeboronat/Documents/iPray_book/3plus2/3plus2_text/2019/"
-#baseProcessDirectory = "/Users/jorgeboronat/Documents/iPray_book/iPray/"
-
 #!/usr/bin/python
 
 import json
@@ -10,43 +5,64 @@ import sys
 import os
 
 from build.scribus import read_template
+from build.utils import read_json_file
+from build.gs_database import read_data_base
+from build.builders import build_functions
 
-def read_json_file(file_name):
-    try:
-        file_name_text = open(file_name, "r").read()
-    except:
-        raise Exception("The configuration file {} could not be opened.".format(file_name_text))
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 
-    return json.loads( booklet_base_config )
-
-if len(sys.argv) <= 1:
-    print("Help...")
+# check parameters
+if len(sys.argv) <= 2:
+    print("The number parameters don't seems to be correct, the right synbtax is:")
+    print("build_iPray session-path task")
     sys.exit()
 
+# Initializing session, this will define all the paths used
 session_path = sys.argv[1]
-booklet_base_config_file = os.path.join(session_path, "config.json")
-print("Reading configuration from path:", booklet_base_config_file)
+session_file = os.path.join(session_path, "config.json")
+session_config = read_json_file(session_file)
 
-# Read the configuration of this booklet
-config = read_json_file( booklet_base_config_file )
+print("Loading session: ", session_config['description'])
+print("Created on: ", session_config['creation'])
 
-languages_in_session = config['languages']
+# Read the configuration of tasks to do
+tasks_path = sys.argv[2]
+base_config_file = os.path.join(session_path, tasks_path, "config.json")
+base_config = read_json_file(base_config_file)
+print("Reading configuration from path:", base_config_file)
 
-for booklet_name in config['leaflets'].keys():
-    print("Processing booklet: ", booklet_name)
-    leaflet_base_folder =  os.path.join(session_path, config['leaflets'][booklet_name], "config.json")
+# Read data base for each language
+credentials_filename = os.path.join(
+    session_path, "credentials", session_config['credentials'])
+print("credentials used", credentials_filename)
+credentials = ServiceAccountCredentials.from_json_keyfile_name(
+    credentials_filename, session_config['scope'])
+gc = gspread.authorize(credentials)
 
-    booklet_template = read_template(config['booklet_template'))
+data_base = {}
+for language, data_base_name in base_config['languages'].items():
+    data_base[language] = gc.open(data_base_name)
 
-    
+    if data_base[language] is None:
+        data_base.pop(language, None)
+        continue
 
-template = read_template(file_name)
+    print("Found data base for ", language)
+    data_base[language] = read_data_base(data_base[language])
 
-data = {
-"pages" : "<PAGE PAGEXPOS=\"100\" PAGEYPOS=\"479.53\"/>",
-"page_objects" : "<PAGEOBJECT OwnPage=\"0\" PTYPE=\"4\" XPOS=\"580.25\" YPOS=\"38\" />"}
+# Build the different mediums based on the tasks config file
+for medium in base_config['mediums']:
+    if medium not in build_functions:
+        print("Skiping medium ({0}), as it doesn't exist.".format(medium))
+        continue
 
-result = template.render( **data )
+    print("Building: ", medium)
 
-print(result)
+    for language in data_base:
+        print("for language: ", language)
 
+        out_path = os.path.join(
+            session_path, session_config["export_path"], language, tasks_path, medium)
+
+        build_functions[medium](base_config[medium], data_base[language],  out_path)

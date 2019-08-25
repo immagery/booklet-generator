@@ -137,3 +137,7 @@ def processAndroidLeaflet( definitions , leafletDays):
 
 	print "Builded " + str(pageId) +" days!"
 	print "congratulations: app files produced!!!"
+
+
+def build_app (*args, **kargs) :
+	printf("Build Appppp!!!!")
