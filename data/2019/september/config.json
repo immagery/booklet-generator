@@ -1,10 +1,11 @@
 {
     "name": "September 2019",
-    "month": "September",
-    "year": 2019,
-    "days": 31,
-    "texts": 33,
-    "first_day": "saturday",
+    "type": "leaflet",
+    "first_day": 1,
+    "first_month": 9,
+    "first_year": 2019,
+    "text_count": 33,
+    "first_weekday_day": "saturday",
     "codeName": "09_september",
     "languages": [
         "english",
@@ -20,6 +21,18 @@
                 "digital, print, home-print"
             ],
             "template": "monthly-booklet"
+        },
+        "epub": {
+            "template": "monthly-booklet.epub"
+        },
+        "mobi": {
+            "template": "monthly-booklet.epub",
+            "syles": "mobiStyleTemplate.css"
+        },
+        "app": {
+            "template": "monthly-booklet"
         }
-    }
+    },
+
+    "cover_image" : "cover.jpg"
 }

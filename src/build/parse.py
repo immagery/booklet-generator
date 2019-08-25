@@ -111,6 +111,15 @@ def process_comments(texts):
             comments.append(comment)
     yield "COMMENTS", comments
 
+
+def break_and_process_comments(text):
+    paragraphs = []
+    for line in text.splitlines():
+        comment = list(process_paragraph(line.strip()))
+        if comment:
+            paragraphs.append(comment)
+    return paragraphs
+
 #
 # Each processor takes a list of paragraphs and yields
 # tuples of keyword, paragraphs. This allows a single source

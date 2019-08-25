@@ -25,8 +25,8 @@ print("Loading session: ", session_config['description'])
 print("Created on: ", session_config['creation'])
 
 # Read the configuration of tasks to do
-tasks_path = sys.argv[2]
-base_config_file = os.path.join(session_path, tasks_path, "config.json")
+base_config_path = sys.argv[2]
+base_config_file = os.path.join(session_path, base_config_path, "config.json")
 print("Reading configuration from path:", base_config_file)
 base_config = read_json_file(base_config_file)
 
@@ -49,22 +49,28 @@ for language, data_base_name in base_config['spreadsheet'].items():
     data_base[language] = read_data_base(data_base_handle)
 
 # Build the different mediums based on the tasks config file
-for medium in base_config['mediums']:
-    if medium not in build_functions:
-        print("Skiping medium ({0}), as it doesn't exist.".format(medium))
-        continue
-
-    print("Building: ", medium)
+for task_name, task_folder in base_config['tasks'].items():
+    print("Processing tasks {0}".format(task_name))
 
     for language in base_config['languages']:
 
         if language not in base_config['spreadsheet']:
-            print("Skiping language ({0}), as it's not defined in the database.".format(language))
+            print(
+                "Skiping language ({0}), as it's not defined in the database.".format(language))
             continue
 
-        print(">> for language: ", language)
+        for medium in base_config['mediums']:
+            if medium not in build_functions:
+                print(
+                    "Skiping medium ({0}), as it doesn't exist.".format(medium))
+                continue
 
-        out_path = os.path.join(
-            session_path, session_config["export_path"], language, tasks_path, medium)
+            print("Building {0} in {1}".format(medium, language))
 
-        build_functions[medium](base_config['mediums'][medium], data_base[language], session_path, out_path)
+            # figure out the paths for this task, input and output
+            out_path = os.path.join(
+                session_path, session_config["export_path"], language, base_config_path, task_folder, medium)
+            task_path = os.path.join(session_path, base_config_path, task_folder)
+
+            build_functions[medium](base_config['mediums'][medium],
+                                    data_base[language], task_path, session_path, out_path)

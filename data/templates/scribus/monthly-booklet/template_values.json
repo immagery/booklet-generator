@@ -1,0 +1,61 @@
+{
+    "page_count": 2,
+    "page_width": 297.64,
+    "page_height": 419.53,
+    "BleedTop": 8.50110236220473,
+    "BleedLeft": 8.50110236220473,
+    "BleedRight": 8.50110236220473,
+    "bleed_bBottom": 8.50110236220473,
+    "dfont": "Bembo Regular",
+    "character_styles": [
+        "Default Character Style",
+        "black",
+        "italic",
+        "italic-black",
+        "Red Italic"
+    ],
+    "paragraph_styles": [
+        "Default Paragraph Style",
+        "normal-right-alignement",
+        "gospel",
+        "normal",
+        "Date",
+        "page-number",
+        "Date-left",
+        "onomastic-left",
+        "onomastic-right",
+        "normal-compressed",
+        "centered prayer",
+        "Centered prayer with space"
+    ],
+    "master-pages": [
+        "Normal Left",
+        "Normal Right",
+        "text_left",
+        "text_right",
+        "white"
+    ],
+    "left_page": {
+        "page_x_pos": 100.00062992126,
+        "page_y_pos": 20.0012598425197,
+        "quote_y_pos": 48.6371653543307,
+        "onomastic_y_pos": 37.4279921259844,
+        "page_number_y_pos": 422.894860418583,
+        "text_y_pos" : 74.505132405433
+    },
+    "right_page": {
+        "page_x_pos": 397.64062992126,
+        "page_y_pos": 20.0012598425197,
+        "quote_y_pos": 48.6371653543307,
+        "onomastic_y_pos": 37.4279921259844,
+        "page_number_y_pos": 422.894860418583,
+        "text_y_pos" : 74.505132405433
+    },
+    "page_num": 0,
+    "quote": "",
+    "date": "",
+    "onomastic": "",
+    "page_number_value": "0",
+    "gospel": "<ITEXT CH=\"&quot;A man going on a journey called his servants and entrusted to them his property; to one he gave five talents, to another two, to another one, to each according to his ability…But he who had received the one talent came forward, saying, 'Master, I knew you to be a hard man, reaping where you did not sow, and gathering where you did not winnow; so I was afraid, and I went and hid your talent in the ground. Here you have what is yours.'&quot;\"/><para PARENT=\"gospel\"/>",
+    "comment": "<ITEXT CH=\"The man who received one talent &quot;was afraid,&quot; and thus, he did nothing. He was afraid to risk and lose. Fear paralyses people. What really offended the master of the parable wasn't that he didn't get more talents, but that he didn't even try! God is a Father. No father or mother on earth could ever be disappointed if they saw their children trying their best. All that God asks His children is to try hard. God will help us provided that we try our best.\"/> <para PARENT=\"normal\"/> <ITEXT CH=\"Wishing to encourage her young son's progress on the piano, a mother took her boy to a Paderewski concert. After they were seated, the mother spotted an old friend in the audience and walked down the aisle to greet her. Seizing the opportunity, the little boy decided to explore the concert hall. He went through a door marked 'No Admittance', found a piano and started practising there. When the mother returned to her seat, the child was missing. As the curtains parted and the spotlights focused on the stage, she saw in horror her child sitting at the keyboard, innocently picking out 'Twinkle, Twinkle Little Star.' Suddenly, the great piano master made his entrance, quickly moved to the piano, and whispered in the boy's ear, &quot;Don't stop. That's it. Keep it up. Give me your best.&quot; Then leaning over, Paderewski reached down with his left hand and began a melodic bass part. Soon his right arm reached around to the other side of the child, adding a running 'obbligato'. Together, the old master and the child transformed what could have been an embarrassing situation into a wonderful symphony. That's what Our Father God does with our efforts. We just need to keep playing the best we can, without giving up, and He transforms our efforts into a masterpiece. There is no fear. We can't disappoint Our Father if we try our best. Our Lady will encourage us to try to give our best, however little it seems to be.\"/><trail PARENT=\"normal\"/>"
+}

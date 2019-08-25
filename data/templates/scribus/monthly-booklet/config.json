@@ -1,28 +1,107 @@
 {
     "name": "monthly_booklet",
+    "base_template": "base_booklet.xml",
     "cover": {
-        "filename": "cover.sla",
-        "L": "Normal Left",
-        "R": "Normal Right"
+        "L": "cover_left.xml",
+        "R": "cover_right.xml",
+        "right_y_pos": 0.0
     },
-    "main_text": {
-        "filename": "base_booklet.sla",
-        "L": "Normal Left",
-        "R": "Normal Right"
+    "main_content": {
+        "left_page": {
+            "filename": "left_text_page.xml",
+            "page_y_pos": 20.0012598425197,
+            "quote_y_pos": 48.6371653543307,
+            "onomastic_y_pos": 37.4279921259844,
+            "page_number_y_pos": 422.894860418583,
+            "text_y_pos": 74.505132405433
+        },
+        "right_page": {
+            "filename": "right_text_page.xml",
+            "page_y_pos": 20.0012598425197,
+            "quote_y_pos": 48.6371653543307,
+            "onomastic_y_pos": 37.4279921259844,
+            "page_number_y_pos": 422.894860418583,
+            "text_y_pos": 74.505132405433
+        },
+        "labels": [
+            "page_num",
+            "quote",
+            "date",
+            "onomastic",
+            "gospel",
+            "comment",
+            "page_number_value"
+        ],
+        "gospel_item": "<ITEXT CH=\"{{paragraph}}\"/> <para PARENT=\"gospel\"/>",
+        "comment_item": "<ITEXT CH=\"{{paragraph}}\"/> <para PARENT=\"normal\"/>"
     },
     "intro": {
-        "filename": "intro.sla",
+        "filename": "intro.xml",
         "L": "Normal Left",
         "R": "Normal Right"
     },
     "prayers": {
-        "filename": "prayers.sla",
+        "filename": "prayers.xml",
         "L": "Normal Left",
         "R": "Normal Right"
     },
     "exam": {
-        "filename": "exam.sla",
-        "L": "Normal Left",
-        "R": "Normal Right"
+        "L": "exam_left.xml",
+        "R": "exam_right.xml"
+    },
+    "page_width": 297.64,
+    "page_height": 419.53,
+    "bleed_top": 8.50110236220473,
+    "bleed_left": 8.50110236220473,
+    "bleed_right": 8.50110236220473,
+    "bleed_bottom": 8.50110236220473,
+    "dfont": "Bembo Regular",
+    "base_leaflet_labels": [
+        "page_width",
+        "page_height",
+        "bleed_top",
+        "bleed_left",
+        "bleed_right",
+        "bleed_bottom",
+        "dfont"
+    ],
+    "character_styles": [
+        "Default Character Style",
+        "black",
+        "italic",
+        "italic-black",
+        "Red Italic"
+    ],
+    "paragraph_styles": [
+        "Default Paragraph Style",
+        "normal-right-alignement",
+        "gospel",
+        "normal",
+        "Date",
+        "page-number",
+        "Date-left",
+        "onomastic-left",
+        "onomastic-right",
+        "normal-compressed",
+        "centered prayer",
+        "Centered prayer with space"
+    ],
+    "master-pages": [
+        "Normal Left",
+        "Normal Right",
+        "text_left",
+        "text_right",
+        "white"
+    ],
+    "labels": [
+        "page_count"
+    ],
+
+    "character_style_templates" : {
+        "normal":"Default Character Style{{text}}",
+        "bold":"black{{text}}",
+        "italic":"italic{{text}}",
+        "italic-black":"'bold-italic{{text}}",
+        "Red-talic": "Red-Italic{{text}}"
     }
 }

@@ -1,12 +1,7 @@
 {
     "info": "iPray 2019",
-    "baseTextsDirectory": "..\\..\\text\\2019",
-    "base_templates_directory": "..\\..\\templates\\scribus",
-    "booklet_template": "monthly_booklet\\main_template.xml",
-    "page_template": "monthly_booklet\\page_template.xml",
-    "text_obj_template": "monthly_booklet\\object_template.xml",
-    "leaflets": {
-        "September": "09_september"
+    "tasks": {
+        "september_leaflet": "september"
     },
     "languages": [
         "english",
@@ -21,16 +16,6 @@
             "versions": [
                 "digital, print, home-print"
             ],
-            "template": "monthly-booklet"
-        },
-        "epub": {
-            "template": "monthly-booklet.epub"
-        },
-        "mobi": {
-            "template": "monthly-booklet.epub",
-            "syles": "mobiStyleTemplate.css"
-        },
-        "app": {
             "template": "monthly-booklet"
         }
     }
