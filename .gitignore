@@ -8,6 +8,9 @@ data/credentials
 !data/credentials/README.md
 
 iPray.code-workspace
+.vscode
+
+*.pyc
 
 old_stuff
 

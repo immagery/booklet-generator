@@ -10,4 +10,4 @@ def read_template(file_name):
 
 
 def build_pdf (*args, **kargs) :
-	printf("Build PDFFFFF!!!!")
+	print("Build PDFFFFF!!!!")

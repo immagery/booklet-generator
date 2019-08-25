@@ -6,8 +6,9 @@ This is a Python based app to generate iPray booklets
 
 for development:
 
-we are using several python packaged to make our life easier:
+we are using several python packages to make our life easier:
 
+pip install Jinja2
 
 and spreadsheets as a database for all the texts. Here the instructions I have followed to get my ready the system to read that database:
 
