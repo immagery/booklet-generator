@@ -4,8 +4,8 @@ data/templates/scribus/fonts/Bembo-BoldItalic.otf
 data/templates/scribus/fonts/Bembo-BoldItalic.otf
 data/templates/scribus/fonts/Bembo-Italic.ttf
 
-src/credentials
-!scr/credentials/README.md
+data/credentials
+!data/credentials/README.md
 
 iPray.code-workspace
 
