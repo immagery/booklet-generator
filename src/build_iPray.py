@@ -46,11 +46,16 @@ for language, data_base_name in base_config['spreadsheet'].items():
         continue
 
     print("Found a {0} data base.".format(language))
-    data_base[language] = read_data_base(data_base_handle)
+    data_base[language] = read_data_base(data_base_handle, language)
 
 # Build the different mediums based on the tasks config file
 for task_name, task_folder in base_config['tasks'].items():
     print("Processing tasks {0}".format(task_name))
+
+    # read the configuration file for the leaflet
+    task_path = os.path.join(session_path, base_config_path, task_folder)
+    task_decription_file_name = os.path.join(task_path, "config.json")
+    task_description = read_json_file(task_decription_file_name)
 
     for language in base_config['languages']:
 
@@ -59,7 +64,7 @@ for task_name, task_folder in base_config['tasks'].items():
                 "Skiping language ({0}), as it's not defined in the database.".format(language))
             continue
 
-        for medium in base_config['mediums']:
+        for medium in task_description['mediums']:
             if medium not in build_functions:
                 print(
                     "Skiping medium ({0}), as it doesn't exist.".format(medium))
@@ -70,7 +75,5 @@ for task_name, task_folder in base_config['tasks'].items():
             # figure out the paths for this task, input and output
             out_path = os.path.join(
                 session_path, session_config["export_path"], language, base_config_path, task_folder, medium)
-            task_path = os.path.join(session_path, base_config_path, task_folder)
 
-            build_functions[medium](base_config['mediums'][medium],
-                                    data_base[language], task_path, session_path, out_path)
+            build_functions[medium](task_description, data_base[language], task_path, session_path, out_path)

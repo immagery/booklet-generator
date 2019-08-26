@@ -1,7 +1,7 @@
 import pprint
 from datetime import date, timedelta
 
-from .namesSpecs import monthNumber, weekdays, getWeekDay
+from .namesSpecs import monthNumber, weekdays, getWeekDay, monthNames
 from .parse import break_and_process_comments
 
 
@@ -38,6 +38,7 @@ class DaySpec(object):
         self.language = 'english'
         self.week_day = 1
         self.gospel = ""
+        self.onomastic = ""
         self.quote = ""
         self.comment = ""
         self.date = ""
@@ -56,11 +57,14 @@ class DaySpec(object):
         day.day, day.month, day.year = split_date_key(date_key)
         return day
 
-    def getFullStringDay(self):
-        print(monthNumber[self.language].keys())
-        wd = weekdays[self.language][getWeekDay(
-            self.day, monthNumber[self.language][self.month], self.year)]
-        return "%s %s %s" % (wd, self.get_string_day(), self.month)
+    def getFullStringDay(self, language = None):
+        language_ = language if language is not None else self.language
+        wd = weekdays[language_][getWeekDay(
+            self.day, self.month, self.year)]
+        month_str = monthNames[language_][self.month]
+        full_str_day = "%s %s %s" % (wd, self.get_string_day(), month_str)
+        print(language_, full_str_day)
+        return full_str_day
 
     def get_string_day(self):
         if self.day % 10 == 1 and self.day != 11:
@@ -84,9 +88,10 @@ class DaySpec(object):
 
 
 class DataBaseHandler:
-    def __init__(self, spreadsheet_link):
+    def __init__(self, spreadsheet_link, language = None):
         self.gs = spreadsheet_link
         self.days = {}
+        self.language = language if language is not None else 'english'
 
         for sheet in self.gs:
             print("processing sheet {0} with {1} days.".format(
@@ -104,7 +109,7 @@ class DataBaseHandler:
                     continue
 
                 # read all the values of that particular day and match it against the keys
-                day_info = {}
+                day_info = { "language" : language }
                 for value_idx in range(0, keys_count):
                     if keys_used_in_table[value_idx] == "comment":
                         # preprocess the text
@@ -147,6 +152,6 @@ class DataBaseHandler:
         return days_collected
 
 
-def read_data_base(spreadsheet):
-    data_mgr = DataBaseHandler(spreadsheet)
+def read_data_base(spreadsheet, language):
+    data_mgr = DataBaseHandler(spreadsheet, language)
     return data_mgr
