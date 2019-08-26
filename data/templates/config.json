@@ -1,0 +1,39 @@
+{
+    "name": "September 2019",
+    "type": "leaflet",
+    "first_day": 1,
+    "first_month": 9,
+    "first_year": 2019,
+    "text_count": 33,
+    "first_weekday_day": "saturday",
+    "codeName": "09_september",
+    "languages": [
+        "english",
+        "german"
+    ],
+    "spreadsheet": {
+        "english": "iPray2019-english",
+        "german": "iPray2019-german"
+    },
+    "mediums": {
+        "pdf": {
+            "versions": [
+                "digital, print, home-print"
+            ],
+            "template": "monthly-booklet",
+            "cover_image" : {
+                "english": "full_cover-english.jpg"
+            }
+        },
+        "epub": {
+            "template": "monthly-booklet.epub"
+        },
+        "mobi": {
+            "template": "monthly-booklet.epub",
+            "syles": "mobiStyleTemplate.css"
+        },
+        "app": {
+            "template": "monthly-booklet"
+        }
+    }    
+}

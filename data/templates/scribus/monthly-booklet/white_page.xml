@@ -1,0 +1,6 @@
+        {% set page_height = 419.53 %}
+        {% set page_width = 297.64 %}
+        {% set page_level = (page_num+1) // 2 %}
+        {% set page_base_y = page_level*(page_height+40) %}
+        {% set page_base_x = ((page_num+1) % 2 )*page_width + 100.00062992126 %}
+        <PAGE PAGEXPOS="{{page_base_x}}" PAGEYPOS="{{page_base_y+20.0013}}" PAGEWIDTH="297.64062992126" PAGEHEIGHT="419.530393700787" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="{page_num}" NAM="" MNAM="white" Size="A6" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
