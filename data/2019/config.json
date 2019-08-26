@@ -10,13 +10,5 @@
     "spreadsheet": {
         "english": "iPray2019-english",
         "german": "iPray2019-german"
-    },
-    "mediums": {
-        "pdf": {
-            "versions": [
-                "digital, print, home-print"
-            ],
-            "template": "monthly-booklet"
-        }
     }
 }

@@ -20,19 +20,10 @@
             "versions": [
                 "digital, print, home-print"
             ],
-            "template": "monthly-booklet"
-        },
-        "epub": {
-            "template": "monthly-booklet.epub"
-        },
-        "mobi": {
-            "template": "monthly-booklet.epub",
-            "syles": "mobiStyleTemplate.css"
-        },
-        "app": {
-            "template": "monthly-booklet"
+            "template": "monthly-booklet",
+            "cover_image" : {
+                "english": "full_cover-english.jpg"
+            }
         }
-    },
-
-    "cover_image" : "cover.jpg"
+    }    
 }
