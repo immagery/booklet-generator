@@ -38,6 +38,14 @@ class TemplatePage:
         self.offset_x = float(page_header.attrib['PAGEXPOS'])-self.ref_pos_x
         self.offset_y = float(page_header.attrib['PAGEYPOS'])-self.ref_pos_y
         
+        print("PAGE:({0})".format(self.number), 
+                       float(page_header.attrib['PAGEXPOS']), 
+                       float(page_header.attrib['PAGEYPOS']), 
+                       self.ref_pos_x, 
+                       self.ref_pos_y, 
+                       self.offset_x, 
+                       self.offset_y)
+
         # reference to the original xml description
         self.header = page_header
 
@@ -46,13 +54,13 @@ class TemplatePage:
 
     def add_object(self, page_obj):
         # localise and add an object to the list
-        page_obj.pos_x = page_obj.pos_x - self.offset_x
-        page_obj.pos_y = page_obj.pos_y - self.offset_y
+        page_obj.pos_offset_x = page_obj.pos_offset_x - self.offset_x
+        page_obj.pos_offset_y = page_obj.pos_offset_y - self.offset_y
 
         self.page_objects.append(page_obj)
         page_obj.page_owner = self
 
-    def set_page_position( self, page_number, base_x, base_y):
+    def set_page_position( self, base_x, base_y, page_number):
         # update parameters of this page, so we can propagate it to the object
         self.number = page_number
         self.pos_x = self.ref_pos_x + base_x
@@ -121,8 +129,8 @@ class TemplatePageObject:
         self.header.attrib['OwnPage'] = str(self.page_owner.number)
         self.header.attrib['Pagenumber'] = str(self.page_owner.number)
         
-        self.header.attrib['XPOS'] = self.pos_x
-        self.header.attrib['YPOS'] = self.pos_y 
+        self.header.attrib['XPOS'] = str(self.pos_x)
+        self.header.attrib['YPOS'] = str(self.pos_y)
         self.header.attrib['ANNAME'] = "object" + str(self.id)
 
         # if it's part of a sequence of liked texts it has to build the links
@@ -139,9 +147,42 @@ class TemplatePageObject:
         obj_str = ET.tostring(self.header, encoding='utf8', method='xml').decode('utf8')
         return obj_str[len(basic_xml_header):]
 
+
+def render_pages_and_objects(pages, page_width, page_height):
+    pages_str = ""
+    objects_str = ""
+    objects_to_process = []
+    current_page = 0
+
+    # render the pages and set up the objects
+    for page in pages:
+        # origin for this page
+        base_x_pos = 0 if (current_page % 2 == 1) else page_width
+        base_y_pos = ((current_page+1) // 2) * page_height
+
+        page.set_page_position(base_x_pos, base_y_pos, current_page)
+        current_page += 1
+
+        # add the page with the page number on the only templated text 
+        page_templ = page.render()
+        pages_str += Template(page_templ).render(page_number = str(page.number))
+
+        for obj in page.page_objects:
+            obj.sequence_idx = len(objects_to_process)
+            objects_to_process.append(obj)
+            
+    # render all the objects
+    for obj in objects_to_process:
+        page_id = obj.page_owner.number
+        page_obj_templ = obj.render()
+        objects_str += Template(page_obj_templ).render(page_number = str(page_id))
+
+    return pages_str + objects_str
+
+
 def read_scribus_template(template_file_name):
-    prayer_pages = []
-    prayer_idx = {}
+    pages = []
+    indices = {}
 
     # open the xml
     tree = ET.parse(template_file_name)
@@ -151,10 +192,10 @@ def read_scribus_template(template_file_name):
     # we read all the pages on a first pass
     for elem in doc:
         if elem.tag == "PAGE":
-            prayer_pages.append(TemplatePage(elem)) 
-            last_idx = len(prayer_pages)-1
-            page_xml_id = str(prayer_pages[last_idx].number)
-            prayer_idx[page_xml_id] = last_idx 
+            last_idx = len(pages)
+            pages.append(TemplatePage(elem)) 
+            page_xml_id = str(pages[last_idx].number)
+            indices[page_xml_id] = last_idx 
 
     # we read all the page_objects on a second pass
     objects = []
@@ -164,9 +205,15 @@ def read_scribus_template(template_file_name):
             page_obj = TemplatePageObject(elem)
             objects.append(page_obj)
 
+            print("obj: {0}: y -> {1}, p -> {2}, n -> {3}".format( 
+                len(objects)-1, 
+                elem.attrib['YPOS'], 
+                elem.attrib['BACKITEM'], 
+                elem.attrib['NEXTITEM']))
+
             # add to page
-            page_id = prayer_idx[str(page_obj.page_number)]
-            prayer_pages[page_id].add_object(page_obj)
+            page_id = indices[str(page_obj.page_number)]
+            pages[page_id].add_object(page_obj)
 
     # create links between page objects
     object_count = len(objects)
@@ -181,7 +228,7 @@ def read_scribus_template(template_file_name):
         else:
             obj.prev = None
 
-    return prayer_pages
+    return pages
 
 def render_front_cover(template_decription, pdf_config, language, base_template_path, task_path, temp_folder):
     # A. cover
@@ -270,72 +317,9 @@ def render_prayers(template_decription, base_template_path, current_page):
     # build the template from the reference.
     prayer_pages = read_scribus_template(prayers_template_file_name)
 
-    pages_str = ""
-    objects_str = ""
-    objects = []
-
-    # set up all the pages and objects
-    for page in prayer_pages:
-        # origin for this page
-        base_x_pos = 0 if (current_page % 2 == 1) else template_decription['page_width']
-        base_y_pos = ((current_page+1) // 2) * (template_decription['page_height']+40)
-
-        page.set_page_position(base_x_pos, base_y_pos, current_page)
-        current_page += 1
-
-    # create the prayer templates
-    for page in prayer_pages:
-
-        # add the page with the page number on the only templated text 
-        page_templ = page.render( current_page, base_x_pos, base_y_pos)
-        pages_str += Template(page_templ).render(page_number = str(page.number))
-
-        for obj in page.page_objects:
-            obj.rendered = False
-            objects.append(obj)
-
-        current_page += 1
-        pages_count += 1
-
-    # assing list ids
-    for idx in range(len(objects)):
-        obj.sequence_idx = idx
-
-    # paint all the sequences
-    for obj in objects:
-        if obj.rendered:
-            continue
-
-        if obj.next and not obj.prev:
-            procesing_obj = obj
-            next_elem = procesing_obj.next
-            while next_elem is not None:
-                current_page = procesing_obj.render_in_page
-                base_x_pos = 0 if (current_page % 2 == 1) else template_decription['page_width']
-                base_y_pos = ((current_page+1) // 2) * (template_decription['page_height']+40)
-
-                page_obj_templ = procesing_obj.render( current_page, base_x_pos, base_y_pos )
-                objects_str += Template(page_obj_templ).render(page_number = str(current_page))
-                procesing_obj.rendered = True
-                
-                procesing_obj = next_elem
-                next_elem = next_elem.next
-
-    # paint the rest of the elements
-
-    for obj in objects:
-        if obj.rendered:
-            continue
-    
-        current_page = obj.render_in_page
-        base_x_pos = 0 if (current_page % 2 == 1) else template_decription['page_width']
-        base_y_pos = ((current_page+1) // 2) * (template_decription['page_height']+40)
-
-        page_obj_templ = obj.render( current_page, base_x_pos, base_y_pos )
-        objects_str += Template(page_obj_templ).render(page_number = str(current_page))
-
-
-    return pages_str + objects_str, prayers_pages
+    width = template_decription['page_width']
+    height = (template_decription['page_height']+40)
+    return render_pages_and_objects(prayer_pages, width, height), len(prayer_pages)
 
 def build_pdf(task_description, data_base, task_path, session_path, out_path):
     """ Builds all the pdf configurations given the task_description
