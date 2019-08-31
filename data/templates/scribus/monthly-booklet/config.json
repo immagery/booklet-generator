@@ -37,7 +37,7 @@
         "R": "Normal Right"
     },
     "prayers": {
-        "filename": "prayers.xml",
+        "filename": "prayers.sla",
         "L": "Normal Left",
         "R": "Normal Right"
     },
