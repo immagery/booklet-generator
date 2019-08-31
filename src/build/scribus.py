@@ -37,14 +37,6 @@ class TemplatePage:
         # to compute all the objects in reference to the current page
         self.offset_x = float(page_header.attrib['PAGEXPOS'])-self.ref_pos_x
         self.offset_y = float(page_header.attrib['PAGEYPOS'])-self.ref_pos_y
-        
-        print("PAGE:({0})".format(self.number), 
-                       float(page_header.attrib['PAGEXPOS']), 
-                       float(page_header.attrib['PAGEYPOS']), 
-                       self.ref_pos_x, 
-                       self.ref_pos_y, 
-                       self.offset_x, 
-                       self.offset_y)
 
         # reference to the original xml description
         self.header = page_header
@@ -148,11 +140,11 @@ class TemplatePageObject:
         return obj_str[len(basic_xml_header):]
 
 
-def render_pages_and_objects(pages, page_width, page_height):
+def render_pages_and_objects(pages, page_width, page_height, page_number_offset = 0, object_id_offset = 0):
     pages_str = ""
     objects_str = ""
     objects_to_process = []
-    current_page = 0
+    current_page = page_number_offset
 
     # render the pages and set up the objects
     for page in pages:
@@ -168,7 +160,7 @@ def render_pages_and_objects(pages, page_width, page_height):
         pages_str += Template(page_templ).render(page_number = str(page.number))
 
         for obj in page.page_objects:
-            obj.sequence_idx = len(objects_to_process)
+            obj.sequence_idx = len(objects_to_process)+object_id_offset
             objects_to_process.append(obj)
             
     # render all the objects
@@ -204,12 +196,6 @@ def read_scribus_template(template_file_name):
             # read object
             page_obj = TemplatePageObject(elem)
             objects.append(page_obj)
-
-            print("obj: {0}: y -> {1}, p -> {2}, n -> {3}".format( 
-                len(objects)-1, 
-                elem.attrib['YPOS'], 
-                elem.attrib['BACKITEM'], 
-                elem.attrib['NEXTITEM']))
 
             # add to page
             page_id = indices[str(page_obj.page_number)]
