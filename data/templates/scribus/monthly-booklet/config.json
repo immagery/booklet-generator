@@ -31,6 +31,8 @@
 
     "main_content": {
 
+        "filename" : "main_content.sla",
+
         "left_page": 1,
         "right_page": 0,
 
@@ -41,7 +43,7 @@
             "main_content"
         ],
         
-        "gospel_item": "<ITEXT CH=\"{{paragraph}}\"/> <para PARENT=\"gospel\"/>",
+        "replacement_chain" : [["<ITEXT CH=\"{{comment}}\" />", "{{comment}}"]],
         "comment_item": "{{paragraph}} <para PARENT=\"normal\"/>"
     },
     

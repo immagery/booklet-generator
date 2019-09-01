@@ -2,6 +2,7 @@ from jinja2 import Template
 
 import os
 from shutil import copyfile
+import copy 
 
 from .utils import read_json_file
 from .gs_database import build_date_key
@@ -22,9 +23,7 @@ basic_xml_header = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
 
 class TemplatePage:
 
-    def __init__(self, page_header, ref_pos_x=100.00062992126, ref_pos_y=20.0012598425197):
-        # localise and add an object
-        self.number = int(page_header.attrib['NUM'])
+    def __init__(self, page_header = None, sub_pages = None, ref_pos_x=100.00062992126, ref_pos_y=20.0012598425197):
 
         # Current position of the page
         self.pos_x = 0.0
@@ -35,11 +34,16 @@ class TemplatePage:
         self.ref_pos_y = ref_pos_y
 
         # to compute all the objects in reference to the current page
-        self.offset_x = float(page_header.attrib['PAGEXPOS'])-self.ref_pos_x
-        self.offset_y = float(page_header.attrib['PAGEYPOS'])-self.ref_pos_y
+        if page_header != None:
+            self.number = int(page_header.attrib['NUM'])
+            self.offset_x = float(page_header.attrib['PAGEXPOS'])-self.ref_pos_x
+            self.offset_y = float(page_header.attrib['PAGEYPOS'])-self.ref_pos_y
 
         # reference to the original xml description
+        # A way to store variables (L & R)
+        self.sub_pages = sub_pages
         self.header = page_header
+        self.content = None
 
         # list of objects part of this page
         self.page_objects = []
@@ -53,6 +57,22 @@ class TemplatePage:
         page_obj.page_owner = self
 
     def set_page_position( self, base_x, base_y, page_number):
+        if self.sub_pages != None:
+            # select the variant
+            if (page_number % 2 == 1) :
+                page = self.sub_pages['right']
+            else:
+                page = self.sub_pages['left']
+            
+            page.set_page_position(base_x, base_y, page_number)
+
+            # copy all the stuff from the edited page to the parent page.
+            self.header = page.header
+            self.page_objects = page.page_objects
+            self.ref_pos_x = page.ref_pos_x
+            self.ref_pos_y = page.ref_pos_y
+            page.content = self.content
+
         # update parameters of this page, so we can propagate it to the object
         self.number = page_number
         self.pos_x = self.ref_pos_x + base_x
@@ -67,7 +87,7 @@ class TemplatePage:
         self.header.attrib['NUM'] = str(self.number)
         self.header.attrib['PAGEXPOS'] = str(self.pos_x)
         self.header.attrib['PAGEYPOS'] = str(self.pos_y)
-        
+
         # generate template for this page
         render_str = ET.tostring(self.header, encoding='utf8', method='xml').decode('utf8')
         render_str = render_str[len(basic_xml_header):]
@@ -137,7 +157,20 @@ class TemplatePageObject:
             self.header.attrib['NEXTITEM'] = "-1"
         
         obj_str = ET.tostring(self.header, encoding='utf8', method='xml').decode('utf8')
-        return obj_str[len(basic_xml_header):]
+        obj_str = obj_str[len(basic_xml_header):]
+
+        # fill the template with the content registered if any
+        if self.page_owner.content != None:
+            # prepare the template
+            if 'replacement_chain' in self.page_owner.content:
+                for replacement in self.page_owner.content['replacement_chain']:
+                    if replacement[0] in obj_str:
+                        obj_str = obj_str.replace(replacement[0], replacement[1])
+
+            # fill the template
+            obj_str = Template(obj_str).render( **self.page_owner.content )
+            
+        return obj_str
 
 def render_pages_and_objects( pages, page_width, page_height, 
                               page_number_offset = 0, object_id_offset = 0, 
@@ -190,7 +223,7 @@ def read_scribus_template(template_file_name):
     for elem in doc:
         if elem.tag == "PAGE":
             last_idx = len(pages)
-            pages.append(TemplatePage(elem)) 
+            pages.append(TemplatePage( page_header = elem)) 
             page_xml_id = str(pages[last_idx].number)
             indices[page_xml_id] = last_idx 
 
@@ -230,58 +263,6 @@ def restore_image_link( pages, code_str, code_image ):
                 if code_str in obj.header.attrib['PFILE']:
                     obj.header.attrib['PFILE'] = code_image
 
-'''
-def build_prayer_pages(template_decription, base_template_path):
-    prayers_descr = template_decription['prayers']
-    prayers_template_file_name = os.path.join( base_template_path, prayers_descr['filename'] )
-
-    # build the template from the reference.
-    return read_scribus_template(prayers_template_file_name)
-
-def build_cover_pages(template_decription, base_template_path, images):
-    cover_descr = template_decription['cover']
-    cover_template_file_name = os.path.join( base_template_path, cover_descr['filename'])
-
-    # build the template from the reference.
-    cover_pages = read_scribus_template(cover_template_file_name)
-
-    code_image = cover_descr['rel_path'][1]
-    if code_image in images:
-        restore_image_link(cover_pages, cover_descr['rel_path'][0], images[code_image] )
-    else:
-        print("The code image is not defined properly")
-
-    return cover_pages
-
-def build_intro_pages(template_decription, base_template_path, images):
-    intro_descr = template_decription['intro']
-    intro_template_file_name = os.path.join( base_template_path, intro_descr['filename'] )
-    intro_pages = read_scribus_template(intro_template_file_name)
-
-    code_image = intro_descr['rel_path'][1]
-    if code_image in images:
-        restore_image_link(intro_pages, intro_descr['rel_path'][0], images[code_image] )
-    else:
-        print("The code image is not defined properly")
-
-    # build the template from the reference.
-    return intro_pages
-
-def build_exam_pages(template_decription, base_template_path, images):
-    descr = template_decription['exam']
-    template_file_name = os.path.join( base_template_path, descr['filename'] )
-    pages = read_scribus_template(template_file_name)
-
-    code_image = descr['rel_path'][1]
-    if code_image in images:
-        restore_image_link(pages, descr['rel_path'][0], images[code_image] )
-    else:
-        print("The code image is not defined properly")
-
-    # build the template from the reference.
-    return pages
-'''
-
 def build_generic_pages(descr, base_template_path, images = None):
     ## read the template pages
     template_file_name = os.path.join( base_template_path, descr['filename'] )
@@ -297,27 +278,45 @@ def build_generic_pages(descr, base_template_path, images = None):
 
     return pages
 
+def build_main_pages(template_decription, task_description, data_base, base_template_path):
+    ## read the template pages
+    descr = template_decription['main_content']
+    template_file_name = os.path.join( base_template_path, descr['filename'] )
+    pages = read_scribus_template(template_file_name)
+    left_page = pages[descr['left_page']]
+    right_page = pages[descr['right_page']]
 
-def render_main_text(template_decription, task_description, data_base, base_template_path, current_page):
-    tmp_descr = template_decription['main_content']
-    tmp_descr['path'] = base_template_path
-    tmp_descr['page_height'] = template_decription['page_height']
-    tmp_descr['character_style_templates'] = template_decription['character_style_templates']
-    task_description['first_page'] = current_page
-
+    hybrid_page = TemplatePage( sub_pages={'left' : left_page, 'right': right_page} )
+    
     first_date = build_date_key(
         task_description["first_day"],
         task_description["first_month"],
         task_description["first_year"])
 
-    taks_days = data_base.produce_days(
-        first_date,
-        task_description['text_count'])
+    taks_days = data_base.produce_days( first_date, task_description['text_count'])
 
-    main_content_str = generate_main_content(tmp_descr, task_description, taks_days)
+    content_pages = []
+    for day in taks_days:
+        page_data = {}
 
-    return main_content_str, len(taks_days)
+        page_data['gospel'] = day.gospel.replace("\"", "&quot;")
+        page_data['comment'] =  build_comment_items( day.comment,
+                                descr['comment_item'], 
+                                template_decription['character_style_templates'])
+        page_data['onomastica'] = day.onomastic
+        page_data['date'] = day.getFullStringDay()
+        page_data['quote'] = day.quote
 
+        page_data['replacement_chain'] = descr['replacement_chain']
+
+        # copy the template and add the new content, it will be rendered
+        # when we know if the page goes in the left or the right
+        new_page = copy.deepcopy(hybrid_page)
+        new_page.content = page_data
+        content_pages.append(new_page)
+
+    return content_pages
+    
 
 def build_pdf(task_description, data_base, task_path, session_path, out_path):
     """ Builds all the pdf configurations given the task_description
@@ -373,26 +372,28 @@ def build_pdf(task_description, data_base, task_path, session_path, out_path):
 
     # front cover
     cover_pages = build_generic_pages(template_decription['cover'], base_template_path, image_references)
+    page_composition = cover_pages[0:2]
 
     # B. Intro
     intro_pages = build_generic_pages(template_decription['intro'], base_template_path, image_references)
-    #leaflet_content['intro'], pages = render_intro(template_decription, base_template_path, current_page) + \
-    #                           render_white_page(template_decription, base_template_path, current_page)
-    # current_page += pages + 1
-
+    page_composition.extend(intro_pages)
+    
     # C. main text
-    #leaflet_content['main_content'], pages = render_main_text(template_decription, task_description, data_base, base_template_path, current_page)
-    # current_page += pages
+    main_pages = build_main_pages(template_decription, task_description, data_base, base_template_path)
+    page_composition.append( copy.deepcopy(cover_pages[1]) )
+    page_composition.extend(main_pages)
 
     # D. exam
-    leaflet_content['exam'] = ""
+    exam_pages = build_generic_pages(template_decription['exam'], base_template_path, image_references)
+    page_composition.append(exam_pages[0])
 
     # E. prayers
     prayer_pages = build_generic_pages(template_decription['prayers'], base_template_path)
-    
-    page_composition = cover_pages[0:2]
-    page_composition.extend(intro_pages)
     page_composition.extend(prayer_pages)
+
+    # closing cover
+    if page_composition % 2 == 0:
+        page_composition.append( copy.deepcopy(cover_pages[1]) )
     page_composition.extend(cover_pages[2:])
 
     width = template_decription['page_width']
@@ -418,57 +419,8 @@ def build_pdf(task_description, data_base, task_path, session_path, out_path):
     base_booklet_file.close()
 
 
-def generate_main_content(template, task_description, days):
-    left_pages_file_name = os.path.join(
-        template['path'], template['left_page'])
-    left_pages_template = read_template(left_pages_file_name)
-
-    right_pages_file_name = os.path.join(
-        template['path'], template['right_page'])
-    right_pages_template = read_template(right_pages_file_name)
-
-    main_content = ""
-    first_page = task_description['first_page']
-
-    for page_id in range(len(days)):
-        current_page = first_page + page_id
-        base_y = (template['page_height']+40.0) * ((current_page+1) // 2)
-
-        print("Building page {0}, with height {1}".format(
-            current_page, base_y))
-
-        # compute the new position for all the elements of those pages
-        page_data = {}
-        for label in template['y_displacement']:
-            page_data[label] = base_y+template['y_displacement'][label]
-
-        page_data['page_num'] = current_page
-
-        # put the content
-        page_data['gospel'] = build_gospel_items(
-            days[page_id].gospel, template['gospel_item'])
-        page_data['comment'] = build_comment_items(
-            days[page_id].comment, template['comment_item'], template['character_style_templates'])
-        page_data['onomastic'] = days[page_id].onomastic
-        page_data['date'] = days[page_id].getFullStringDay()
-        page_data['quote'] = days[page_id].quote
-        page_data['page_number_value'] = str(current_page)
-
-        if current_page % 2 == 1:
-            # even -> left
-            main_content = main_content + \
-                left_pages_template.render(**page_data)
-        else:
-            # odd -> right
-            main_content = main_content + \
-                right_pages_template.render(**page_data)
-
-    return main_content
-
-
 def build_gospel_items(content, mini_template):
     return Template(mini_template).render(paragraph=content.replace("\"", "&quot;"))
-
 
 def build_comment_items(content, paragraph_template, block_templates):
     composition = ""
