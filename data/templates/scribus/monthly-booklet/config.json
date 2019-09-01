@@ -25,8 +25,8 @@
     "exam": {
         "filename": "exam.sla",
         "images" : [ "norms.jpg", "norm_sheet" ],
-        "L": 0,
-        "R": 1
+        "left": 0,
+        "right": 1
     },
 
     "main_content": {
@@ -46,6 +46,9 @@
         "replacement_chain" : [["<ITEXT CH=\"{{comment}}\" />", "{{comment}}"]],
         "comment_item": "{{paragraph}} <para PARENT=\"normal\"/>"
     },
+
+    "scribus_exec" : "\"C:\\Program Files\\Scribus 1.4.8\\Scribus.exe\"",
+    "conversion_script" : "convert_sla_to_pdf.py",
     
     "page_width": 297.64,
     "page_height": 419.53,

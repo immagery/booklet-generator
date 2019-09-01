@@ -323,10 +323,6 @@ def build_pdf(task_description, data_base, task_path, session_path, out_path):
     """
     temp_folder = os.path.join(out_path, "temp")
     os.makedirs(temp_folder, exist_ok=True)
-
-    temp_file_name = os.path.join(temp_folder, "temp_base_booklet.sla")
-    base_booklet_file = open(temp_file_name, "w", encoding="utf-8")
-
     pdf_config = task_description['mediums']['pdf']
 
     if "template" not in pdf_config:
@@ -384,16 +380,22 @@ def build_pdf(task_description, data_base, task_path, session_path, out_path):
     page_composition.extend(main_pages)
 
     # D. exam
-    exam_pages = build_generic_pages(template_decription['exam'], base_template_path, image_references)
-    page_composition.append(exam_pages[0])
+    descr = template_decription['exam']
+    exam_pages = build_generic_pages(descr, base_template_path, image_references)
+    hybrid_page = TemplatePage( sub_pages={'left' : exam_pages[descr['left']], 'right': exam_pages[descr['right']]} )
+    page_composition.append(hybrid_page)
 
     # E. prayers
     prayer_pages = build_generic_pages(template_decription['prayers'], base_template_path)
+    
+    # add a white page before the prayers to balance out
+    if (len(page_composition) + len(prayer_pages)) % 2 == 1:
+        page_composition.append( copy.deepcopy(cover_pages[1]) )
+    
+    # queue the prayers
     page_composition.extend(prayer_pages)
 
     # closing cover
-    if page_composition % 2 == 0:
-        page_composition.append( copy.deepcopy(cover_pages[1]) )
     page_composition.extend(cover_pages[2:])
 
     width = template_decription['page_width']
@@ -413,10 +415,22 @@ def build_pdf(task_description, data_base, task_path, session_path, out_path):
         base_template_path, template_decription['base_template'])
     base_template = read_template(base_template_file_name)
 
-    print("output file: ", temp_file_name)
+    # create the final file
+    temp_file_name = os.path.join(temp_folder, "temp_base_booklet.sla")
+    base_booklet_file = open(temp_file_name, "w", encoding="utf-8")
     baked_leaflet = base_template.render(**leaflet_content)
     base_booklet_file.write(baked_leaflet)
     base_booklet_file.close()
+
+    # run the conversion of into a final pdf
+    pdf_filename = "iPray{0}_{1}.pdf".format(task_description['name'], data_base.language)
+    conversion_params = { "scribus_exec" : template_decription['scribus_exec'],
+                          "python_script" : os.path.join( session_path, "templates", "scribus", template_decription['conversion_script']),
+                          "scribus_file" : temp_file_name,
+                          "dest_file" : os.path.join(temp_folder, pdf_filename) }
+
+    print('{scribus_exec} -g -py {python_script} --python-arg {dest_file} {scribus_file}'.format( **conversion_params ))
+    os.system('{scribus_exec} -g -py {python_script} --python-arg {dest_file} {scribus_file}'.format( **conversion_params ))
 
 
 def build_gospel_items(content, mini_template):
