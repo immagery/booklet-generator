@@ -139,14 +139,18 @@ class TemplatePageObject:
         obj_str = ET.tostring(self.header, encoding='utf8', method='xml').decode('utf8')
         return obj_str[len(basic_xml_header):]
 
-
-def render_pages_and_objects(pages, page_width, page_height, page_number_offset = 0, object_id_offset = 0):
+def render_pages_and_objects( pages, page_width, page_height, 
+                              page_number_offset = 0, object_id_offset = 0, 
+                              filling = None):
     pages_str = ""
     objects_str = ""
-    objects_to_process = []
-    current_page = page_number_offset
+    
+    if filling == None:
+        filling = {}
 
     # render the pages and set up the objects
+    objects_to_process = []
+    current_page = page_number_offset
     for page in pages:
         # origin for this page
         base_x_pos = 0 if (current_page % 2 == 1) else page_width
@@ -157,7 +161,8 @@ def render_pages_and_objects(pages, page_width, page_height, page_number_offset 
 
         # add the page with the page number on the only templated text 
         page_templ = page.render()
-        pages_str += Template(page_templ).render(page_number = str(page.number))
+        filling['page_number'] = str(page.number)
+        pages_str += Template(page_templ).render( **filling )
 
         for obj in page.page_objects:
             obj.sequence_idx = len(objects_to_process)+object_id_offset
@@ -167,10 +172,10 @@ def render_pages_and_objects(pages, page_width, page_height, page_number_offset 
     for obj in objects_to_process:
         page_id = obj.page_owner.number
         page_obj_templ = obj.render()
-        objects_str += Template(page_obj_templ).render(page_number = str(page_id))
+        filling['page_number'] = str(page_id)
+        objects_str += Template(page_obj_templ).render( **filling )
 
     return pages_str + objects_str
-
 
 def read_scribus_template(template_file_name):
     pages = []
@@ -216,63 +221,81 @@ def read_scribus_template(template_file_name):
 
     return pages
 
-def render_front_cover(template_decription, pdf_config, language, base_template_path, task_path, temp_folder):
-    # A. cover
-    cover_descr = template_decription['cover']
-    cover_template_file_name = os.path.join(
-        base_template_path, cover_descr['R'])
-    cover_template_right = read_template(cover_template_file_name)
+def restore_image_link( pages, code_str, code_image ):
+    # replace the image paths to point to the right place (again, it's generic!!!)
+    for page in pages:
+        for obj in page.page_objects:
+            # if it's image, look for path
+            if int(obj.header.attrib['PTYPE']) == 2 and 'PFILE' in obj.header.attrib:
+                if code_str in obj.header.attrib['PFILE']:
+                    obj.header.attrib['PFILE'] = code_image
 
-    # grab and copy the image into the temp directory,
-    # to have it relative to the scribus document.
-    if language in pdf_config['cover_image']:
-        image_file_name = pdf_config['cover_image'][language]
+'''
+def build_prayer_pages(template_decription, base_template_path):
+    prayers_descr = template_decription['prayers']
+    prayers_template_file_name = os.path.join( base_template_path, prayers_descr['filename'] )
+
+    # build the template from the reference.
+    return read_scribus_template(prayers_template_file_name)
+
+def build_cover_pages(template_decription, base_template_path, images):
+    cover_descr = template_decription['cover']
+    cover_template_file_name = os.path.join( base_template_path, cover_descr['filename'])
+
+    # build the template from the reference.
+    cover_pages = read_scribus_template(cover_template_file_name)
+
+    code_image = cover_descr['rel_path'][1]
+    if code_image in images:
+        restore_image_link(cover_pages, cover_descr['rel_path'][0], images[code_image] )
     else:
-        image_file_name = pdf_config['cover_image']['english']
-    image_file_path = os.path.join(task_path, image_file_name)
-    try:
-        copyfile(image_file_path, os.path.join(
-            temp_folder, "pdf_cover_image.jpg"))
-    except IOError as e:
-        print(
-            "Unable to copy the cover image to generate the pdf. [{0}]".format(e))
+        print("The code image is not defined properly")
 
-    # front cover
-    return cover_template_right.render()
+    return cover_pages
 
-
-def render_back_cover(template_decription, base_template_path, current_page):
-    cover_descr = template_decription['cover']
-    base_y_pos = ((current_page+1) // 2) * \
-        (template_decription['page_height']+40)
-    cover_data = {"page_num": current_page,
-                  "page_y_pos": base_y_pos,
-                  "image_y_pos": base_y_pos + cover_descr['image_y_pos']}
-
-    cover_template_file_name = os.path.join(
-        base_template_path, cover_descr['L'])
-    cover_template_left = read_template(cover_template_file_name)
-    
-    cover_end_str = cover_template_left.render(**cover_data)
-    return cover_end_str
-    
-
-def render_white_page(template_decription, base_template_path, current_page):
-    white_template_file_name = os.path.join(
-        base_template_path, template_decription['white_page'])
-    white_template = read_template(white_template_file_name)
-    white_page = white_template.render(page_num=current_page)
-    return white_page
-
-def render_intro(template_decription, base_template_path, current_page):
+def build_intro_pages(template_decription, base_template_path, images):
     intro_descr = template_decription['intro']
-    intro_template_file_name = os.path.join(
-        base_template_path, intro_descr['filename'])
-    intro_template = read_template(intro_template_file_name)
+    intro_template_file_name = os.path.join( base_template_path, intro_descr['filename'] )
+    intro_pages = read_scribus_template(intro_template_file_name)
 
-    intro_str = intro_template.render(page_0=current_page)
-    intro_pages = 3
-    return intro_str, intro_pages
+    code_image = intro_descr['rel_path'][1]
+    if code_image in images:
+        restore_image_link(intro_pages, intro_descr['rel_path'][0], images[code_image] )
+    else:
+        print("The code image is not defined properly")
+
+    # build the template from the reference.
+    return intro_pages
+
+def build_exam_pages(template_decription, base_template_path, images):
+    descr = template_decription['exam']
+    template_file_name = os.path.join( base_template_path, descr['filename'] )
+    pages = read_scribus_template(template_file_name)
+
+    code_image = descr['rel_path'][1]
+    if code_image in images:
+        restore_image_link(pages, descr['rel_path'][0], images[code_image] )
+    else:
+        print("The code image is not defined properly")
+
+    # build the template from the reference.
+    return pages
+'''
+
+def build_generic_pages(descr, base_template_path, images = None):
+    ## read the template pages
+    template_file_name = os.path.join( base_template_path, descr['filename'] )
+    pages = read_scribus_template(template_file_name)
+
+    # replace image paths if required
+    if images != None and 'images' in descr: 
+        code_image = descr['images'][1]
+        if code_image in images:
+            restore_image_link(pages, descr['images'][0], images[code_image] )
+        else:
+            print("The code image is not defined properly.")
+
+    return pages
 
 
 def render_main_text(template_decription, task_description, data_base, base_template_path, current_page):
@@ -295,17 +318,6 @@ def render_main_text(template_decription, task_description, data_base, base_temp
 
     return main_content_str, len(taks_days)
 
-def render_prayers(template_decription, base_template_path, current_page):
-    prayers_descr = template_decription['prayers']
-    prayers_template_file_name = os.path.join(
-        base_template_path, prayers_descr['filename'])
-
-    # build the template from the reference.
-    prayer_pages = read_scribus_template(prayers_template_file_name)
-
-    width = template_decription['page_width']
-    height = (template_decription['page_height']+40)
-    return render_pages_and_objects(prayer_pages, width, height), len(prayer_pages)
 
 def build_pdf(task_description, data_base, task_path, session_path, out_path):
     """ Builds all the pdf configurations given the task_description
@@ -327,20 +339,43 @@ def build_pdf(task_description, data_base, task_path, session_path, out_path):
     template_decription_file_name = os.path.join( base_template_path, "config.json")
     template_decription = read_json_file(template_decription_file_name)
 
+    # copy all the images needed from the task and the template
+    image_references = {}
+    for image_code, image_descr in pdf_config['images'].items():
+        if data_base.language in image_descr:
+            image_file_name = image_descr[data_base.language]
+        else:
+            image_file_name = image_descr['english']
+
+        image_file_path = os.path.join(task_path, image_file_name)
+        try:
+            temp_image_file = os.path.join(temp_folder, "pdf_{0}_image.jpg".format(image_code))
+            copyfile(image_file_path, temp_image_file)
+            image_references[image_code] = temp_image_file
+        except IOError as e:
+            print(
+                "Unable to copy the cover image to generate the pdf. [{0}]".format(e))
+
+    for image_code, image_descr in template_decription['images'].items():
+        image_file_path = os.path.join(base_template_path, image_descr)
+        try:
+            temp_image_file = os.path.join(temp_folder, "pdf_{0}_image.jpg".format(image_code))
+            copyfile(image_file_path, temp_image_file)
+            image_references[image_code] = temp_image_file
+        except IOError as e:
+            print(
+                "Unable to copy the cover image to generate the pdf. [{0}]".format(e))
+
+
     #   Building of the leaflet itself
     #   >> Read each layer, and asemble them in a single file filling the gaps
-    current_page = 0
     leaflet_content = {}
 
     # front cover
-    #leaflet_content['cover_begining'] = render_front_cover(
-    #    template_decription, pdf_config, data_base.language, base_template_path, task_path, temp_folder)
-    #current_page +=1
-
-    #leaflet_content['cover_begining'] += render_white_page (template_decription, base_template_path, current_page)
-    #current_page +=1
+    cover_pages = build_generic_pages(template_decription['cover'], base_template_path, image_references)
 
     # B. Intro
+    intro_pages = build_generic_pages(template_decription['intro'], base_template_path, image_references)
     #leaflet_content['intro'], pages = render_intro(template_decription, base_template_path, current_page) + \
     #                           render_white_page(template_decription, base_template_path, current_page)
     # current_page += pages + 1
@@ -351,24 +386,26 @@ def build_pdf(task_description, data_base, task_path, session_path, out_path):
 
     # D. exam
     leaflet_content['exam'] = ""
-    exam_pages = 0
-    current_page = current_page + exam_pages
 
     # E. prayers
-    leaflet_content['prayers'], pages = render_prayers(template_decription, base_template_path, current_page)
-    current_page += pages
-    leaflet_content['prayers'] += render_white_page(template_decription, base_template_path, current_page)
-    current_page += 1
+    prayer_pages = build_generic_pages(template_decription['prayers'], base_template_path)
+    
+    page_composition = cover_pages[0:2]
+    page_composition.extend(intro_pages)
+    page_composition.extend(prayer_pages)
+    page_composition.extend(cover_pages[2:])
 
-    # F. final cover
-    #leaflet_content['cover_end'] = render_back_cover(template_decription, base_template_path, current_page)
+    width = template_decription['page_width']
+    height = (template_decription['page_height']+40)
+    doc_str = render_pages_and_objects(page_composition, width, height)
 
     # copy base label
     for labels in template_decription['base_leaflet_labels']:
         leaflet_content[labels] = template_decription[labels]
 
     # overwrite those needed
-    leaflet_content['page_count'] = current_page
+    leaflet_content['page_count'] = len(page_composition)
+    leaflet_content['content'] = doc_str
 
     # Put all the stuff into the base template
     base_template_file_name = os.path.join(

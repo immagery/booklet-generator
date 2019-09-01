@@ -1,53 +1,55 @@
 {
     "name": "monthly_booklet",
     "base_template": "base_booklet.xml",
-    "cover": {
-        "L": "cover_left.xml",
-        "R": "cover_right.xml",
-        "image_y_pos": 11.3385826771654,
-        "rel_path" : "../images/full_cover-01.jpg"
-    },
-    "main_content": {
-        "left_page": "left_text_page.xml",
-        "right_page":  "right_text_page.xml",
 
-        "y_displacement": {
-            "page_y_pos": 20.0012598425197,
-            "quote_y_pos": 48.6371653543307,
-            "onomastic_y_pos": 37.4279921259844,
-            "page_number_y_pos": 422.894860418583,
-            "text_y_pos": 74.505132405433
-        },
+    "images" : { "qr_codes" : "../images/qr_codes.jpg",
+                 "norm_sheet" : "../images/norms.jpg"         
+    },
+
+    "cover": {
+        "filename" : "cover.sla",
+        "images" : [ "cover_reference.jpg", "cover" ],
+        "front" : 0,
+        "back" : 2
+    },
+
+    "prayers": {
+        "filename": "prayers.sla"
+    },
+    
+    "intro": {
+        "filename": "intro.sla",
+        "images" : [ "qr_codes.jpg", "qr_codes" ]
+    },
+
+    "exam": {
+        "filename": "exam.sla",
+        "images" : [ "norms.jpg", "norm_sheet" ],
+        "L": 0,
+        "R": 1
+    },
+
+    "main_content": {
+
+        "left_page": 1,
+        "right_page": 0,
 
         "labels": [
-            "page_num",
             "quote",
             "date",
-            "onomastic",
-            "gospel",
-            "comment",
-            "page_number_value"
+            "onomastica",
+            "main_content"
         ],
+        
         "gospel_item": "<ITEXT CH=\"{{paragraph}}\"/> <para PARENT=\"gospel\"/>",
         "comment_item": "{{paragraph}} <para PARENT=\"normal\"/>"
     },
-    "intro": {
-        "filename": "intro.xml",
-        "L": "Normal Left",
-        "R": "Normal Right"
-    },
-    "prayers": {
-        "filename": "prayers.sla",
-        "L": "Normal Left",
-        "R": "Normal Right"
-    },
-    "exam": {
-        "L": "exam_left.xml",
-        "R": "exam_right.xml"
-    },
-    "white_page" : "white_page.xml",
+    
     "page_width": 297.64,
     "page_height": 419.53,
+    "page_orig_x" : 100,
+    "page_orig_y": 20,
+    
     "bleed_top": 8.50110236220473,
     "bleed_left": 8.50110236220473,
     "bleed_right": 8.50110236220473,
@@ -62,6 +64,7 @@
         "bleed_bottom",
         "dfont"
     ],
+
     "character_styles": [
         "Default Character Style",
         "black",
@@ -69,6 +72,7 @@
         "italic-black",
         "Red Italic"
     ],
+
     "paragraph_styles": [
         "Default Paragraph Style",
         "normal-right-alignement",
@@ -83,15 +87,13 @@
         "centered prayer",
         "Centered prayer with space"
     ],
+
     "master-pages": [
         "Normal Left",
         "Normal Right",
         "text_left",
         "text_right",
         "white"
-    ],
-    "labels": [
-        "page_count"
     ],
 
     "character_style_templates" : {

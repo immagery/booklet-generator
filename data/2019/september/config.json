@@ -21,9 +21,11 @@
                 "digital, print, home-print"
             ],
             "template": "monthly-booklet",
-            "cover_image" : {
-                "english": "full_cover-english.jpg"
+            "images": {
+                "cover": {
+                    "english": "full_cover-english.jpg"
+                }
             }
         }
-    }    
+    }
 }
