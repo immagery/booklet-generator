@@ -26,6 +26,11 @@
                     "english": "full_cover-english.jpg"
                 }
             }
+        },
+
+        "epub": {
+            "template": "monthly-booklet",
+            "contentFile": ""
         }
     }
 }
