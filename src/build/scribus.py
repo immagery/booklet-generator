@@ -316,15 +316,10 @@ def build_main_pages(template_decription, task_description, data_base, base_temp
         content_pages.append(new_page)
 
     return content_pages
+
+def build_leaflet_pages_compilation (task_description, data_base, task_path, session_path, temp_folder):
     
-
-def build_pdf(task_description, data_base, task_path, session_path, out_path):
-    """ Builds all the pdf configurations given the task_description
-    """
-    temp_folder = os.path.join(out_path, "temp")
-    os.makedirs(temp_folder, exist_ok=True)
     pdf_config = task_description['mediums']['pdf']
-
     if "template" not in pdf_config:
         print("there is no template defined for the PDF work!")
         return
@@ -361,11 +356,6 @@ def build_pdf(task_description, data_base, task_path, session_path, out_path):
             print(
                 "Unable to copy the cover image to generate the pdf. [{0}]".format(e))
 
-
-    #   Building of the leaflet itself
-    #   >> Read each layer, and asemble them in a single file filling the gaps
-    leaflet_content = {}
-
     # front cover
     cover_pages = build_generic_pages(template_decription['cover'], base_template_path, image_references)
     page_composition = cover_pages[0:2]
@@ -398,6 +388,43 @@ def build_pdf(task_description, data_base, task_path, session_path, out_path):
     # closing cover
     page_composition.extend(cover_pages[2:])
 
+    return page_composition
+
+def build_print_pdf(task_description, data_base, task_path, session_path, out_path):
+    raise Exception("Print pdf not implemented yet")
+    
+    page_composition = build_leaflet_pages_compilation(task_description, data_base, task_path, session_path, out_path)
+    # render the pages in a different way, rearanging the pages and makind a duplicate of the needed
+
+    # create the final file
+    temp_file_name = os.path.join(temp_folder, "temp_print_base_booklet.sla")
+    base_booklet_file = open(temp_file_name, "w", encoding="utf-8")
+    baked_leaflet = base_template.render(**leaflet_content)
+    base_booklet_file.write(baked_leaflet)
+    base_booklet_file.close()    
+
+
+def build_pdf(task_description, data_base, task_path, session_path, out_path):
+    """ Builds all the pdf configurations given the task_description
+    """
+    
+    pdf_config = task_description['mediums']['pdf']
+    if "template" not in pdf_config:
+        print("there is no template defined for the PDF work!")
+        return
+
+    # read the configuration file for the template
+    base_template_path = os.path.join( session_path, "templates", "scribus", pdf_config['template'])
+    template_decription_file_name = os.path.join( base_template_path, "config.json")
+    template_decription = read_json_file(template_decription_file_name)
+
+    temp_folder = os.path.join(out_path, "temp")
+    os.makedirs(temp_folder, exist_ok=True)
+
+    page_composition = build_leaflet_pages_compilation(task_description, data_base, task_path, session_path, temp_folder)
+
+    leaflet_content = {}
+
     width = template_decription['page_width']
     height = (template_decription['page_height']+40)
     doc_str = render_pages_and_objects(page_composition, width, height)
@@ -423,6 +450,7 @@ def build_pdf(task_description, data_base, task_path, session_path, out_path):
     base_booklet_file.close()
 
     # run the conversion of into a final pdf
+    '''
     pdf_filename = "iPray{0}_{1}.pdf".format(task_description['name'], data_base.language)
     conversion_params = { "scribus_exec" : template_decription['scribus_exec'],
                           "python_script" : os.path.join( session_path, "templates", "scribus", template_decription['conversion_script']),
@@ -431,7 +459,7 @@ def build_pdf(task_description, data_base, task_path, session_path, out_path):
 
     print('{scribus_exec} -g -py {python_script} --python-arg {dest_file} {scribus_file}'.format( **conversion_params ))
     os.system('{scribus_exec} -g -py {python_script} --python-arg {dest_file} {scribus_file}'.format( **conversion_params ))
-
+    '''
 
 def build_gospel_items(content, mini_template):
     return Template(mini_template).render(paragraph=content.replace("\"", "&quot;"))
