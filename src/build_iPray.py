@@ -68,6 +68,12 @@ for task_name, task_folder in base_config['tasks'].items():
                 print(
                     "Skiping medium ({0}), as it doesn't exist.".format(medium))
                 continue
+            
+            # if it's not enable we skip that medium
+            if 'enable' in task_description['mediums'][medium].keys():
+                if not task_description['mediums'][medium]['enable']:
+                    print("Skipping medium {0} in {1}".format(medium, language))
+                    continue
 
             print("Building {0} in {1}".format(medium, language))
 

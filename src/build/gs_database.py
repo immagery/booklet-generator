@@ -94,15 +94,13 @@ class DataBaseHandler:
         self.language = language if language is not None else 'english'
 
         for sheet in self.gs:
-            print("processing sheet {0} with {1} days.".format(
-                sheet.title, sheet.col_count))
+            print("processing sheet {0} with {1} days.".format(sheet.title, sheet.col_count))
             sheet_day_values = sheet.get_all_values()
 
-            keys_used_in_table = [sheet_day_values[i][0]
-                                  for i in range(sheet.col_count+1)]
-            keys_count = len(keys_used_in_table)
-            for col in range(1, sheet.col_count):
-                day_key = sheet_day_values[0][col]
+            keys_used_in_table = [sheet_day_values[i][0] for i in range(1, sheet.row_count)]
+
+            for col in range(sheet.col_count-1):
+                day_key = sheet_day_values[0][col+1]
 
                 # check the format of this cell
                 if day_key == "":
@@ -110,14 +108,14 @@ class DataBaseHandler:
 
                 # read all the values of that particular day and match it against the keys
                 day_info = { "language" : language }
-                for value_idx in range(0, keys_count):
+
+                for value_idx in range(len(keys_used_in_table)):
                     if keys_used_in_table[value_idx] == "comment":
                         # preprocess the text
-                        raw_comment = sheet_day_values[value_idx][col]
+                        raw_comment = sheet_day_values[value_idx+1][col+1]
                         day_info["comment"] = break_and_process_comments(raw_comment)
                     else:
-                        day_info[keys_used_in_table[value_idx]
-                                 ] = sheet_day_values[value_idx][col]
+                        day_info[keys_used_in_table[value_idx]] = sheet_day_values[value_idx+1][col+1]
 
                 # inject the new day
                 self._add_or_append(day_key, day_info)

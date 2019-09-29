@@ -2,6 +2,8 @@ import os
 from shutil import copyfile
 import copy 
 
+from jinja2 import Template
+
 from .utils import read_json_file, read_template
 from .gs_database import build_date_key
 
@@ -154,6 +156,8 @@ class TemplatePageObject:
                 for replacement in self.page_owner.content['replacement_chain']:
                     if replacement[0] in obj_str:
                         obj_str = obj_str.replace(replacement[0], replacement[1])
+            
+            self.page_owner.content['page_number'] = self.page_owner.number
 
             # fill the template
             obj_str = Template(obj_str).render( **self.page_owner.content )
@@ -431,7 +435,7 @@ def build_pdf(task_description, data_base, task_path, session_path, out_path):
     base_template = read_template(base_template_file_name)
 
     # create the final file
-    temp_file_name = os.path.join(temp_folder, "temp_base_booklet.sla")
+    temp_file_name = os.path.join(temp_folder, "result_booklet.sla")
     base_booklet_file = open(temp_file_name, "w", encoding="utf-8")
     baked_leaflet = base_template.render(**leaflet_content)
     base_booklet_file.write(baked_leaflet)
