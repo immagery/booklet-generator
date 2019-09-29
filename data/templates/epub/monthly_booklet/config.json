@@ -1,0 +1,21 @@
+{
+    "name": "monthly_booklet",
+
+    "ePub_build_template" : "ePubTemplate",
+
+    "contentFile" : "OEBPS/content.opf",
+    "tocFile" :  "OEBPS/toc.ncx",
+    "finalCoverFile" : "OEBPS/images/cover.jpeg",
+    "finalLogoFile" : "OEBPS/images/sub_cover.jpg",
+
+    "textTemplate" : "OEBPS/text/dayTemplate.xhtml",
+
+    "tableOfContentFile" : "OEBPS/text/tableOfContents.xhtml",
+    "finalContentFile" : "OEBPS/text/content.xhtml",
+
+    "mobiStyleFile" : "/epub/mobiStyleTemplate.css",
+    "mobiStyleFileDestination" : "/OEBPS/Styles/Stylesheet.css",
+
+    "coverFile" : "/cover_mid.jpg",
+    "logoFile" :  "/cover_in_advent.jpg"
+}
