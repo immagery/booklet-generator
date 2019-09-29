@@ -1,23 +1,11 @@
-from jinja2 import Template
-
 import os
 from shutil import copyfile
 import copy 
 
-from .utils import read_json_file
+from .utils import read_json_file, read_template
 from .gs_database import build_date_key
 
 import xml.etree.ElementTree as ET
-
-
-def read_template(file_name):
-    try:
-        template_xml = open(file_name, encoding="utf-8").read()
-    except Exception as e:
-        raise Exception(
-            "The template file {} can't be opened or read: {1}".format(file_name, str(e)))
-
-    return Template(template_xml)
 
 basic_xml_header = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
 

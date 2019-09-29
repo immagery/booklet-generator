@@ -4,7 +4,17 @@ import copy
 import os
 import shutil
 
+from jinja2 import Template
 import json
+
+def read_template(file_name):
+    try:
+        template_xml = open(file_name, encoding="utf-8").read()
+    except Exception as e:
+        raise Exception(
+            "The template file {} can't be opened or read: {1}".format(file_name, str(e)))
+
+    return Template(template_xml)
 
 def zip_tree(tree, destination):
     #http://stackoverflow.com/a/17080988/113036

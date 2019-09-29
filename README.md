@@ -12,3 +12,7 @@ for development I'm using several python packages to make our life easier:
 And spreadsheets as a database for all the texts. Here the instructions I have followed to get my ready the system to read that database:
 
 https://gspread.readthedocs.io/en/latest/oauth2.html
+
+In order to access the database you need the credentials, created through:
+
+https://console.developers.google.com/apis

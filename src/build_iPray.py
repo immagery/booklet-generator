@@ -2,7 +2,6 @@ import json
 import sys
 import os
 
-from build.scribus import read_template
 from build.utils import read_json_file
 from build.gs_database import read_data_base
 from build import build_functions
