@@ -1,7 +1,7 @@
 {
     "description": "iPray building system 0.0.1",
-    "creation": "10/09/2019",
-    "credentials": "ipray-251719-c782e96ce64e.json",
+    "creation": "20/10/2019",
+    "credentials": "iPray-de4954104202.json",
     "scope": [
         "https://spreadsheets.google.com/feeds",
         "https://www.googleapis.com/auth/drive"

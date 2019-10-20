@@ -12,3 +12,6 @@ iPray.code-workspace
 old_stuff
 
 data/export
+
+data/credentials
+!data/credentials/README.md
