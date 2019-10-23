@@ -1,1 +1,0 @@
-The font used all over the leaflet is Bembo family. Because of rights limitations we are not including them in this repo, but you might be able to find them easily in internet.
