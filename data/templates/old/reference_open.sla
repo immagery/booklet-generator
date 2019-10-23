@@ -30,7 +30,7 @@
         <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="Bembo Regular" FONTSIZE="8.5" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <CHARSTYLE CNAME="black" CPARENT="Default Character Style" FONT="Bembo Std Bold"/>
         <CHARSTYLE CNAME="italic" CPARENT="Default Character Style" FONT="Bembo Italic"/>
-        <CHARSTYLE CNAME="italic-black" CPARENT="Default Character Style" FONT="Bembo Bold Italic"/>
+        <CHARSTYLE CNAME="italic-black" CPARENT="Default Character Style" FONT="Palatino Linotype Bold Italic"/>
         <LAYERS NUMMER="0" LEVEL="0" NAME="Background" SICHTBAR="0" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
         <LAYERS NUMMER="1" LEVEL="1" NAME="New Layer 1" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="1" useSpotColors="1" useColor="1" mirrorH="1" mirrorV="1" useICC="1" doGCR="1" doClip="1" setDevParam="1" useDocBleeds="1" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" includePDFMarks="1" PSLevel="-8363874" PDLanguage="-8363874" markOffset="-1.96562226501821e+306" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
