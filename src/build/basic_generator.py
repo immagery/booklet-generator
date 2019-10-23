@@ -219,7 +219,7 @@ def getTextContentToLoad(definitions ):
 	print len(textContents)
 
 	return textContents
-
+'''
 def defineSpecificVariables(definitions, baseProcessDirectory):
 
 	######################
@@ -257,3 +257,4 @@ def defineSpecificVariables(definitions, baseProcessDirectory):
 	# android definitions
 	######################
 	definitions["appAndroidResult"] 	= definitions["globalPath"]+"/AppAndroid/"
+'''

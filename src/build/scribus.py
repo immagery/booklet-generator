@@ -5,7 +5,7 @@ import copy
 from jinja2 import Template
 
 from .utils import read_json_file, read_template
-from .gs_database import build_date_key
+from .gs_database import build_date_key, read_list_of_days
 
 import xml.etree.ElementTree as ET
 
@@ -285,10 +285,12 @@ def build_main_pages(template_decription, task_description, data_base, base_temp
         task_description["first_month"],
         task_description["first_year"])
 
-    taks_days = data_base.produce_days( first_date, task_description['text_count'])
-
+    days_list = read_list_of_days( task_description["days_list"] )
+    task_days = data_base.produce_days_from_list( days_list)
+    #task_days = data_base.produce_days( first_date, task_description["text_count"] )
+    
     content_pages = []
-    for day in taks_days:
+    for day in task_days:
         page_data = {}
 
         page_data['gospel'] = day.gospel.replace("\"", "&quot;")

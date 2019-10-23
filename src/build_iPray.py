@@ -3,11 +3,8 @@ import sys
 import os
 
 from build.utils import read_json_file
-from build.gs_database import read_data_base
+from build.gs_database import load_db, read_data_base
 from build import build_functions
-
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
 
 # check parameters
 if len(sys.argv) <= 2:
@@ -29,29 +26,25 @@ base_config_file = os.path.join(session_path, base_config_path, "config.json")
 print("Reading configuration from path:", base_config_file)
 base_config = read_json_file(base_config_file)
 
-# Read data base for each language
-credentials_filename = os.path.join(
-    session_path, "credentials", session_config['credentials'])
-print("credentials used", credentials_filename)
-credentials = ServiceAccountCredentials.from_json_keyfile_name(
-    credentials_filename, session_config['scope'])
-gc = gspread.authorize(credentials)
+# set up the global database
+credentials_filename = os.path.join(session_path, "credentials", session_config['credentials'])
+load_db( credentials = credentials_filename, scope = session_config['scope'])
 
+# Read days data base for each language
 data_base = {}
 for language, data_base_name in base_config['spreadsheet'].items():
-    data_base_handle = gc.open(data_base_name)
-
-    if data_base_handle is None:
+    db = read_data_base(data_base_name, language)
+    
+    if db is None:
         continue
 
-    print("Found a {0} data base.".format(language))
-    data_base[language] = read_data_base(data_base_handle, language)
+    data_base[language] = db 
 
 # Build the different mediums based on the tasks config file
 for task_name, task_folder in base_config['tasks'].items():
     print("Processing tasks {0}".format(task_name))
 
-    # read the configuration file for the leaflet
+    # read the configuration task for the leaflet
     task_path = os.path.join(session_path, base_config_path, task_folder)
     task_decription_file_name = os.path.join(task_path, "config.json")
     task_description = read_json_file(task_decription_file_name)
