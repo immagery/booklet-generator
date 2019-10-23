@@ -64,7 +64,7 @@
     "bleed_left": 8.50110236220473,
     "bleed_right": 8.50110236220473,
     "bleed_bottom": 8.50110236220473,
-    "dfont": "Bembo Regular",
+    "dfont": "Palatino Linotype Regular",
     "base_leaflet_labels": [
         "page_width",
         "page_height",
