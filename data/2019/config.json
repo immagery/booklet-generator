@@ -1,7 +1,8 @@
 {
     "info": "iPray 2019",
     "tasks": {
-        "october_leaflet": "october"
+        "nov_leaflet": "november",
+        "dec_leaflet": "december"
     },
     "languages": [
         "english",
