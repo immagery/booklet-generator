@@ -14,19 +14,23 @@
         <COLOR NAME="darker_grey" CMYK="#00000075" Spot="0" Register="0"/>
         <COLOR NAME="light_grey" CMYK="#00000061" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" FONT="Bembo Regular"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" FONT="Palatino Linotype Regular"/>
         <STYLE NAME="normal-right-alignement" PARENT="Default Paragraph Style" ALIGN="2"/>
-        <STYLE NAME="gospel" PARENT="Default Paragraph Style" ALIGN="3" LINESP="9" INDENT="8.503937008" RMARGIN="8.503937008" FIRST="5.669291339" FONT="Bembo Italic" FONTSIZE="8.5"/>
-        <STYLE NAME="normal" PARENT="Default Paragraph Style" ALIGN="3" LINESP="10" NACH="5" DROP="0" DROPLIN="6" DROPDIST="2.834645669" MinWordTrack="1" FONT="Bembo Regular" FONTSIZE="8.5"/>
-        <STYLE NAME="Date" PARENT="normal" FONT="Bembo Regular"/>
+        <STYLE NAME="gospel" PARENT="Default Paragraph Style" ALIGN="3" LINESP="9" INDENT="8.503937008" RMARGIN="8.503937008" FIRST="5.669291339" FONT="Palatino Linotype Italic" FONTSIZE="7.5"/>
+        <STYLE NAME="normal" PARENT="Default Paragraph Style" ALIGN="3" LINESP="10" NACH="5" DROP="0" DROPLIN="6" DROPDIST="2.834645669" MinWordTrack="1" FONT="Palatino Linotype Regular" FONTSIZE="7.5"/>
+        <STYLE NAME="Date" PARENT="normal" FONT="Palatino Linotype Regular"/>
         <STYLE NAME="page-number" PARENT="normal" ALIGN="1"/>
         <STYLE NAME="Date-left" PARENT="Date" ALIGN="2"/>
-        <STYLE NAME="onomastic-left" PARENT="normal" FONT="Bembo Italic" FCOLOR="darker_grey"/>
-        <STYLE NAME="onomastic-right" PARENT="normal" ALIGN="2" FONT="Bembo Italic" FCOLOR="darker_grey"/>
-        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="Bembo Regular" FONTSIZE="8.5" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <STYLE NAME="onomastic-left" PARENT="normal" FONT="Palatino Linotype Italic" FCOLOR="darker_grey"/>
+        <STYLE NAME="onomastic-right" PARENT="normal" ALIGN="2" FONT="Palatino Linotype Italic" FCOLOR="darker_grey"/>
+        <STYLE NAME="normal-compressed" PARENT="normal" LINESP="9" NACH="5"/>
+        <STYLE NAME="centered prayer" PARENT="gospel" LINESP="10"/>
+        <STYLE NAME="Centered prayer with space" PARENT="centered prayer" NACH="2"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="Palatino Linotype Regular" FONTSIZE="7.0" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <CHARSTYLE CNAME="black" CPARENT="Default Character Style" FONT="Bembo Bold"/>
-        <CHARSTYLE CNAME="italic" CPARENT="Default Character Style" FONT="Bembo Italic"/>
+        <CHARSTYLE CNAME="italic" CPARENT="Default Character Style" FONT="Palatino Linotype Italic"/>
         <CHARSTYLE CNAME="italic-black" CPARENT="Default Character Style" FONT="Palatino Linotype Bold Italic"/>
+        <CHARSTYLE CNAME="Red Italic" CPARENT="italic" FCOLOR="Red"/>
         <LAYERS NUMMER="0" LEVEL="0" NAME="Background" SICHTBAR="0" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
         <LAYERS NUMMER="1" LEVEL="1" NAME="New Layer 1" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="1" useSpotColors="1" useColor="1" mirrorH="1" mirrorV="1" useICC="1" doGCR="1" doClip="1" setDevParam="1" useDocBleeds="1" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" includePDFMarks="1" PSLevel="-8363874" PDLanguage="-8363874" markOffset="-1.96562226501821e+306" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
