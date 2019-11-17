@@ -47,6 +47,8 @@ class DaySpec(object):
         self.date = ""
         self.code = ""
         self.link = None
+        self.comment_in_html = ""
+        self.day_string = ""
 
     @classmethod
     def copy_contructor(cls, day_data, date_key):
@@ -78,12 +80,17 @@ class DaySpec(object):
 
     def getFullStringDay(self, language = None):
         language_ = language if language is not None else self.language
-        wd = weekdays[language_][getWeekDay(
-            self.day, self.month, self.year)]
+        wd = weekdays[language_][getWeekDay(self.day, self.month, self.year)]
         month_str = monthNames[language_][self.month]
         full_str_day = "%s %s %s" % (wd, self.get_string_day(), month_str)
         print(language_, full_str_day)
         return full_str_day
+
+    def getStringWeekDay(self, language = None):
+        language_ = language if language is not None else self.language
+        wd = weekdays[language_][getWeekDay(
+            self.day, self.month, self.year)]
+        return wd
 
     def get_string_day(self):
         if self.day % 10 == 1 and self.day != 11:
@@ -180,12 +187,15 @@ class DataBaseHandler:
         days_collected = []
         
         for day_code in list_of_days:
+            version = 0
             for text_in_day in day_code[1:]:
                 if text_in_day in self.days:
                     new_day = DaySpec.copy_contructor(self.days[text_in_day][0], day_code[0])
+                    new_day.version = version
                     days_collected.append( new_day )
                 else:
                     print("The text code {0} for day {1} is not the data base".format(text_in_day, day_code[0]))
+                version += 1
 
         return days_collected
 
@@ -250,6 +260,8 @@ def read_list_of_days(list_name):
         if len(texts) < 2:
             print("There is no texts on the day {0}", day_code_idx)
             continue
+        
+        print(texts)
 
         days_to_proces.append(texts)
 

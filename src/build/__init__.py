@@ -9,5 +9,5 @@ build_functions = {
     "pdf" : build_pdf,
     "epub" : build_epub,
     "mobi" : build_mobi,
-    "app" : build_app,
+    "android" : build_app,
 }
