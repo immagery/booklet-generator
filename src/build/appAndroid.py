@@ -1,4 +1,4 @@
-import os
+import os, shutil
 from .utils import read_json_file, read_template
 from .gs_database import build_date_key, read_list_of_days
 
@@ -40,6 +40,10 @@ def fillXhtmlContents( task_description, data_base, task_path, session_path, app
 def build_app(task_description, data_base, task_path, session_path, out_path):
 	
 	app_out_folder = os.path.join(out_path, "androidApp")
+	
+	if os.path.exists(app_out_folder):
+		shutil.rmtree(app_out_folder)
+
 	os.makedirs(app_out_folder, exist_ok=True)
 
 	num_of_pages = fillXhtmlContents( task_description, data_base, task_path, session_path, app_out_folder )

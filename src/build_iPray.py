@@ -1,10 +1,12 @@
 import json
 import sys
-import os
+import os, shutil
 
 from build.utils import read_json_file
 from build.gs_database import load_db, read_data_base
 from build import build_functions
+
+import copy
 
 # merges the two dictionaries, with child values having preference
 def merge_config_files( parent_config, child_config ):
@@ -13,15 +15,15 @@ def merge_config_files( parent_config, child_config ):
     # in the case of not being a dictionary, it will copy
     # the child value that is. Including vectors
     if not isinstance(child_config, dict):
-        return child_config.deepcopy()
+        return copy.deepcopy(child_config)
 
     # we only merge it if it's a dictionary
-    new_config = parent_config.deepcopy()
-    for key, value in child_config:
+    new_config = copy.deepcopy(parent_config)
+    for key, value in child_config.items():
         if key in new_config:
             new_config[key] = merge_config_files(new_config[key], child_config[key])
         else:
-            new_config[key] = value.deepcopy()
+            new_config[key] =  copy.deepcopy(value)
     
     return new_config
 
@@ -98,5 +100,8 @@ for task_name, task_folder in session_config['tasks'].items():
             # figure out the paths for this task, input and output
             out_path = os.path.join(
                 session_path, session_config["export_path"], language, base_config_path, task_folder, medium)
+            
+            if os.path.exists(out_path):
+                shutil.rmtree(out_path, ignore_errors = True)
 
             build_functions[medium](task_config, data_base[language], task_path, session_path, out_path)

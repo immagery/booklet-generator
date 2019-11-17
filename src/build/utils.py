@@ -9,12 +9,15 @@ import json
 
 def read_template(file_name):
     try:
-        template_xml = open(file_name, encoding="utf-8").read()
+        file_handle = open(file_name, encoding="utf-8")
+        template_xml = file_handle.read()
+        file_handle.close()
     except Exception as e:
         raise Exception(
-            "The template file {} can't be opened or read: {1}".format(file_name, str(e)))
+            "The template file {0} can't be opened or read: {1}".format(file_name, str(e)))
 
-    return Template(template_xml)
+    template = Template(template_xml)
+    return template
 
 def zip_tree(tree, destination):
     #http://stackoverflow.com/a/17080988/113036

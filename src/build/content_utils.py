@@ -1,7 +1,9 @@
+from .namesSpecs import monthNames
 
-def generateContent(day_data, content_id, template = None):
+def generateContent(day_data, content_id, language = None, template = None):
 	contents = {}
-	contents['day_tittle'] = day_data.code
+	contents['day'] = day_data.day
+	contents['day_tittle'] = day_data.code.replace(" ", "_")
 	contents['page_number'] = content_id
 	contents['day_string'] = day_data.getFullStringDay()
 	#contents['day_of_the_week'] = day_data.getStringWeekDay()
@@ -9,9 +11,12 @@ def generateContent(day_data, content_id, template = None):
 	contents['citation'] = day_data.quote
 	contents['gospel'] = day_data.gospel
 	contents['subcontent'] = getCommentStylized(day_data.comment)
-	contents['link'] = "page_{0}_{1}".format(content_id,day_data.code)
+	contents['link'] = "page_{0}_{1}".format(content_id,contents['day_tittle'])
 	contents['day_number_string'] = day_data.get_string_day()
 	contents['day_number'] = day_data.day
+
+	language_ = 'english' if language is None else language
+	contents['month_string'] = monthNames[language_][day_data.month]
 
 	if template is not None:
 		page_text = template.render(**contents)
