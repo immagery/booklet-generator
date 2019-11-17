@@ -1,11 +1,11 @@
 {
-    "name": "November&December2019",
+    "name": "December2019",
     "type": "leaflet",
     "first_day": 1,
     "first_month": 12,
     "first_year": 2019,
     "text_count": 32,
-    "first_weekday_day": "sunday",
+    "first_weekday_day": "Sunday",
     "days_list": "leaflet-descriptions/Dec",
 
     "mediums": {

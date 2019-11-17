@@ -39,12 +39,12 @@
 
         "epub": {
             "enable" : true, 
-            "template": "monthly-booklet",
+            "template": "monthly_booklet",
             "cover": {
                 "english" : "cover_mid.jpg",
                 "german" : "cover_mid.jpg"
             },
-            "logo_image" : "logo_image.jpg"
+            "logo" : "logo.jpg"
         },
 
         "android": {
