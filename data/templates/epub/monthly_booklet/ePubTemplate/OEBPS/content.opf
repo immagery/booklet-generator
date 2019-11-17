@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookID" version="2.0">
     <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
-        <dc:title>{{title-ipray-booklet}}</dc:title>
+        <dc:title>{{title_ipray_booklet}}</dc:title>
 	    <dc:language>en</dc:language>
         <dc:rights>George Boronat</dc:rights>
         <dc:creator opf:role="aut">George Boronat</dc:creator>
-        <dc:identifier id="BookID" opf:scheme="UUID">{{booklet-id}}</dc:identifier>
+        <dc:identifier id="BookID" opf:scheme="UUID">{{booklet_id}}</dc:identifier>
         <meta name="cover" content="cover"/>
     </metadata>
     <manifest>

@@ -8,7 +8,38 @@
   <link rel="stylesheet" href="../Styles/stylesheet.css" type="text/css" />
 </head>
 <body>
-  {{iPrayTableOfContents}}
-  <div><h3><a href=\"commonPrayers.xhtml\">Common Prayers</a></h3></div>
+  <div>
+    <div id="evcal_head_{{month_name}}" class="calendar_header ">
+        <p id="evcal_cur_{{month_name}}">{{month}} {{year}}</p>
+        </div>
+        <div class="eventon_fullcal" >        
+            <div class="evofc_month" >
+                <div class="eventon_fc_daynames" >
+                    <p class="evo_fc_day" >mon</p>
+                    <p class="evo_fc_day" >tue</p>
+                    <p class="evo_fc_day" >wed</p>
+                    <p class="evo_fc_day" >thu</p>
+                    <p class="evo_fc_day" >fri</p>
+                    <p class="evo_fc_day" >sat</p>
+                    <p class="evo_fc_day" >sun</p>
+                    <div class="clear" ></div>
+                </div>
+                <div class="eventon_fc_days" >
+                    {% for item in calendar_filling_days %}
+                    <p class="evo_fc_day on_focus" >{{item}}</p>
+                    {% endfor %}
+                    {% for item in calendar_days %}
+                    {% if item.version is 0 %}
+                    <p class="evo_fc_day" ><a href="content.xhtml#{{item.link}}">{{item.day}}</a></p>
+                    {% endif %}
+                    {% endfor %}
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div><h3><a href="commonPrayers.xhtml">Common Prayers</a></h3></div>
 </body>
 </html>
