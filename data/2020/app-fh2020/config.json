@@ -1,0 +1,29 @@
+{
+    "name": "FirstHalf2020-android",
+    "type": "leaflet",
+    "first_day": 1,
+    "first_month": 1,
+    "first_year": 2020,
+    "text_count": 32,
+    "first_weekday_day": "sunday",
+    "days_list": "leaflet-descriptions/FirstHalf2020",
+    "languages": [
+        "english"
+    ],
+    "spreadsheet": {
+        "english": "iPray2020-english"
+    },
+    "mediums": {
+        "pdf": {
+            "enable" : false
+        },
+
+        "epub": {
+            "enable" : false
+        },
+
+        "android": {
+            "enable" : false
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "info": "iPray 2020",
+    "tasks": {
+        "dec_leaflet": "app-fh2020"
+    },
+    "languages": [
+        "english",
+        "german"
+    ],
+    "spreadsheet": {
+        "english": "iPray2020-english"
+    }
+}
