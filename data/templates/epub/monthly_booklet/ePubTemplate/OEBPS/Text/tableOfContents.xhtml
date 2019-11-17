@@ -9,8 +9,8 @@
 </head>
 <body>
   <div>
-    <div id="evcal_head_{{month_name}}" class="calendar_header ">
-        <p id="evcal_cur_{{month_name}}">{{month}} {{year}}</p>
+    <div id="evcal_head_{{month_string}}" class="calendar_header ">
+        <p id="evcal_cur_{{month_string}}">{{month_string}} {{year}}</p>
         </div>
         <div class="eventon_fullcal" >        
             <div class="evofc_month" >
@@ -25,14 +25,12 @@
                     <div class="clear" ></div>
                 </div>
                 <div class="eventon_fc_days" >
-                    {% for item in calendar_filling_days %}
+                    {% for item in calendar_filling_days -%}
                     <p class="evo_fc_day on_focus" >{{item}}</p>
-                    {% endfor %}
-                    {% for item in calendar_days %}
-                    {% if item.version is 0 %}
-                    <p class="evo_fc_day" ><a href="content.xhtml#{{item.link}}">{{item.day}}</a></p>
-                    {% endif %}
-                    {% endfor %}
+                    {% endfor -%}
+                    {% for item in days -%}
+                    <p class="evo_fc_day" ><a href="content.xhtml#{{item['link']}}">{{item['day']}}</a></p>
+                    {% endfor -%}
                     <div class="clear"></div>
                 </div>
             </div>

@@ -12,5 +12,5 @@
     "meditationsContentFile" : "OEBPS/text/content.xhtml",
 
     "mobiStyleFile" : "mobiStyleTemplate.css",
-    "mobiStyleFileDestination" : "/OEBPS/Styles/Stylesheet.css",
+    "mobiStyleFileDestination" : "/OEBPS/Styles/Stylesheet.css"
 }

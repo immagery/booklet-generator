@@ -8,16 +8,16 @@
   <link rel="stylesheet" href="../Styles/stylesheet.css" type="text/css" />
 </head>
 <body>
-    {% for item in days %}
-    <a id="{{item.link}}"></a>
+    {% for item in days -%}
+    <a id="{{item['link']}}"></a>
     <div class="space"></div>
     <div class="superday">
-        {{item.day_string}}
+        {{item['day_string']}}
         <a class="back_cal" href="tableOfContents.xhtml"> [calendar]</a>
     </div>	
-    <div class="quote">{{item.quote}}</div>
-    <div class="gospel">"{{item.gospel}}"</div>
-    <div> {{item.content}}</div>
-    {% endfor %}
+    <div class="quote">{{item['quote']}}</div>
+    <div class="gospel">{{item['gospel']}}</div>
+    <div> {{item['subcontent']}}</div>
+    {% endfor -%}
 </body>
 </html>
