@@ -1,20 +1,22 @@
 iPray builder development roadmap
 ---------------------------------
 
-* explore how scribus exports PDF from those text files.
+Polishing
+=========
 
-* figure out the creation of the different kinds of docs:
-   - digital for website
-   - digital for print
-   - booklet to print at home
+* Clean up the folders structure when exporting
+* Print out a log of the tasks performed
+* Add a debug mode so we can strip up useless messages and temp folders
+* ensure that different languages are handled properly
 
-done
-----
+Big TODO's
+==========
 
-* Read properly all the text using the configurations and organize in dictionaries
+* Generate the pdf's in the background using scribus
+* generate mobi files straight away
+* generate the home printable version of the leaflet
 
-* explore how scribus defines the templates, it should be XML files, easy to read.
-* explore how scribus ends up creating text files that we could reopen in there.
-* read the templates in a format that is usable
+Future tasks
+============
 
-* build scribus doc using the dicitionaries and scribus templates 
+* Create a new template for the android app export

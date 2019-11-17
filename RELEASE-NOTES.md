@@ -1,5 +1,9 @@
 # IPray Release nooes 
 
+## Release 1.0.0
+
+All the mediums building (pdf, epub and android)
+
 ## Release 0.0.1
 
 ## New features
