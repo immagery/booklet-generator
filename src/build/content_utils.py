@@ -5,7 +5,7 @@ def generateContent(day_data, content_id, language = None, template = None):
 	contents['day'] = day_data.day
 	contents['day_tittle'] = day_data.code.replace(" ", "_")
 	contents['page_number'] = content_id
-	contents['day_string'] = day_data.getFullStringDay()
+	contents['day_string'] = day_data.getFullStringDay( language )
 	#contents['day_of_the_week'] = day_data.getStringWeekDay()
 	contents['saint'] = day_data.onomastic
 	contents['citation'] = day_data.quote
@@ -14,9 +14,7 @@ def generateContent(day_data, content_id, language = None, template = None):
 	contents['link'] = "page_{0}_{1}".format(content_id,contents['day_tittle'])
 	contents['day_number_string'] = day_data.get_string_day()
 	contents['day_number'] = day_data.day
-
-	language_ = 'english' if language is None else language
-	contents['month_string'] = monthNames[language_][day_data.month]
+	contents['month_string'] = day_data.getMonthString( language )
 
 	if template is not None:
 		page_text = template.render(**contents)

@@ -9,35 +9,44 @@
 </head>
 <body>
   <div>
-    <div id="evcal_head_{{month_string}}" class="calendar_header ">
-        <p id="evcal_cur_{{month_string}}">{{month_string}} {{year}}</p>
+      <h3><a href="commonPrayers.xhtml">Common Prayers</a></h3>
+  </div>
+  <div>
+      <h3>Gospel commentaries</h3>
+  </div>  
+  {% for month_name, month in months.items() -%}
+  <div>
+  <div id="evcal_head_{{month_name}}" class="calendar_header ">
+      <a id="{{month_name}}_back_link"></a>  
+      <p id="evcal_cur_{{month_name}}">{{month_name}} {{month['year']}}</p>
+      <div class="clear"></div>
+  </div>
+  <div class="eventon_fullcal" >        
+    <div class="evofc_month" >
+        <div class="eventon_fc_daynames" >
+            <p class="evo_fc_day" >mon</p>
+            <p class="evo_fc_day" >tue</p>
+            <p class="evo_fc_day" >wed</p>
+            <p class="evo_fc_day" >thu</p>
+            <p class="evo_fc_day" >fri</p>
+            <p class="evo_fc_day" >sat</p>
+            <p class="evo_fc_day" >sun</p>
+            <div class="clear" ></div>
         </div>
-        <div class="eventon_fullcal" >        
-            <div class="evofc_month" >
-                <div class="eventon_fc_daynames" >
-                    <p class="evo_fc_day" >mon</p>
-                    <p class="evo_fc_day" >tue</p>
-                    <p class="evo_fc_day" >wed</p>
-                    <p class="evo_fc_day" >thu</p>
-                    <p class="evo_fc_day" >fri</p>
-                    <p class="evo_fc_day" >sat</p>
-                    <p class="evo_fc_day" >sun</p>
-                    <div class="clear" ></div>
-                </div>
-                <div class="eventon_fc_days" >
-                    {% for item in calendar_filling_days -%}
-                    <p class="evo_fc_day on_focus" >{{item}}</p>
-                    {% endfor -%}
-                    {% for item in days -%}
-                    <p class="evo_fc_day" ><a href="content.xhtml#{{item['link']}}">{{item['day']}}</a></p>
-                    {% endfor -%}
-                    <div class="clear"></div>
-                </div>
-            </div>
+        <div class="eventon_fc_days" >
+            {% for item in month['calendar_filling_days'] -%}
+            <p class="evo_fc_day on_focus" >{{item}}</p>
+            {% endfor -%}
+            {% for item in month['days'] -%}
+            <p class="evo_fc_day" ><a href="content.xhtml#{{item['link']}}">{{item['day']}}</a></p>
+            {% endfor -%}
             <div class="clear"></div>
         </div>
-        <div class="clear"></div>
     </div>
-    <div><h3><a href="commonPrayers.xhtml">Common Prayers</a></h3></div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+  </div>
+  {% endfor -%}
 </body>
 </html>

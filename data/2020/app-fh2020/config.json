@@ -4,9 +4,8 @@
     "first_day": 1,
     "first_month": 1,
     "first_year": 2020,
-    "text_count": 32,
-    "first_weekday_day": "sunday",
-    "days_list": "leaflet-descriptions/FirstHalf2020",
+    "first_weekday_day": "Sunday",
+    "days_list": "leaflet-descriptions/_All2020_",
     "languages": [
         "english"
     ],
@@ -19,7 +18,7 @@
         },
 
         "epub": {
-            "enable" : false
+            "enable" : true
         },
 
         "android": {

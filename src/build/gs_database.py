@@ -86,6 +86,10 @@ class DaySpec(object):
         print(language_, full_str_day)
         return full_str_day
 
+    def getMonthString(self, language = None):
+        language_ = language if language is not None else self.language
+        return monthNames[language_][self.month]
+
     def getStringWeekDay(self, language = None):
         language_ = language if language is not None else self.language
         wd = weekdays[language_][getWeekDay(

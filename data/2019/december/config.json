@@ -6,10 +6,5 @@
     "first_year": 2019,
     "text_count": 32,
     "first_weekday_day": "Sunday",
-    "days_list": "leaflet-descriptions/Dec",
-
-    "mediums": {
-        "pdf": { "enable" : false },
-        "android": { "enable" : false }
-    } 
+    "days_list": "leaflet-descriptions/Dec"
 }

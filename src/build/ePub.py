@@ -1,5 +1,6 @@
 import os
 import shutil
+import calendar
 
 from .utils import read_template, read_json_file, copyDirectory, zip_tree
 from .gs_database import build_date_key, read_list_of_days
@@ -44,7 +45,7 @@ def build_epub (task_description, data_base, task_path, session_path, out_path) 
 
 	# MAIN CONTENT INDEX FILE
 	main_content = os.path.join(epub_output_dir, template_decription["contentFile"])
-	id_code = str(task_description["first_day"]) + str(task_description["first_month"]) + str(task_description["first_year"]) + str(task_description["text_count"])
+	id_code = str(task_description["first_day"]) + str(task_description["first_month"]) + str(task_description["first_year"])
 	replace_in_file(main_content, 
 					title_ipray_booklet = task_description['name'], 
 					booklet_id = task_description['name'] + id_code)
@@ -63,21 +64,36 @@ def build_epub (task_description, data_base, task_path, session_path, out_path) 
 	task_days = data_base.produce_days_from_list( days_list )
 
 	processed_tasks = []
+
+	months_info = {}
 	for task in task_days:
 		if task.version > 0:
 			continue
-		processed_tasks.append( generateContent(task, len(processed_tasks)))
 
-	default_language = 'english'
-	weekday_num = weekdayNumber[default_language][task_description["first_weekday_day"]]
-	grey_days = [ "--" for i in range(1, weekday_num) ]
+		task_processed = generateContent(task, len(processed_tasks), language = data_base.language)
+		processed_tasks.append( task_processed )
 
-	month_string = monthNames[data_base.language][task_description["first_month"]]
-	replace_in_file(table_of_contents, 
-					month_string = month_string, 
-					year = str(task_description["first_year"]), 
-					calendar_filling_days = grey_days, 
-					days = processed_tasks)
+		month_string = task.getMonthString(data_base.language)
+		weekday_number = calendar.weekday(task.year, task.month, task.day) + 1
+		if month_string not in months_info.keys():
+			months_info[month_string] = {}
+			months_info[month_string]['year'] = task.year
+			months_info[month_string]['first_day'] = task.day
+			months_info[month_string]['first_day_week'] = weekday_number
+			months_info[month_string]['days'] = []
+			print( task.year, task.day, weekday_number )
+		else:
+			if months_info[month_string]['first_day'] > task.day:
+				months_info[month_string]['first_day'] = task.day
+				months_info[month_string]['first_day_week'] = weekday_number
+
+		months_info[month_string]['days'].append(task_processed)
+
+	# fill remaning data
+	for month_name, month in months_info.items():
+		month['calendar_filling_days'] = [ "--" for i in range(1, month['first_day_week']) ]
+
+	replace_in_file(table_of_contents, months = months_info)
 
 	meditations_content = os.path.join(epub_output_dir, template_decription["meditationsContentFile"])
 	replace_in_file(meditations_content, tittle =  task_description['name'],  days = processed_tasks)
