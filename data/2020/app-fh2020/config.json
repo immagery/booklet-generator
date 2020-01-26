@@ -1,5 +1,5 @@
 {
-    "name": "FirstHalf2020-android",
+    "name": "FirstHalf2020",
     "type": "leaflet",
     "first_day": 1,
     "first_month": 1,
@@ -14,15 +14,19 @@
     },
     "mediums": {
         "pdf": {
-            "enable" : false
+            "images": {
+                "cover": {
+                    "english": "full_cover-english-small.jpg",
+                    "german" : "full_cover-english-small.jpg"
+                }
+            }
         },
 
         "epub": {
-            "enable" : true
-        },
-
-        "android": {
-            "enable" : false
+            "cover": {
+                "english" : "front_cover.jpg",
+                "german" : "front_cover.jpg"
+            }
         }
     }
 }

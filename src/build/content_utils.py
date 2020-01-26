@@ -10,6 +10,7 @@ def generateContent(day_data, content_id, language = None, template = None):
 	contents['saint'] = day_data.onomastic
 	contents['citation'] = day_data.quote
 	contents['gospel'] = day_data.gospel
+	contents['gospel_long'] = day_data.gospel_long
 	contents['subcontent'] = getCommentStylized(day_data.comment)
 	contents['link'] = "page_{0}_{1}".format(content_id,contents['day_tittle'])
 	contents['day_number_string'] = day_data.get_string_day()

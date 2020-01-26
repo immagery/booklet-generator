@@ -4,7 +4,6 @@ data/templates/scribus/fonts/Bembo-BoldItalic.otf
 data/templates/scribus/fonts/Bembo-BoldItalic.otf
 data/templates/scribus/fonts/Bembo-Italic.ttf
 
-iPray.code-workspace
 .vscode
 
 *.pyc
@@ -15,3 +14,4 @@ data/export
 
 data/credentials
 !data/credentials/README.md
+iPray.code-workspace
