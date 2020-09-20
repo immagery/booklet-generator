@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>Table of contents</title>
-  <link rel="stylesheet" href="../Styles/stylesheet.css" type="text/css" />
+  <link rel="stylesheet" href="stylesheet.css" type="text/css" />
 </head>
 <body>
   <div>
@@ -15,38 +15,33 @@
       <h3>Gospel commentaries</h3>
   </div>  
   {% for month_name, month in months.items() -%}
-  <div>
-  <div id="evcal_head_{{month_name}}" class="calendar_header ">
+  <div id="evcal_head_{{month_name}}" style="text-align: left;">
       <a id="{{month_name}}_back_link"></a>  
-      <p id="evcal_cur_{{month_name}}">{{month_name}} {{month['year']}}</p>
+      <h3 id="evcal_cur_{{month_name}}" >{{month_name}} {{month['year']}}</h3>
       <div class="clear"></div>
   </div>
-  <div class="eventon_fullcal" >        
-    <div class="evofc_month" >
-        <div class="eventon_fc_daynames" >
-            <p class="evo_fc_day" >mon</p>
-            <p class="evo_fc_day" >tue</p>
-            <p class="evo_fc_day" >wed</p>
-            <p class="evo_fc_day" >thu</p>
-            <p class="evo_fc_day" >fri</p>
-            <p class="evo_fc_day" >sat</p>
-            <p class="evo_fc_day" >sun</p>
-            <div class="clear" ></div>
-        </div>
-        <div class="eventon_fc_days" >
-            {% for item in month['calendar_filling_days'] -%}
-            <p class="evo_fc_day on_focus" >{{item}}</p>
-            {% endfor -%}
-            {% for item in month['days'] -%}
-            <p class="evo_fc_day" ><a href="content.xhtml#{{item['link']}}">{{item['day']}}</a></p>
-            {% endfor -%}
-            <div class="clear"></div>
-        </div>
-    </div>
-    <div class="clear"></div>
-  </div>
-  <div class="clear"></div>
-  </div>
+  <table>
+    <tr  class="calendar_header">
+      <th>Mon</th>
+      <th>Tue</th>
+      <th>Wed</th>
+      <th>Thu</th>
+      <th>Fri</th>
+      <th>Sat</th>
+      <th>Sun</th>
+    </tr>
+    {% for week in month['calendar_in_weeks'] -%}
+    <tr>
+      {% for day_id in week -%}
+        {% if day_id in month['days'] -%}
+          <td  class="calendar_day"><a href="content.xhtml#{{month['days'][day_id]['link']}}">{{month['days'][day_id]['day']}}</a></td>
+          {% else -%}
+          <td class="filling_day"></td>
+        {% endif -%}
+      {% endfor -%}
+    </tr>    
+    {% endfor -%}
+  </table>
   {% endfor -%}
 </body>
 </html>

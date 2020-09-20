@@ -1,0 +1,246 @@
+/* Style Sheet */
+/* This defines styles and classes used in the book */
+body { 
+	margin-left: 5%; 
+	margin-right: 5%; 
+	margin-top: 5%; 
+	margin-bottom: 5%; 
+	text-align: justify; 
+	font-size: 1em;
+}
+
+pre { font-size: x-small; }
+h1 { text-align: center; }
+h2 { text-align: center; }
+h3 { text-align: center; }
+h4 { text-align: center; }
+h5 { text-align: center; }
+h6 { text-align: center; }
+
+.CI {
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;
+    }
+
+.center   {text-align: center;}
+.smcap    {font-variant: small-caps;}
+.u        {text-decoration: underline;}
+.bold     {font-weight: bold;}
+
+.saintTittle {
+	color:#615F5F;
+	line-height: 80%;
+	font-size: 0.9em;
+	margin-left: 5.3%;
+	text-align: left;
+	padding:3px 0 5px;
+}
+.dayTittle {
+   margin-left: 5.3%;
+   line-height: 80%;
+   font-size: 1em;
+   text-align: left;
+   font-weight: bold;
+   color: #28486e;
+   font-family: oswald;
+   src: url('../Fonts/Oswald-Regular.otf');
+}
+
+.space {
+	padding:25px 0 0px;
+}
+
+.superday {
+   margin-left: 5%;
+   line-height: 80%;
+   font-size: 2em;
+   text-align: left;
+   display:inline;
+   font-weight: bold;
+   color: #365F91;
+   font-family: oswald;
+    src: url('../Fonts/Oswald-Regular.otf');
+}
+
+.superday .back_cal {
+   line-height: 80%;
+   font-size: 0.5em;
+   text-align: left;
+   display:inline;
+   font-weight: bold;
+   color: #999999;
+   font-family: oswald;
+   src: url('../Fonts/Oswald-Regular.otf');
+   padding:0px 0 3px;
+}
+
+.quote {
+	color:#615F5F;
+	line-height: 80%;
+	font-size: 0.7em;
+	margin-left: 5.3%;
+	text-align: left;
+}
+
+
+.gospel { 
+font-size: x-small; 
+	      font-style: italic;
+	      margin-left: 5%; margin-right: 5%; margin-top: 1%; margin-bottom: 2%; text-align: justify;
+	      font-size: 0.9em;
+	  	}
+ /*
+	Eventon Full Calendar styles
+	version 0.15
+*/
+
+.eventon_fullcal {
+	padding:0px 0 10px;
+	overflow:hidden;
+	width:100%;
+	position:relative;
+	border-bottom: 0px solid #bdbdbd;
+}
+
+.calendar_header{
+	padding:0px 0 10px;
+	overflow:hidden;
+	width:100%;
+	position:relative;
+	font:bold 40px oswald;
+    src: url('../Fonts/Oswald-Regular.otf');
+	margin-top: -5px;
+	margin-bottom: -45px;
+	margin-left: 20px;
+	color: #898888;
+
+}
+
+.evofc_month{float:left;}	
+
+.eventon_fullcal .eventon_fc_daynames .evo_fc_day{ 
+	font:bold 15px 'open sans', arial;
+	padding-bottom:5px; 
+	padding-top:7px; 
+	margin: 0!important
+
+}
+
+.eventon_fullcal .evo_fc_day{
+	display:block;
+	margin:0;
+	float:left;
+	width:14.27%;
+	text-align:center;
+	min-height:5px;
+	cursor:pointer;
+	border-top:3px solid transparent;
+	font-size:18px;
+	padding:0px 0;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+
+.eventon_fullcal p{
+	color: #a9a9a9;
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-family: oswald;
+    src: url('../Fonts/Oswald-Regular.otf');
+}
+
+
+/* new grid boxes */
+.eventon_fullcal .evo_fc_day{
+	border-top:2px solid #bdbdbd;
+	border-right:0px solid #bdbdbd;
+	border-bottom: 0px solid #fff;
+}
+
+.eventon_fullcal .evo_fc_day.bb{
+	border-bottom:1px solid #bdbdbd;
+}
+.eventon_fullcal .evo_fc_day.br{
+	border-right:1px solid #bdbdbd;
+
+}
+.eventon_fc_days, .eventon_fc_daynames{
+	border-left:1px solid #bdbdbd;
+}
+.eventon_fc_days .evo_fc_day{
+	padding:15px 0;
+	margin: 0!important;
+	border-left:1px solid #bdbdbd;
+	border-right:1px solid #bdbdbd;
+	border-top:1px solid #bdbdbd;
+	border-bottom:1px solid #bdbdbd;
+}
+
+
+.eventon_fc_days .on_focus{
+	border-left: 0px solid #fff;
+	border-top:0px solid #bdbdbd;
+	border-right:0px solid #bdbdbd;
+	border-bottom: 0px solid #fff;
+	color: #ffffff;
+}
+
+.prayer {  
+	      font-style: italic;
+	      margin-left: 5%; margin-right: 5%; margin-top: 1%; margin-bottom: 2%; text-align: justify;
+	      font-size: 0.9em;
+	  	}
+
+.holeSizeprayer {  
+	      font-style: italic;
+	      margin-left: 5%; margin-right: 5%; margin-top: 1%; margin-bottom: 2%; text-align: justify;
+	      font-size: 0.9em;
+	  	}	  
+
+.rosaryPrayer {  
+	      font-style: italic;
+	      margin-left: 5%; margin-right: 5%; margin-top: 0%; margin-bottom: 0%; text-align: justify;
+	      font-size: 0.9em;
+	  	}
+
+.rosaryPrayer b{  
+	      font-style: italic;
+	      color:#9c1006;
+	      margin-left: 1%; margin-right: 1%; margin-top: 1%; margin-bottom: 2%; text-align: justify;
+	      font-size: 0.9em;
+	  	}
+
+/* unvisited link */
+a:link {
+	color: #999999;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+	color: #999999;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	color: #6c6b6b;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+	color: #999999;
+	text-decoration: none;
+}	

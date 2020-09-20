@@ -70,6 +70,9 @@ def build_epub (task_description, data_base, task_path, session_path, out_path) 
 		if task.version > 0:
 			continue
 
+		if task.blank:
+			continue
+
 		task_processed = generateContent(task, len(processed_tasks), language = data_base.language)
 		processed_tasks.append( task_processed )
 
@@ -80,18 +83,16 @@ def build_epub (task_description, data_base, task_path, session_path, out_path) 
 			months_info[month_string]['year'] = task.year
 			months_info[month_string]['first_day'] = task.day
 			months_info[month_string]['first_day_week'] = weekday_number
-			months_info[month_string]['days'] = []
-			print( task.year, task.day, weekday_number )
+			weeks = calendar.monthcalendar(task.year, task.month)
+			months_info[month_string]['calendar_in_weeks'] = weeks
+			months_info[month_string]['days'] = {}
+			#print( task.year, task.day, weekday_number )
 		else:
 			if months_info[month_string]['first_day'] > task.day:
 				months_info[month_string]['first_day'] = task.day
 				months_info[month_string]['first_day_week'] = weekday_number
 
-		months_info[month_string]['days'].append(task_processed)
-
-	# fill remaning data
-	for month_name, month in months_info.items():
-		month['calendar_filling_days'] = [ "--" for i in range(1, month['first_day_week']) ]
+		months_info[month_string]['days'][task.day] = task_processed
 
 	replace_in_file(table_of_contents, months = months_info)
 

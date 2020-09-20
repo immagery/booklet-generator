@@ -1,7 +1,7 @@
 {
-    "info": "iPray 2020",
+    "info": "iPray second-half 2020",
     "tasks": {
-        "dec_leaflet": "app-fh2020"
+        "leaflet": "sh2020"
     },
     "languages": [
         "english"

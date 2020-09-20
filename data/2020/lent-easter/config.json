@@ -1,0 +1,10 @@
+{
+    "name": "LentEaster2020",
+    "type": "leaflet",
+    "first_day": 26,
+    "first_month": 2,
+    "first_year": 2020,
+    "text_count": 96,
+    "first_weekday_day": "Wednesday",
+    "days_list": "leaflet-descriptions/LentEaster"
+}

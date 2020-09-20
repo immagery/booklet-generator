@@ -9,7 +9,6 @@
     "export_path" : "export",
 
     "tasks": {
-        "dec_leaflet": "december"
     },
     
     "languages": [

@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>{{tittle}}</title>
-  <link rel="stylesheet" href="../Styles/stylesheet.css" type="text/css" />
+  <link rel="stylesheet" href="stylesheet.css" type="text/css" />
 </head>
 <body>
     {% for item in days -%}
@@ -16,8 +16,9 @@
         <a class="back_cal" href="tableOfContents.xhtml#{{item['month_string']}}_back_link"> [calendar]</a>
     </div>	
     <div class="quote">{{item['quote']}}</div>
-    <div class="gospel">{{item['gospel_long']}}</div>
+    <div class="gospel">{{item['gospel']}}</div>
     <div> {{item['subcontent']}}</div>
+    <br />
     {% endfor -%}
 </body>
 </html>

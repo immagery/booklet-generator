@@ -6,6 +6,7 @@ This is a Python based app to generate iPray booklets
 for development I'm using several python packages to make our life easier:
 
 <p>pip install Jinja2
+<p>pip install gspread
 <p>pip install --upgrade oauth2client
 <p>pip install PyOpenSSL
 <p>pip install git+https://github.com/jachinlin/kindle_maker.git

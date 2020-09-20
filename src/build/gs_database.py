@@ -11,6 +11,8 @@ from datetime import date, timedelta
 from .namesSpecs import weekdays, monthNumber, getWeekDay, monthNames
 from .parse import break_and_process_comments
 
+SKIP_DAY_CODE = "white"
+
 def split_date_key(date_key):
     if '/' in date_key:
         elements = date_key.split('/')
@@ -41,6 +43,7 @@ class DaySpec(object):
         self.language = 'english'
         self.week_day = 1
         self.gospel = ""
+        self.gospel_long = ""
         self.onomastic = ""
         self.quote = ""
         self.comment = ""
@@ -49,6 +52,7 @@ class DaySpec(object):
         self.link = None
         self.comment_in_html = ""
         self.day_string = ""
+        self.is_blank = False
 
     @classmethod
     def copy_contructor(cls, day_data, date_key):
@@ -58,13 +62,24 @@ class DaySpec(object):
         day.language = day_data.language
         day.week_day = day_data.week_day
         day.gospel = day_data.gospel
+        day.gospel_long = day_data.gospel_long
         day.onomastic = day_data.onomastic
         day.quote = day_data.quote
         day.comment = day_data.comment
         day.date = day_data.date
         day.code = day_data.code
         day.link = day_data.link
-        return day        
+        return day
+
+    @classmethod
+    def blank_day(cls):
+        blank = cls()
+        blank.is_blank = True
+        return blank
+
+    @property
+    def blank(self):
+        return self.is_blank        
 
     @classmethod
     def from_day_raw_data(cls, day_data, date_key, version=0):
@@ -83,7 +98,7 @@ class DaySpec(object):
         wd = weekdays[language_][getWeekDay(self.day, self.month, self.year)]
         month_str = monthNames[language_][self.month]
         full_str_day = "%s %s %s" % (wd, self.get_string_day(), month_str)
-        print(language_, full_str_day)
+        #print(language_, full_str_day)
         return full_str_day
 
     def getMonthString(self, language = None):
@@ -135,7 +150,11 @@ class DataBaseHandler:
             print("processing sheet {0} with {1} days.".format(sheet.title, sheet.col_count))
             sheet_day_values = sheet.get_all_values()
 
-            keys_used_in_table = [sheet_day_values[i][0] for i in range(1, sheet.row_count)]
+            min_size = sheet.row_count if sheet.row_count < len(sheet_day_values) else len(sheet_day_values)
+            if min_size < sheet.row_count:
+                print("There is something funny on the number of rows on the table {0}".format(sheet.title))
+
+            keys_used_in_table = [sheet_day_values[i][0] for i in range(1, min_size)]
 
             for col in range(sheet.col_count-1):
                 day_key = sheet_day_values[1][col+1]
@@ -192,9 +211,14 @@ class DataBaseHandler:
         
         for day_code in list_of_days:
             version = 0
+            # run over all the entries for the day_code (date)
             for text_in_day in day_code[1:]:
                 if text_in_day in self.days:
                     new_day = DaySpec.copy_contructor(self.days[text_in_day][0], day_code[0])
+                    new_day.version = version
+                    days_collected.append( new_day )
+                elif text_in_day == SKIP_DAY_CODE :
+                    new_day = DaySpec.blank_day()
                     new_day.version = version
                     days_collected.append( new_day )
                 else:
@@ -264,8 +288,6 @@ def read_list_of_days(list_name):
         if len(texts) < 2:
             print("There is no texts on the day {0}", day_code_idx)
             continue
-        
-        print(texts)
 
         days_to_proces.append(texts)
 

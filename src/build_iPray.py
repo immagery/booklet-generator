@@ -71,6 +71,7 @@ for task_name, task_folder in session_config['tasks'].items():
     # read the configuration task for the leaflet
     task_path = os.path.join(session_path, base_config_path, task_folder)
     task_decription_file_name = os.path.join(task_path, "config.json")
+    print(task_decription_file_name)
     task_description = read_json_file(task_decription_file_name)
 
     # merge the child config (session_config) into the parent (task_description)

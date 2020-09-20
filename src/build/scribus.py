@@ -291,6 +291,10 @@ def build_main_pages(template_decription, task_description, data_base, base_temp
     
     content_pages = []
     for day in task_days:
+        if day.code == 'white':
+         print("there should be a white page at this point")
+         continue
+
         page_data = {}
 
         page_data['gospel'] = day.gospel.replace("\"", "&quot;")

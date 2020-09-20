@@ -1,0 +1,10 @@
+{
+    "name": "February2020",
+    "type": "leaflet",
+    "first_day": 1,
+    "first_month": 2,
+    "first_year": 2020,
+    "text_count": 30,
+    "first_weekday_day": "Saturday",
+    "days_list": "leaflet-descriptions/_Feb20_"
+}

@@ -22,12 +22,15 @@ def fillXhtmlContents( task_description, data_base, task_path, session_path, app
 
 	page_id = 0
 	for day in task_days:		
+		if day.blank:
+			continue
+
 		dailyContent = generateContent(day, page_id, language=data_base.language, template=day_template)
 		
 		if day.version == 0:
-			file_name = os.path.join(app_out_folder, "[{id}]{day}-{month}.html".format( id = page_id, day=day.day, month = day.month ))
+			file_name = os.path.join(app_out_folder, "{day}-{month}.html".format( id = page_id, day=day.day, month = day.month ))
 		else:
-			file_name = os.path.join(app_out_folder, "[{id}]{day}-{month}_{v_id}.html".format( id = page_id, day=day.day, month = day.month, v_id = day.version ))
+			file_name = os.path.join(app_out_folder, "{day}-{month}_{v_id}.html".format( id = page_id, day=day.day, month = day.month, v_id = day.version ))
 
 		ext_file = open(file_name, 'w', encoding="utf-8")
 		ext_file.write(dailyContent)
