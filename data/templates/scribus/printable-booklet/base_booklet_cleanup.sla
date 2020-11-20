@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SCRIBUSUTF8NEW Version="1.5.6.1">
+    <DOCUMENT ANZPAGES="11" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" PRESET="0" BleedTop="8.50110236220473" BleedLeft="8.50110236220473" BleedRight="8.50110236220473" BleedBottom="8.50110236220473" ORIENTATION="0" PAGESIZE="Custom" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="11" UNITS="2" DFONT="Palatino Linotype Regular" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" TextDistLeft="0" TextDistRight="0" TextDistBottom="0" TextDistTop="0" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="100" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="1" HCMS="1" DPSo="0" DPSFo="0" DPuse="1" DPgam="0" DPbla="1" DPPr="Fogra27L CMYK Coated Press" DPIn="sRGB IEC61966-2.1" DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="sRGB IEC61966-2.1" DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="1" LANGUAGE="en_US" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="0" SnapToGrid="0" SnapToElement="0" MINGRID="20.0016" MAJGRID="100.0008" SHOWGRID="0" SHOWGUIDES="0" showcolborders="0" SHOWFRAME="0" SHOWControl="0" SHOWLAYERM="0" SHOWMARGIN="0" SHOWBASE="0" SHOWPICT="1" SHOWLINK="0" rulerMode="0" showrulers="0" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186547" POLYR="0" POLYIR="0" POLYCUR="0" POLYOCUR="0" POLYS="0" arcStartAngle="30" arcSweepAngle="300" spiralStartAngle="0" spiralEndAngle="1080" spiralFactor="1.2" AutoSave="1" AutoSaveTime="600000" AutoSaveCount="1" AutoSaveKeep="0" AUtoSaveInDocDir="1" AutoSaveDir="" ScratchBottom="20.0016" ScratchLeft="100.0008" ScratchRight="100.0008" ScratchTop="20.0016" GapHorizontal="0" GapVertical="40.0032" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="None" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" CPICT="None" PICTSHADE="100" CSPICT="None" PICTSSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.1584" dispY="0.1584" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" renderStack="4 0 1 2 3" GridType="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript" calligraphicPenFillColor="Black" calligraphicPenLineColor="Black" calligraphicPenFillColorShade="100" calligraphicPenLineColorShade="100" calligraphicPenLineWidth="1" calligraphicPenAngle="0" calligraphicPenWidth="10" calligraphicPenStyle="1">
+        <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="0" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="0" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="0" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF 1.6" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="1" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF/X-1a" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="0" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF/X-3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="0" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF/X-4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="1" checkFontNotEmbedded="1" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PostScript" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="0" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <COLOR NAME="Black" SPACE="CMYK" C="0" M="0" Y="0" K="100"/>
+        <COLOR NAME="Cool Black" SPACE="CMYK" C="60" M="0" Y="0" K="100"/>
+        <COLOR NAME="Red" SPACE="CMYK" C="0" M="98.0392156862745" Y="98.0392156862745" K="0"/>
+        <COLOR NAME="Registration" SPACE="CMYK" C="100" M="100" Y="100" K="100" Register="1"/>
+        <COLOR NAME="White" SPACE="CMYK" C="0" M="0" Y="0" K="0"/>
+        <COLOR NAME="d" SPACE="RGB" R="153" G="102" B="51"/>
+        <COLOR NAME="darker_grey" SPACE="CMYK" C="0" M="0" Y="0" K="45.8823529411765"/>
+        <COLOR NAME="light_grey" SPACE="CMYK" C="0" M="0" Y="0" K="38.0392156862745"/>
+        <HYPHEN/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" FONT="Palatino Linotype Regular"/>
+        <STYLE NAME="normal-right-alignement" PARENT="Default Paragraph Style" ALIGN="2"/>
+        <STYLE NAME="gospel" PARENT="Default Paragraph Style" ALIGN="3" LINESPMode="0" LINESP="12" INDENT="8.503937008" RMARGIN="8.503937008" FIRST="5.669291339" FONT="Palatino Linotype Italic" FONTSIZE="10"/>
+        <STYLE NAME="normal" PARENT="Default Paragraph Style" ALIGN="3" LINESPMode="0" LINESP="13" VOR="7" NACH="0" DROP="0" DROPLIN="6" MinWordTrack="1" FONT="Palatino Linotype Regular" FONTSIZE="10"/>
+        <STYLE NAME="Date" PARENT="normal" FONT="Palatino Linotype Regular"/>
+        <STYLE NAME="page-number" PARENT="normal" ALIGN="1" FONTSIZE="10"/>
+        <STYLE NAME="Date-left" PARENT="Date" ALIGN="2"/>
+        <STYLE NAME="onomastic-left" PARENT="normal" FONT="Palatino Linotype Italic" FCOLOR="darker_grey"/>
+        <STYLE NAME="onomastic-right" PARENT="normal" ALIGN="2" FONT="Palatino Linotype Italic" FCOLOR="darker_grey"/>
+        <STYLE NAME="normal-compressed" PARENT="normal" LINESP="13" VOR="2" NACH="5" FONTSIZE="11.5"/>
+        <STYLE NAME="centered prayer" PARENT="gospel" LINESP="12"/>
+        <STYLE NAME="Centered prayer with space" PARENT="centered prayer" LINESPMode="0" NACH="2" FONTSIZE="10"/>
+        <STYLE NAME="Title" PARENT="normal" VOR="1" NACH="7"/>
+        <STYLE NAME="tittle_compressed" PARENT="normal-compressed" VOR="5" NACH="0"/>
+        <STYLE NAME="gospel_extra" PARENT="gospel" NACH="5"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="Palatino Linotype Regular" FONTSIZE="10" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="en_US"/>
+        <CHARSTYLE CNAME="black" CPARENT="Default Character Style" FONT="Palatino Linotype Bold"/>
+        <CHARSTYLE CNAME="italic" CPARENT="Default Character Style" FONT="Palatino Linotype Italic"/>
+        <CHARSTYLE CNAME="italic-black" CPARENT="Default Character Style" FONT="Palatino Linotype Bold Italic"/>
+        <CHARSTYLE CNAME="Red Italic" CPARENT="italic" FCOLOR="Red"/>
+        <CHARSTYLE CNAME="Tittle" FONT="Palatino Linotype Bold" FONTSIZE="16" FONTFEATURES="-clig" LANGUAGE="en_US"/>
+        <CHARSTYLE CNAME="santo-title" CPARENT="Default Character Style" FONTSIZE="13" FCOLOR="darker_grey"/>
+        <CHARSTYLE CNAME="Day" CPARENT="Default Character Style" FONTSIZE="13"/>
+        <CHARSTYLE CNAME="versiculo" FONT="Palatino Linotype Bold" FONTSIZE="11" FONTFEATURES="-clig" FCOLOR="Black" FSHADE="60" LANGUAGE="en_US"/>
+        <CHARSTYLE CNAME="evangelio" FONT="Palatino Linotype Italic" FONTFEATURES="-clig" LANGUAGE="en_US"/>
+        <CHARSTYLE CNAME="reflexion" FONTSIZE="11" LANGUAGE="en_US"/>
+        <CHARSTYLE CNAME="reflexion-italic" CPARENT="reflexion" FONT="Palatino Linotype Italic" FONTFEATURES="-clig"/>
+        <CHARSTYLE CNAME="reflexion-black" CPARENT="reflexion" FONT="Palatino Linotype Bold" FONTFEATURES="-clig"/>
+        <CHARSTYLE CNAME="page" CPARENT="Default Character Style" FCOLOR="Black" FSHADE="70"/>
+        <TableStyle NAME="Default Table Style" DefaultStyle="1" FillColor="None" FillShade="100">
+            <TableBorderLeft>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderLeft>
+            <TableBorderRight>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderRight>
+            <TableBorderTop>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderTop>
+            <TableBorderBottom>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderBottom>
+        </TableStyle>
+        <CellStyle NAME="Default Cell Style" DefaultStyle="1" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+            <TableBorderLeft>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderLeft>
+            <TableBorderRight>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderRight>
+            <TableBorderTop>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderTop>
+            <TableBorderBottom>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderBottom>
+        </CellStyle>
+        <LAYERS NUMMER="2" LEVEL="0" NAME="Background (mp items)" SICHTBAR="0" DRUCKEN="1" EDIT="1" SELECT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
+        <LAYERS NUMMER="3" LEVEL="1" NAME="New Layer 1 (mp items)" SICHTBAR="0" DRUCKEN="1" EDIT="1" SELECT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
+        <LAYERS NUMMER="0" LEVEL="2" NAME="Background" SICHTBAR="0" DRUCKEN="1" EDIT="1" SELECT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
+        <LAYERS NUMMER="1" LEVEL="3" NAME="New Layer 1" SICHTBAR="1" DRUCKEN="1" EDIT="1" SELECT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
+        <Printer firstUse="1" toFile="0" useAltPrintCommand="0" outputSeparations="0" useSpotColors="1" useColor="1" mirrorH="0" mirrorV="0" useICC="1" doGCR="0" doClip="0" setDevParam="0" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" includePDFMarks="1" PSLevel="3" PrintEngine="3" markLength="20" markOffset="0" BleedTop="8.50110236220473" BleedLeft="8.50110236220473" BleedRight="8.50110236220473" BleedBottom="8.50110236220473" printer="" filename="" separationName="All" printerCommand=""/>
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" EmbedPDF="0" MirrorH="0" MirrorV="0" Clip="0" rangeSel="0" rangeTxt="" RotateDeg="0" PresentMode="0" RecalcPic="0" FontEmbedding="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="sRGB IEC61966-2.1" ImageP="sRGB IEC61966-2.1" PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markLength="1.0008" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" openAfterExport="0" PageLayout="0" openAction="">
+            <Subset Name="Palatino Linotype Bold"/>
+            <Subset Name="Palatino Linotype Bold Italic"/>
+            <Subset Name="Palatino Linotype Italic"/>
+            <Subset Name="Palatino Linotype Regular"/>
+            <LPI Color="" Frequency="133" Angle="45" SpotFunction="3"/>
+            <LPI Color="Black" Frequency="133" Angle="45" SpotFunction="3"/>
+            <LPI Color="Cyan" Frequency="133" Angle="105" SpotFunction="3"/>
+            <LPI Color="Magenta" Frequency="133" Angle="75" SpotFunction="3"/>
+            <LPI Color="Yellow" Frequency="133" Angle="90" SpotFunction="3"/>
+        </PDF>
+        <DocItemAttributes/>
+        <TablesOfContents/>
+        <NotesStyles>
+            <notesStyle Name="Default" Start="1" Endnotes="0" Type="Type_1_2_3" Range="0" Prefix="" Suffix=")" AutoHeight="1" AutoWidth="1" AutoRemove="1" AutoWeld="1" SuperNote="1" SuperMaster="1" MarksStyle="" NotesStyle=""/>
+        </NotesStyles>
+        <PageSets>
+            <Set Name="Single Page" FirstPage="0" Rows="1" Columns="1"/>
+            <Set Name="Double Sided" FirstPage="0" Rows="1" Columns="2">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+            <Set Name="3-Fold" FirstPage="0" Rows="1" Columns="3">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Middle"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+            <Set Name="4-Fold" FirstPage="0" Rows="1" Columns="4">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Middle Left"/>
+                <PageNames Name="Middle Right"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+        </PageSets>
+        <Sections>
+            <Section Number="0" Name="0" From="0" To="10" Type="Type_1_2_3" Start="1" Reversed="0" Active="1" FillChar="0" FieldWidth="0"/>
+        </Sections>
+        <MASTERPAGE PAGEXPOS="100.0008" PAGEYPOS="20.0016" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="0" NAM="white" MNAM="" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="20.0016" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="0" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="708.0048" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="1" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="1396.008" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="2" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="2084.0112" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="3" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="2772.0144" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="4" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="3460.0176" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="5" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="4148.0208" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="6" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="4836.024" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="7" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="5524.0272" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="8" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="6212.0304" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="9" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="6900.0336" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="10" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGEOBJECT XPOS="138.80017007874" YPOS="4192.57387086614" OwnPage="6" ItemID="248574016" PTYPE="4" WIDTH="356.977607699038" HEIGHT="561.902362204724" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" ANNAME="main_text_left" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="5.66929133858268" TEXTRA="0" BEXTRA="0" REXTRA="5.66929133858268" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L356.978 0 L356.978 561.902 L0 561.902 L0 0 Z" copath="M0 0 L356.978 0 L356.978 561.902 L0 561.902 L0 0 Z" gXpos="19.1348157267719" gYpos="4141.39150866142" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="250529824" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CPARENT="Tittle" CH="Common prayers"/>
+                <para PARENT="normal-compressed" ALIGN="1"/>
+                <ITEXT CPARENT="black" CH=" "/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="reflexion-black" CH="Visit to the Blessed Sacrament: "/>
+                <para PARENT="Title"/>
+                <ITEXT CPARENT="Red Italic" CH="V/ "/>
+                <ITEXT CPARENT="italic" CH="O Sacrament most holy! O Sacrament divine! "/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="Red Italic" CH="R/ "/>
+                <ITEXT CPARENT="italic" CH="All praise and all thanksgiving, be every moment Thine! "/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="italic" CH="Our Father, Hail Mary, Glory be... "/>
+                <para PARENT="normal-compressed" ALIGN="1"/>
+                <ITEXT CPARENT="Default Character Style" CH="[ After repeating this three times, we repeat the aspiration ‘O Sacrament most holy…’ and then say the following Spiritual Communion ]: "/>
+                <para PARENT="normal-compressed" ALIGN="1"/>
+                <ITEXT CPARENT="italic" CH="I wish, Lord, to receive You, with the purity, humility and devotion with which Your most holy Mother received You; with the spirit and fervour of the saints."/>
+                <para PARENT="normal-compressed"/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="reflexion-black" CH="Angelus:"/>
+                <ITEXT CPARENT="black" CH=" "/>
+                <para PARENT="Title"/>
+                <ITEXT CPARENT="Red Italic" CH="V/ "/>
+                <ITEXT CPARENT="italic" CH="The Angel of the Lord declared unto Mary, "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="Red Italic" CH="R/ "/>
+                <ITEXT CPARENT="italic" CH="And she conceived by the Holy Spirit. Hail Mary. "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="Red Italic" CH="V/ "/>
+                <ITEXT CPARENT="italic" CH="Behold the handmaid of the Lord, "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="Red Italic" CH="R/"/>
+                <ITEXT CPARENT="italic" CH=" Be it done unto me according to thy word. Hail Mary. "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="Red Italic" CH="V/"/>
+                <ITEXT CPARENT="italic" CH=" And the Word was made flesh, "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="Red Italic" CH="R/"/>
+                <ITEXT CPARENT="italic" CH=" And dwelt among us. Hail Mary. "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="Red Italic" CH="V/"/>
+                <ITEXT CPARENT="italic" CH=" Pray for us, O holy Mother of God, "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="Red Italic" CH="R/ "/>
+                <ITEXT CPARENT="italic" CH="That we may be made worthy of the promises of Christ. "/>
+                <para PARENT="centered prayer"/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="Let us pray. "/>
+                <para PARENT="gospel"/>
+                <ITEXT CPARENT="italic" CH="Pour forth, we beseech Thee, O Lord, Thy grace into our hearts: that we, to whom the Incarnation of Christ, Thy Son, was made known by the message of an Angel, may by His Passion and Cross be brought to the glory of His Resurrection, through the same Christ our Lord. Amen."/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="reflexion-black" CH="Memorare: "/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="italic" CH="Remember, O most gracious Virgin Mary, that never was it known that anyone who fled to thy protection, implored thy help, or sought thy intercession was left unaided. Inspired by this confidence, I fly unto thee, O Virgin of virgins, my mother; to thee do I come, before thee I stand, sinful and sorrowful. O Mother of the Word Incarnate, despise not my petitions, but in thy mercy hear and answer me. Amen. "/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="reflexion-black" CH="Morning offering: "/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="italic" CH="O Jesus, through the most pure heart of Mary, I offer you all the prayers, works, sufferings and joys of this day, for all the intentions of your Divine Heart. Amen."/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="reflexion-black" CH="Blessing before meals: "/>
+                <para PARENT="tittle_compressed"/>
+                <ITEXT CPARENT="italic" CH="Bless us, O Lord, and these Thy gifts which we are about to receive from Thy bounty, through Christ our Lord, Amen. "/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="reflexion-black" CH="Grace after meals: "/>
+                <para PARENT="tittle_compressed"/>
+                <ITEXT CPARENT="italic" CH="We give you thanks, Almighty God, for all Your benefits, who live and reign, world without end. Amen. "/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="reflexion-black" CH="Act of contrition: "/>
+                <para PARENT="tittle_compressed"/>
+                <ITEXT CPARENT="italic" CH="O My God, because you are so good, I am very sorry that I have sinned against you, and by the help of your grace, I will not sin again. Amen. "/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="reflexion-black" CH="Guardian Angel: "/>
+                <para PARENT="tittle_compressed"/>
+                <ITEXT CPARENT="italic" CH="Angel of God, my Guardian dear, to whom His love commits me here, ever this day (or night) be at my side, to light and guard, to rule and guide. Amen."/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="reflexion-black" CH="Morning offering: "/>
+                <para PARENT="tittle_compressed"/>
+                <ITEXT CPARENT="italic" CH="O Jesus, through the most pure heart of Mary, I offer you all the prayers, works, sufferings and joys of this day, for all the intentions of your Divine Heart. Amen."/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="reflexion-black" CH="Prayer to St. Michael: "/>
+                <para PARENT="tittle_compressed"/>
+                <ITEXT CPARENT="italic" CH="St. Michael the Archangel, defend us in the day battle: be our defence against the wickedness and snares of the devil. May God rebuke him, we humbly pray. And do you, O prince of the heavenly host, by the power of God cast into hell Satan and all the evil spirits who prowl about the world fo the ruin of souls. Amen."/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="reflexion-black" CH="Holy Rosary: "/>
+                <para PARENT="tittle_compressed"/>
+                <ITEXT CPARENT="italic" CH="In the name of the Father, and of the Son, and of the Holy Spirit. Amen."/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="italic" FONT="Palatino Linotype Bold Italic" CH="The Apostles’ Creed "/>
+                <para PARENT="gospel"/>
+                <ITEXT CPARENT="italic" CH="I believe in God, the Father Almighty, Creator of heaven and earth; and in Jesus Christ, His only Son, our Lord; Who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried. He descended into hell; the third day He arose again from the dead. He ascended into heaven, and sits at the right hand of God, the Father Almighty; from thence He shall come to judge the living and the dead. I believe in the Holy Spirit, the Holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body and life everlasting. Amen. "/>
+                <para PARENT="gospel_extra"/>
+                <ITEXT CPARENT="Default Character Style" CH="Then you can say one “Our Father”, three “Hail Marys” and the “Glory be to the Father.”"/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="Red Italic" CH="V.  "/>
+                <ITEXT CPARENT="italic" CH="Thou, O Lord, wilt open my lips, "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="Red Italic" CH="R."/>
+                <ITEXT CPARENT="italic" CH=" And my tongue shall announce thy praise. "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="Red Italic" CH="V."/>
+                <ITEXT CPARENT="italic" CH=" Incline to my aid, O God. "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="Red Italic" CH="R. "/>
+                <ITEXT CPARENT="italic" CH="O Lord, make haste to help me. "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="Red Italic" CH="V. "/>
+                <ITEXT CPARENT="italic" CH="Glory be to the Father, and to the Son, and to the Holy Spirit. "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="Red Italic" CH="R. "/>
+                <ITEXT CPARENT="italic" CH="As it was in the beginning, is now, and ever shall be, world without end. Amen. "/>
+                <para PARENT="gospel_extra"/>
+                <ITEXT CPARENT="Default Character Style" CH="After each decade say the following prayer requested by the Blessed Virgin Mary at Fatima: "/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="italic" CH="“O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of your mercy.”   "/>
+                <para PARENT="gospel_extra"/>
+                <ITEXT CPARENT="italic-black" CH="The Joyful Mysteries"/>
+                <ITEXT CPARENT="italic" CH=" (recited Monday and Saturday) "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="1. The Annunciation "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="2. The Visitation "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="3. The Birth of Our Lord "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="4. The Pr esentation "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="5. The Finding of the Child Jesus in the Temple"/>
+                <para PARENT="centered prayer"/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic-black" CH="The Mysteries of Light"/>
+                <ITEXT CPARENT="italic" CH=" (recited Thursday) "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="1. The Baptism of Jesus "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="2. The Wedding Feast at Cana "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="3. The Proclamation of the Kingdom and the call to Conversion "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="4. The Transfiguration "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="5. The Institution of the Eucharist"/>
+                <para PARENT="centered prayer"/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic-black" CH="The Sorrowful Mysteries"/>
+                <ITEXT CPARENT="italic" CH=" (recited Tuesday and Friday) "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="1. The Agony in the Garden "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="2. The Scourging at the Pillar "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="3. The Crowning with Thorns "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="4. The Carrying of the Cross "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="5. The Crucifixion and Death of Our Lord "/>
+                <para PARENT="centered prayer"/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic-black" CH="The Glorious Mysteries"/>
+                <ITEXT CPARENT="italic" CH=" (recited Wednesday and Sunday) "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="1. The Resurrection  "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="2. The Ascension"/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="3. The Descent of the Holy Spirit "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="4. The Assumption "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH="5. The Coronation of the Blessed Virgin Mary"/>
+                <para PARENT="centered prayer"/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="Default Character Style" CH=" At the end of the fifth Mystery we say the Hail, Holy Queen: "/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="italic" CH="  Hail, Holy Queen, Mother of Mercy; Hail our life, our sweetness and our hope! To thee do we cry, poor banished children of Eve. To thee do we send up our sighs, mourning and weeping in this vale of tears! Turn, then, most gracious Advocate, thine eyes of mercy towards us, and after this, our exile, show unto us the blessed fruit of thy womb, Jesus. O clement, O loving, O sweet Virgin Mary."/>
+                <para PARENT="normal-compressed"/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="italic" CH="Holy Mary "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Holy Mother of God, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Holy Virgin of virgins, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Mother of Christ, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Mother of the Church,"/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Mother of Mercy, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Mother of divine grace,"/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Mother of Hope, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Mother most pure, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Mother most chaste, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Mother inviolate,"/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Mother undefiled, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Mother most lovable, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Mother most admirable, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Mother of good counsel, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Mother of our Creator, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Mother of our Saviour, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Virgin most prudent, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Virgin most venerable, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Virgin most renowned"/>
+                <ITEXT CH=","/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Virgin most powerful,"/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH=" Virgin most merciful, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Virgin most faithful, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Mirror of justice, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Seat of wisdom, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Cause of our joy, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Spiritual vessel,"/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Vessel of honour, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Singular vessel of devotion,"/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Mystical rose, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Tower of David, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Tower of ivory, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="House of gold, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Ark of the covenant, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Gate of heaven, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Morning star, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Health of the sick, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Refuge of sinners, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CH="Solace of migrants,"/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Comfort of the afflicted, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Help of Christians, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Queen of Angels, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Queen of Patriarchs, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Queen of Prophets, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Queen of Apostles, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Queen of Martyrs, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Queen of Confessors, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Queen of Virgins, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Queen of all Saints,"/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Queen conceived without original sin, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Queen assumed into heaven, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Queen of the most holy Rosary, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Queen of the family, "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="italic" CH="Queen of Peace. "/>
+                <para PARENT="Centered prayer with space"/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="Red Italic" CH="V. "/>
+                <ITEXT CPARENT="italic" CH="Lamb of God, you take away the sins of the world, "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="Red Italic" CH="R. "/>
+                <ITEXT CPARENT="italic" CH="Spare us, O Lord. "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="Red Italic" CH="V."/>
+                <ITEXT CPARENT="italic" CH=" Lamb of God, you take away the sins of the world, "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="Red Italic" CH="R. "/>
+                <ITEXT CPARENT="italic" CH="Graciously hear us, O Lord. "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="Red Italic" CH="V. "/>
+                <ITEXT CPARENT="italic" CH="Lamb of God, you take away the sins of the world, "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="Red Italic" CH="R. "/>
+                <ITEXT CPARENT="italic" CH="Have mercy on us. V. Pray for us, O holy Mother of God. "/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="Red Italic" CH="R. "/>
+                <ITEXT CPARENT="italic" CH="That we may be made worthy of the promises of Christ."/>
+                <para PARENT="centered prayer"/>
+                <para PARENT="centered prayer"/>
+                <ITEXT CPARENT="italic" CH=" Let us pray: "/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="italic" CH="O God, whose only-begotten Son, by his life, death and resurrection, has purchased for us the rewards of eternal life; grant, we beseech thee, that meditating on these mysteries of the most holy Rosary of the Blessed Virgin Mary, we may both imitate what they contain, and obtain what they promise, through the same Christ our Lord. Amen."/>
+                <para PARENT="normal-compressed"/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="black" CH="Prayer to Mary for Holy Purity"/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="italic" CH="Blessed be your purity, May it be blessed for ever, For no less than God takes delight In such exalted beauty. To you, heavenly Princess, Holy Virgin Mary, I offer on this day My whole heart, life, and soul. Look upon me with compassion; Do not leave me, my mother."/>
+                <para PARENT="normal-compressed"/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="black" CH="Prayer to the Holy Spirit (St Josemaría) "/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="italic" CH="Come, O Holy Spirit! Enlighten my mind to know your commands; strengthen my heart against the snares of the enemy; inflame my will… I have heard your voice, and I don’t want to harden myself and resist, saying “Later…, tomorrow.” Nunc coepi! Now I begin! In case there is no tomorrow for me. O Spirit of truth and wisdom, Spirit of understanding and counsel, Spirit of joy and peace! I want whatever you want. I want because you want, I want however you want, I want whenever you want."/>
+                <trail PARENT="normal-compressed"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="142.555555555556" YPOS="4870.23116535433" OwnPage="7" ItemID="250529824" PTYPE="4" WIDTH="343.343512160979" HEIGHT="562.657723534558" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" ANNAME="Copy of main_text_left" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L343.344 0 L343.344 562.658 L0 562.658 L0 0 Z" copath="M0 0 L343.344 0 L343.344 562.658 L0 562.658 L0 0 Z" gXpos="22.7124059492565" gYpos="4373.69234645669" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="250535200" BACKITEM="248574016"/>
+        <PAGEOBJECT XPOS="129.843319685039" YPOS="5546.92971968504" OwnPage="8" ItemID="250535200" PTYPE="4" WIDTH="364.934458092739" HEIGHT="530.403613648293" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L364.934 0 L364.934 530.404 L0 530.404 L0 0 Z" copath="M0 0 L364.934 0 L364.934 530.404 L0 530.404 L0 0 Z" gXpos="10.00017007874" gYpos="4588.02657007874" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="248677728" BACKITEM="250529824"/>
+        <PAGEOBJECT XPOS="131.092847244094" YPOS="6298.22222222222" OwnPage="9" ItemID="248677728" PTYPE="4" WIDTH="153.106220472441" HEIGHT="406.777777777777" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L153.106 0 L153.106 406.778 L0 406.778 L0 0 Z" copath="M0 0 L153.106 0 L153.106 406.778 L0 406.778 L0 0 Z" gXpos="-48.081011023623" gYpos="4427.77332460097" gWidth="264.325818897637" gHeight="1244.58034650165" LAYER="1" NEXTITEM="248683104" BACKITEM="250535200"/>
+        <PAGEOBJECT XPOS="324.338752755906" YPOS="6336.44444444444" OwnPage="9" ItemID="248683104" PTYPE="4" WIDTH="183.393700787401" HEIGHT="379.555555555556" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L183.394 0 L183.394 379.556 L0 379.556 L0 0 Z" copath="M0 0 L183.394 0 L183.394 379.556 L0 379.556 L0 0 Z" gXpos="145.164894488189" gYpos="4465.9955468232" gWidth="264.325818897637" gHeight="1244.58034650165" LAYER="1" NEXTITEM="248688480" BACKITEM="248677728"/>
+        <PAGEOBJECT XPOS="129.199067716535" YPOS="6720.81906141732" OwnPage="9" ItemID="248688480" PTYPE="4" WIDTH="373.5" HEIGHT="93.5433070866138" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L373.5 0 L373.5 93.5433 L0 93.5433 L0 0 Z" copath="M0 0 L373.5 0 L373.5 93.5431 L0 93.5431 L0 0 Z" gXpos="-49.9747905511817" gYpos="4850.37016379607" gWidth="264.325818897637" gHeight="1244.58034650165" LAYER="1" NEXTITEM="248608704" BACKITEM="248683104"/>
+        <PAGEOBJECT XPOS="133.174028346457" YPOS="6080.53694337459" OwnPage="8" ItemID="248627600" PTYPE="4" WIDTH="180.325039370078" HEIGHT="65.9075010698534" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L180.325 0 L180.325 65.9075 L0 65.9075 L0 0 Z" copath="M0 0 L180.325 0 L180.325 65.9078 L0 65.9078 L0 0 Z" gXpos="-45.99982992126" gYpos="4210.08804575333" gWidth="264.325818897637" gHeight="1244.58034650165" LAYER="1" NEXTITEM="137149040" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CPARENT="Red Italic" CH="V. "/>
+                <ITEXT CH="Lord, have mercy"/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="Red Italic" CH="V. "/>
+                <ITEXT CH="Christ, have mercy"/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="Red Italic" CH="V. "/>
+                <ITEXT CH="Lord, have mercy"/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="Red Italic" CH="V. "/>
+                <ITEXT CH="Christ hear us"/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="Red Italic" CH="V. "/>
+                <ITEXT CH="God the Father of heaven"/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="Red Italic" CH="V. "/>
+                <ITEXT CH="God the Son, Redeemer of the world"/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="Red Italic" CH="V. "/>
+                <ITEXT CH="God the Holy Spirit"/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="Red Italic" CH="V. "/>
+                <ITEXT CH="Holy Trinity, one God"/>
+                <trail PARENT="Centered prayer with space"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="328.673398402205" YPOS="6068.67419818286" OwnPage="8" ItemID="248632976" PTYPE="4" WIDTH="180.098897660787" HEIGHT="64.659135150473" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L180.099 0 L180.099 64.6591 L0 64.6591 L0 0 Z" copath="M0 0 L180.099 0 L180.099 64.659 L0 64.659 L0 0 Z" gXpos="149.499540134488" gYpos="4198.2253005616" gWidth="264.325818897637" gHeight="1244.58034650165" LAYER="1" NEXTITEM="137163200" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CPARENT="Red Italic" CH="R."/>
+                <ITEXT CH=" Lord, have mercy. "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="Red Italic" CH="R. "/>
+                <ITEXT CH="Christ, have mercy. "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="Red Italic" CH="R. "/>
+                <ITEXT CH="Lord, have mercy. "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="Red Italic" CH="R. "/>
+                <ITEXT CH="Christ graciously hear us."/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="Red Italic" CH="R. "/>
+                <ITEXT CH="have mercy on us. "/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="Red Italic" CH="R."/>
+                <ITEXT CH=" have mercy on us."/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="Red Italic" CH="R. "/>
+                <ITEXT CH="have mercy on us."/>
+                <para PARENT="Centered prayer with space"/>
+                <ITEXT CPARENT="Red Italic" CH="R. "/>
+                <ITEXT CH="have mercy on us."/>
+                <trail PARENT="Centered prayer with space"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="324.758398446456" YPOS="6314.15943143527" OwnPage="9" ItemID="248638352" PTYPE="4" WIDTH="93.375" HEIGHT="13.0362737157903" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L93.375 0 L93.375 13.0363 L0 13.0363 L0 0 Z" copath="M0 0 L93.375 0 L93.375 13.0363 L0 13.0363 L0 0 Z" gXpos="145.584540178739" gYpos="4443.71053381402" gWidth="264.325818897637" gHeight="1244.58034650165" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CPARENT="Red Italic" CH="R. "/>
+                <ITEXT CPARENT="italic" CH="Pray for us "/>
+                <trail PARENT="Centered prayer with space"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="129.334815748031" YPOS="6928.4774976378" OwnPage="10" ItemID="248608704" PTYPE="4" WIDTH="373.364251968504" HEIGHT="379.522502362199" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L373.364 0 L373.364 379.523 L0 379.523 L0 0 Z" copath="M0 0 L373.364 0 L373.364 379.523 L0 379.523 L0 0 Z" gXpos="11.00017007874" gYpos="4821.0336" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="-1" BACKITEM="248688480"/>
+        <PAGEOBJECT XPOS="129.199067716535" YPOS="4759.84681881542" OwnPage="6" ItemID="125705952" PTYPE="4" WIDTH="373.5" HEIGHT="12.300680244254" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" ANNAME="Copy of page_number_left (8)" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L373.5 0 L373.5 12.3007 L0 12.3007 L0 0 Z" copath="M0 0 L373.5 0 L373.5 12.3007 L0 12.3007 L0 0 Z" gXpos="-49.9747905511818" gYpos="4953.39697631227" gWidth="264.325818897637" gHeight="1244.58034650165" PSTYLE="page-number" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle PARENT="page-number"/>
+                <ITEXT CH="{{page_number}}"/>
+                <trail PARENT="page-number" ALIGN="1"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="142.52048503937" YPOS="394.973804724409" OwnPage="0" ItemID="134580448" PTYPE="4" WIDTH="332.97951496063" HEIGHT="168.126195275591" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" ANNAME="Copy of main_text_left (2)" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L332.98 0 L332.98 168.126 L0 168.126 L0 0 Z" copath="M0 0 L332.98 0 L332.98 168.126 L0 168.126 L0 0 Z" gXpos="0" gYpos="366.678866083417" gWidth="379.079631143285" gHeight="586.410659923365" PSTYLE="normal" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle PARENT="normal"/>
+                <ITEXT CPARENT="Default Character Style" CH="Scripture quotations are from The Revised Standard Version of the Bible: Catholic Edition, copyright © 1965, 1966 the Division of Christian Education of the National Council of the Churches of Christ in the United States of America. Used by permission. All rights reserved."/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="Default Character Style" CH="Copyright © 2015 by George Boronat. All rights reserved. This book or any portion thereof may not be reproduced or used in any manner whatsoever without the express written permission of the publisher except for the use of brief quotations. For permission requests, write to"/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="black" CH=" ipraywiththegospel.org/contact-us/"/>
+                <trail PARENT="normal"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="141.912611023622" YPOS="61.7483716535433" OwnPage="0" ItemID="134569120" PTYPE="4" WIDTH="246.14062992126" HEIGHT="17.001968503937" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L246.141 0 L246.141 17.002 L0 17.002 L0 0 Z" copath="M0 0 L246.141 0 L246.141 17.002 L0 17.002 L0 0 Z" gXpos="8.58016255970745" gYpos="0" gWidth="379.079631143285" gHeight="586.410659923365" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CPARENT="black" FONTSIZE="12.5" CH="ABOUT THE AUTHOR "/>
+                <trail PARENT="normal-compressed" ALIGN="0"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="142.52048503937" YPOS="117.836560629921" OwnPage="0" ItemID="134574784" PTYPE="4" WIDTH="336.72951496063" HEIGHT="100.263439370079" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L336.73 0 L336.73 100.263 L0 100.263 L0 0 Z" copath="M0 0 L336.73 0 L336.73 100.263 L0 100.263 L0 0 Z" gXpos="8.58016255970745" gYpos="54.3624566763362" gWidth="379.079631143285" gHeight="586.410659923365" PSTYLE="normal" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle PARENT="normal"/>
+                <ITEXT CPARENT="Default Character Style" CH="Rev. George Boronat M.D. S.T.D is a Catholic priest from the Prelature of Opus Dei, working in the Archdiocese of Southwark in London. He is the Chaplain of The Cedars School in Croydon, and of Kelston Club &amp; Study Centre (Balham). He also works in Oakwood School (Purley). He has developed his pastoral ministry mainly with young people."/>
+                <para PARENT="normal"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="141.912611023622" YPOS="72.919631496063" OwnPage="0" ItemID="134560624" PTYPE="4" WIDTH="208.937007874016" HEIGHT="30.75" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L208.937 0 L208.937 30.75 L0 30.75 L0 0 Z" copath="M0 0 L208.937 0 L208.937 30.75 L0 30.75 L0 0 Z" gXpos="8.58016255970745" gYpos="17.6088437008109" gWidth="379.079631143285" gHeight="586.410659923365" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CPARENT="Default Character Style" CH="ipraywiththegospel.org"/>
+                <trail PARENT="normal"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="200.843319685039" YPOS="225.282544881889" OwnPage="0" ItemID="137195712" PTYPE="2" WIDTH="251.906680314961" HEIGHT="170.817455118111" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.247944941996754" LOCALSCY="0.247944941996754" LOCALX="57.162804904656" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="../images/qr_codes.jpg" PRFILE="sRGB IEC61966-2.1" IRENDER="0" EMBEDDED="0" path="M0 0 L251.907 0 L251.907 170.817 L0 170.817 L0 0 Z" copath="M0 0 L251.907 0 L251.907 170.817 L0 170.817 L0 0 Z" gXpos="31.0944166682703" gYpos="149.641225950269" gWidth="379.079631143285" gHeight="586.410659923365" LAYER="1" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="144.5016" YPOS="818.689603149608" OwnPage="1" ItemID="137103728" PTYPE="4" WIDTH="331.998400000001" HEIGHT="480.760396850393" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L331.998 0 L331.998 480.76 L0 480.76 L0 0 Z" copath="M0 0 L331.998 0 L331.998 480.76 L0 480.76 L0 0 Z" gXpos="0" gYpos="0" gWidth="0" gHeight="0" PSTYLE="normal" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle PARENT="normal"/>
+                <ITEXT CPARENT="black" CH="— Can I pray? "/>
+                <ITEXT CH="as in talk with God? Most certainly! God created you to be His friend; and friends talk to each other. To do mental prayer you don’t need training. There is no standard method. "/>
+                <para PARENT="normal"/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="black" CH="— How do I begin? "/>
+                <ITEXT CH="You can begin with the Introductory prayer to tune in. Then… just start talking to Him. As St Josemaría teaches, it is all a matter of getting the conversation started: “You don’t know how to pray? Put yourself in the presence of God, and as soon as you have said, “Lord, I don’t know how to pray!” you can be sure you’ve already begun.”"/>
+                <para PARENT="normal"/>
+                <ITEXT CH=" "/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="black" CH="— What should I do then? "/>
+                <ITEXT CH="You can read the Gospel and the comments of the iPray. They can trigger a topic for your prayer. But remember: the most important part of your prayer is not written in this booklet. The main part is what you say to Him and, especially, what He says to you. "/>
+                <para PARENT="normal"/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="black" CH="— What should I talk about? "/>
+                <ITEXT CH="About everything! “About Him, about yourself—joys, sorrows, successes and failures, noble ambitions, daily worries, weaknesses! And acts of thanksgiving and petitions—and Love and reparation” (St Josemaría)."/>
+                <para PARENT="normal"/>
+                <ITEXT CH=" "/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="black" CH="— How do I finish?"/>
+                <ITEXT CH=" At the end of your prayer you can ask Our Lady for help; you should also give thanks to Our Lord for that dialogue. You can finish, if you want, with the Closing prayer."/>
+                <para PARENT="normal"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="141.51261102" YPOS="759.247634642126" OwnPage="1" ItemID="137117888" PTYPE="4" WIDTH="246.1406299" HEIGHT="17.0019685" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L246.141 0 L246.141 17.002 L0 17.002 L0 0 Z" copath="M0 0 L246.141 0 L246.141 17.002 L0 17.002 L0 0 Z" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CPARENT="black" FONTSIZE="12.5" CH="HOW TO APPROACH YOUR PRAYER "/>
+                <trail PARENT="normal-compressed" ALIGN="0"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="141.51261102" YPOS="774.5" OwnPage="1" ItemID="137129216" PTYPE="4" WIDTH="334.23738898" HEIGHT="23.3931464566934" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L334.237 0 L334.237 23.3931 L0 23.3931 L0 0 Z" copath="M0 0 L334.237 0 L334.237 23.3931 L0 23.3931 L0 0 Z" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CH="Some ideas that might be useful before you start your prayer"/>
+                <trail PARENT="normal"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="148.52048503937" YPOS="1505.98721259843" OwnPage="2" ItemID="137132048" PTYPE="4" WIDTH="341.47951496063" HEIGHT="234.01278740157" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L341.48 0 L341.48 234.013 L0 234.013 L0 0 Z" copath="M0 0 L341.48 0 L341.48 234.013 L0 234.013 L0 0 Z" gXpos="6" gYpos="0" gWidth="0" gHeight="0" PSTYLE="normal" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle PARENT="normal"/>
+                <ITEXT CPARENT="reflexion-black" CH="Introductory prayer"/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="reflexion-italic" CH="My Lord and my God, I firmly believe that you are here, that you see me, that you hear me. I adore you with profound reverence, I ask you for pardon of my sins, and the grace to make this time of prayer fruitful. My Mother Immaculate, Saint Joseph my father and lord, my guardian angel, intercede for me. "/>
+                <para PARENT="normal"/>
+                <ITEXT CH=" "/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="reflexion-black" CH="Closing prayer "/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="reflexion-italic" CH="I give you thanks, my God, for the good resolutions, affections and inspirations you have communicated to me in this meditation. I ask you for help to put them into effect. My Mother Immaculate, Saint Joseph my father and lord, my guardian angel, intercede for me."/>
+                <trail PARENT="normal"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="146.759971374452" YPOS="2703.70523118468" OwnPage="3" ItemID="137106560" PTYPE="4" WIDTH="340.60559293001" HEIGHT="13.2947356224931" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" ANNAME="page_number_left" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L340.606 0 L340.606 13.2947 L0 13.2947 L0 0 Z" copath="M0 0 L340.606 0 L340.606 13.2947 L0 13.2947 L0 0 Z" gXpos="146.759971374452" gYpos="2703.70523118468" gWidth="341.239527854018" gHeight="13.2947356224931" PSTYLE="normal" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle PARENT="normal"/>
+                <ITEXT CPARENT="page" CH="{{page_number}}"/>
+                <trail PARENT="normal"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="157" YPOS="2117.1982230001" OwnPage="3" ItemID="137126384" PTYPE="4" WIDTH="328.032230971129" HEIGHT="569.468443666569" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" ANNAME="iPray_day" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L328.032 0 L328.032 569.468 L0 569.468 L0 0 Z" copath="M0 0 L328.032 0 L328.032 569.468 L0 569.468 L0 0 Z" gXpos="157" gYpos="2117.1982230001" gWidth="291.421863882518" gHeight="375.823939317095" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CPARENT="santo-title" CH="Mary, the Holy Mother of God"/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="Day" CH="Friday 1st January"/>
+                <para PARENT="Title"/>
+                <ITEXT CPARENT="versiculo" CH="Lk 2:16-21"/>
+                <para PARENT="gospel"/>
+                <ITEXT CPARENT="italic" CH="And they went with haste, and found Mary and Joseph, and the babe lying in a manger. And when they saw it they made known the saying which had been told them concerning this child; and ali who heard it wondered at what the shepherds told them. But Mary kept ali these things, pondering them in her heart. And the shepherds returned, glorifying and praising God far ali they had heard and seen, as it had been told them. And at the end of eight days, when he was circumcised, he was called Jesus, the name given by the angel."/>
+                <para PARENT="gospel"/>
+                <ITEXT CPARENT="reflexion" CH="Mary, the Holy Mother of God, is the beginning. It just makes sense. She initiated our Redemption. She opens the New Year also. Is there any better way to kick off? You have heard that a good start is half of the battle. Let’s make that good start today, with Our Lady. "/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="reflexion" CH="We are still in the Christmas Season and we are reminded of Our Mother keeping ali the memories of Jesus and “pondering” them in her Immaculate Heart. Christmas is a season to focus our sights on Jesus. There is no better way than to leam from Mary. To look at Him with the loving eyes of Our Lady. St John Paul II invites us to contemplate the Virgin’s gaze on her Child: "/>
+                <ITEXT CPARENT="reflexion-italic" CH="“The contemplation of Christ has a remarkable model in Mary. In a unique way the face of the Son belongs to Mary. It was in her womb that Christ was formed, receiving from her a human resemblance which points to an even greater spiritual closeness. No one has ever devoted himself to the contemplation of the face of Christ as faithfully as Mary.”"/>
+                <ITEXT CPARENT="reflexion" CH=" "/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="reflexion" CH="We hurry like curious little children to the crib - and there we find Jesus, in the arms of His enraptured Mother. As you are little you can get really close; in the ar"/>
+                <ITEXT CPARENT="reflexion-black" CH="ms of Mary there is roo"/>
+                <ITEXT CPARENT="reflexion" CH="m for two, Jesus and you. There, in silence, you look at Him and smile at her; you contemplate them both and you leam to love. "/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="reflexion" CH="And in the arms of Mary, beside that beautiful Baby, we promise for the New Year to struggle to be good children of Mary, to remain in her arms during the whole year, to try to grow in !ove with Jesus. Throughout this year that we begin today, with the Grace of God, may I keep my eyes on Jesus and, from your lap, Mary, my Mother, may I be like you, keeping a permanent dialogue with Jesus every single one of the 366 (yes! One extra!) days of this year."/>
+                <trail PARENT="normal"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="140.843319685027" YPOS="3395.26279999998" OwnPage="4" ItemID="291364256" PTYPE="2" WIDTH="608.59613333331" HEIGHT="343.100022397212" FRTYPE="0" CLIPEDIT="1" ROT="270" PWIDTH="1" PLINEART="1" LOCALSCX="0.17" LOCALSCY="0.17" LOCALX="27.6564705882353" LOCALY="170.682352941176" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="../images/norms.jpg" PRFILE="sRGB IEC61966-2.1" IRENDER="0" EMBEDDED="0" path="M0 0 L608.596 0 L608.596 343.1 L0 343.1 L0 0 Z" copath="M0 0 L-608.596 0 L-608.596 -343.1 L0 -343.1 L0 0 Z" gXpos="-35.0000000000116" gYpos="574.449842519662" gWidth="340.600696062992" gHeight="485.449842519685" LAYER="1" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="161.365564304462" YPOS="3383" OwnPage="4" ItemID="137151872" PTYPE="4" WIDTH="239" HEIGHT="13.3333333333335" FRTYPE="0" CLIPEDIT="0" ROT="270" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L239 0 L239 13.3333 L0 13.3333 L0 0 Z" copath="M0 0 L239 0 L239 13.3333 L0 13.3333 L0 0 Z" gXpos="161.365564304462" gYpos="3383" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CH="Some topics you could include on your examination"/>
+                <trail PARENT="normal"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="146.365564304462" YPOS="3384" OwnPage="4" ItemID="137140544" PTYPE="4" WIDTH="239" HEIGHT="13.3333333333335" FRTYPE="0" CLIPEDIT="0" ROT="270" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L239 0 L239 13.3333 L0 13.3333 L0 0 Z" copath="M0 0 L239 0 L239 13.3333 L0 13.3333 L0 0 Z" gXpos="146.365564304462" gYpos="3384" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CPARENT="black" FONTSIZE="12.5" CH="EXAMINATION OF CONSCIENCE"/>
+                <trail PARENT="normal-compressed" ALIGN="0"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="496.247186351718" YPOS="3477.66986666667" OwnPage="5" ItemID="263655344" PTYPE="2" WIDTH="608.59613333331" HEIGHT="343.100022397212" FRTYPE="0" CLIPEDIT="1" ROT="90" PWIDTH="1" PLINEART="1" LOCALSCX="0.17" LOCALSCY="0.17" LOCALX="27.6564705882353" LOCALY="170.682352941176" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="../images/norms.jpg" PRFILE="sRGB IEC61966-2.1" IRENDER="0" EMBEDDED="0" path="M0 0 L608.596 0 L608.596 343.1 L0 343.1 L0 0 Z" copath="M0 0 L-608.596 0 L-608.596 -343.1 L0 -343.1 L0 0 Z" gXpos="928.999999999988" gYpos="577.449842519662" gWidth="340.600696062992" gHeight="485.449842519685" LAYER="1" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="475.724941732283" YPOS="3489.93266666664" OwnPage="5" ItemID="137160368" PTYPE="4" WIDTH="239" HEIGHT="13.3333333333335" FRTYPE="0" CLIPEDIT="0" ROT="90" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L239 0 L239 13.3333 L0 13.3333 L0 0 Z" copath="M0 0 L239 0 L239 13.3333 L0 13.3333 L0 0 Z" gXpos="1125.36556430446" gYpos="3386" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CH="Some topics you could include on your examination"/>
+                <trail PARENT="normal"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="490.724941732283" YPOS="3488.93266666664" OwnPage="5" ItemID="137137712" PTYPE="4" WIDTH="239" HEIGHT="13.3333333333335" FRTYPE="0" CLIPEDIT="0" ROT="90" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L239 0 L239 13.3333 L0 13.3333 L0 0 Z" copath="M0 0 L239 0 L239 13.3333 L0 13.3333 L0 0 Z" gXpos="1110.36556430446" gYpos="3387" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CPARENT="black" FONTSIZE="12.5" CH="EXAMINATION OF CONSCIENCE"/>
+                <trail PARENT="normal-compressed" ALIGN="0"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="131.333333333333" YPOS="6238.77777777778" OwnPage="9" ItemID="137149040" PTYPE="4" WIDTH="202.222222222222" HEIGHT="91.1111111111113" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L202.222 0 L202.222 91.1111 L0 91.1111 L0 0 Z" copath="M0 0 L202.222 0 L202.222 91.1111 L0 91.1111 L0 0 Z" gXpos="131.333333333333" gYpos="6238.77777777778" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="-1" BACKITEM="248627600"/>
+        <PAGEOBJECT XPOS="326" YPOS="6238.55555555556" OwnPage="9" ItemID="137163200" PTYPE="4" WIDTH="176.888888888889" HEIGHT="52.666666666667" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L176.889 0 L176.889 52.6667 L0 52.6667 L0 0 Z" copath="M0 0 L176.889 0 L176.889 52.6667 L0 52.6667 L0 0 Z" gXpos="326" gYpos="6238.55555555556" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="-1" BACKITEM="248632976"/>
+    </DOCUMENT>
+</SCRIBUSUTF8NEW>

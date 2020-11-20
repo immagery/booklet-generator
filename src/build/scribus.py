@@ -11,6 +11,10 @@ import xml.etree.ElementTree as ET
 
 basic_xml_header = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
 
+class TemplateStory:
+    def __init__(self, xml_item):
+        self.xml_item = xml_item
+
 class TemplatePage:
 
     def __init__(self, page_header = None, sub_pages = None, ref_pos_x=100.00062992126, ref_pos_y=20.0012598425197):
@@ -91,22 +95,22 @@ class TemplatePageObject:
         TemplatePageObject._name_idx += 1
         return current_id
 
-    def __init__(self, page_obj_header, sequence_id = None):
+    def __init__(self, xml_item, sequence_id = None):
         self.page_owner = None
 
         # read the xml reference, it will upadted by the page when it's positioned
-        self.page_number = int(page_obj_header.attrib['OwnPage'])
+        self.page_number = int(xml_item.attrib['OwnPage'])
 
-        self.pos_offset_x = float(page_obj_header.attrib['XPOS'])
-        self.pos_offset_y = float(page_obj_header.attrib['YPOS'])
+        self.pos_offset_x = float(xml_item.attrib['XPOS'])
+        self.pos_offset_y = float(xml_item.attrib['YPOS'])
 
-        self.prev = int(page_obj_header.attrib['BACKITEM'])
-        self.next = int(page_obj_header.attrib['NEXTITEM'])
+        self.prev = int(xml_item.attrib['BACKITEM'])
+        self.next = int(xml_item.attrib['NEXTITEM'])
         
         self.pos_x = 0.0
         self.pos_y = 0.0
 
-        self.header = page_obj_header
+        self.header = xml_item
 
         # unique number per object
         self.id = self.get_and_increment_id()
