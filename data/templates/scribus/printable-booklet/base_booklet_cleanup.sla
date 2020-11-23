@@ -634,24 +634,32 @@
             <StoryText>
                 <DefaultStyle/>
                 <ITEXT CPARENT="santo-title" CH="Mary, the Holy Mother of God"/>
+                
                 <para PARENT="normal"/>
                 <ITEXT CPARENT="Day" CH="Friday 1st January"/>
+                
                 <para PARENT="Title"/>
                 <ITEXT CPARENT="versiculo" CH="Lk 2:16-21"/>
+                
                 <para PARENT="gospel"/>
                 <ITEXT CPARENT="italic" CH="And they went with haste, and found Mary and Joseph, and the babe lying in a manger. And when they saw it they made known the saying which had been told them concerning this child; and ali who heard it wondered at what the shepherds told them. But Mary kept ali these things, pondering them in her heart. And the shepherds returned, glorifying and praising God far ali they had heard and seen, as it had been told them. And at the end of eight days, when he was circumcised, he was called Jesus, the name given by the angel."/>
-                <para PARENT="gospel"/>
+                
+                <para PARENT="normal"/>
                 <ITEXT CPARENT="reflexion" CH="Mary, the Holy Mother of God, is the beginning. It just makes sense. She initiated our Redemption. She opens the New Year also. Is there any better way to kick off? You have heard that a good start is half of the battle. Let’s make that good start today, with Our Lady. "/>
+                
                 <para PARENT="normal"/>
                 <ITEXT CPARENT="reflexion" CH="We are still in the Christmas Season and we are reminded of Our Mother keeping ali the memories of Jesus and “pondering” them in her Immaculate Heart. Christmas is a season to focus our sights on Jesus. There is no better way than to leam from Mary. To look at Him with the loving eyes of Our Lady. St John Paul II invites us to contemplate the Virgin’s gaze on her Child: "/>
                 <ITEXT CPARENT="reflexion-italic" CH="“The contemplation of Christ has a remarkable model in Mary. In a unique way the face of the Son belongs to Mary. It was in her womb that Christ was formed, receiving from her a human resemblance which points to an even greater spiritual closeness. No one has ever devoted himself to the contemplation of the face of Christ as faithfully as Mary.”"/>
                 <ITEXT CPARENT="reflexion" CH=" "/>
+                
                 <para PARENT="normal"/>
                 <ITEXT CPARENT="reflexion" CH="We hurry like curious little children to the crib - and there we find Jesus, in the arms of His enraptured Mother. As you are little you can get really close; in the ar"/>
                 <ITEXT CPARENT="reflexion-black" CH="ms of Mary there is roo"/>
                 <ITEXT CPARENT="reflexion" CH="m for two, Jesus and you. There, in silence, you look at Him and smile at her; you contemplate them both and you leam to love. "/>
+                
                 <para PARENT="normal"/>
                 <ITEXT CPARENT="reflexion" CH="And in the arms of Mary, beside that beautiful Baby, we promise for the New Year to struggle to be good children of Mary, to remain in her arms during the whole year, to try to grow in !ove with Jesus. Throughout this year that we begin today, with the Grace of God, may I keep my eyes on Jesus and, from your lap, Mary, my Mother, may I be like you, keeping a permanent dialogue with Jesus every single one of the 366 (yes! One extra!) days of this year."/>
+                
                 <trail PARENT="normal"/>
             </StoryText>
         </PAGEOBJECT>

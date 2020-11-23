@@ -1,8 +1,7 @@
 {
     "info": "iPray 2021",
     "tasks": {
-        "Firsrt half": "2021_I",
-        "Second half": "2021_II"
+        "full_year2021": "full_year2021"
     },
     "languages": [
         "english"

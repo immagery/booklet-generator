@@ -9,6 +9,7 @@
     "export_path" : "export",
 
     "tasks": {
+        "2021": "full_year2021"
     },
     
     "languages": [
@@ -17,8 +18,7 @@
     ],
 
     "spreadsheet": {
-        "english": "iPray2019-english",
-        "german": "iPray2019-Deutsch"
+        "english": "iPray2021-english"
     },
 
     "mediums": {
@@ -27,7 +27,7 @@
             "versions": [
                 "digital, print, home-print"
             ],
-            "template": "monthly-booklet",
+            "template": "printable-booklet",
             "images": {
                 "cover": {
                     "english": "full_cover-english.jpg",
