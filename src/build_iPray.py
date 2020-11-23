@@ -57,12 +57,15 @@ load_db( credentials = credentials_filename, scope = session_config['scope'])
 # Read days data base for each language
 data_base = {}
 for language, data_base_name in session_config['spreadsheet'].items():
-    db = read_data_base(data_base_name, language)
-    
-    if db is None:
-        continue
+    try:
+        db = read_data_base(data_base_name, language)
+        
+        if db is None:
+            continue
 
-    data_base[language] = db 
+        data_base[language] = db
+    except Exception as e:
+        print("problem reading database: {}, error: {}".format(data_base_name, e))
 
 # Build the different mediums based on the tasks config file
 for task_name, task_folder in session_config['tasks'].items():
