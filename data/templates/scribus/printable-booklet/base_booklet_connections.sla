@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SCRIBUSUTF8NEW Version="1.5.6.1">
+    <DOCUMENT ANZPAGES="1" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" PRESET="0" BleedTop="8.50110236220473" BleedLeft="8.50110236220473" BleedRight="8.50110236220473" BleedBottom="8.50110236220473" ORIENTATION="0" PAGESIZE="Custom" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="11" UNITS="2" DFONT="Palatino Linotype Regular" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" TextDistLeft="0" TextDistRight="0" TextDistBottom="0" TextDistTop="0" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="100" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="1" HCMS="1" DPSo="0" DPSFo="0" DPuse="1" DPgam="0" DPbla="1" DPPr="Fogra27L CMYK Coated Press" DPIn="sRGB IEC61966-2.1" DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="sRGB IEC61966-2.1" DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="1" LANGUAGE="en_US" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="0" SnapToGrid="0" SnapToElement="0" MINGRID="20.0016" MAJGRID="100.0008" SHOWGRID="0" SHOWGUIDES="0" showcolborders="0" SHOWFRAME="0" SHOWControl="0" SHOWLAYERM="0" SHOWMARGIN="0" SHOWBASE="0" SHOWPICT="1" SHOWLINK="0" rulerMode="0" showrulers="0" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186547" POLYR="0" POLYIR="0" POLYCUR="0" POLYOCUR="0" POLYS="0" arcStartAngle="30" arcSweepAngle="300" spiralStartAngle="0" spiralEndAngle="1080" spiralFactor="1.2" AutoSave="1" AutoSaveTime="600000" AutoSaveCount="1" AutoSaveKeep="0" AUtoSaveInDocDir="1" AutoSaveDir="" ScratchBottom="20.0016" ScratchLeft="100.0008" ScratchRight="100.0008" ScratchTop="20.0016" GapHorizontal="0" GapVertical="40.0032" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="None" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" CPICT="None" PICTSHADE="100" CSPICT="None" PICTSSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.1584" dispY="0.1584" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" renderStack="4 0 1 2 3" GridType="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript" calligraphicPenFillColor="Black" calligraphicPenLineColor="Black" calligraphicPenFillColorShade="100" calligraphicPenLineColorShade="100" calligraphicPenLineWidth="1" calligraphicPenAngle="0" calligraphicPenWidth="10" calligraphicPenStyle="1">
+        <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="0" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="0" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="0" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF 1.6" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="1" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF/X-1a" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="0" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF/X-3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="0" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF/X-4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="1" checkFontNotEmbedded="1" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PostScript" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="0" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <COLOR NAME="Black" SPACE="CMYK" C="0" M="0" Y="0" K="100"/>
+        <COLOR NAME="Cool Black" SPACE="CMYK" C="60" M="0" Y="0" K="100"/>
+        <COLOR NAME="Red" SPACE="CMYK" C="0" M="98.0392156862745" Y="98.0392156862745" K="0"/>
+        <COLOR NAME="Registration" SPACE="CMYK" C="100" M="100" Y="100" K="100" Register="1"/>
+        <COLOR NAME="White" SPACE="CMYK" C="0" M="0" Y="0" K="0"/>
+        <COLOR NAME="d" SPACE="RGB" R="153" G="102" B="51"/>
+        <COLOR NAME="darker_grey" SPACE="CMYK" C="0" M="0" Y="0" K="45.8823529411765"/>
+        <COLOR NAME="light_grey" SPACE="CMYK" C="0" M="0" Y="0" K="38.0392156862745"/>
+        <HYPHEN/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" FONT="Palatino Linotype Regular"/>
+        <STYLE NAME="normal-right-alignement" PARENT="Default Paragraph Style" ALIGN="2"/>
+        <STYLE NAME="gospel" PARENT="Default Paragraph Style" ALIGN="3" LINESPMode="0" LINESP="12" INDENT="8.503937008" RMARGIN="8.503937008" FIRST="5.669291339" FONT="Palatino Linotype Italic" FONTSIZE="10"/>
+        <STYLE NAME="normal" PARENT="Default Paragraph Style" ALIGN="3" LINESPMode="0" LINESP="13" VOR="7" NACH="0" DROP="0" DROPLIN="6" MinWordTrack="1" FONT="Palatino Linotype Regular" FONTSIZE="10"/>
+        <STYLE NAME="Date" PARENT="normal" FONT="Palatino Linotype Regular"/>
+        <STYLE NAME="page-number" PARENT="normal" ALIGN="1" FONTSIZE="10"/>
+        <STYLE NAME="Date-left" PARENT="Date" ALIGN="2"/>
+        <STYLE NAME="onomastic-left" PARENT="normal" FONT="Palatino Linotype Italic" FCOLOR="darker_grey"/>
+        <STYLE NAME="onomastic-right" PARENT="normal" ALIGN="2" FONT="Palatino Linotype Italic" FCOLOR="darker_grey"/>
+        <STYLE NAME="normal-compressed" PARENT="normal" LINESP="13" VOR="2" NACH="5" FONTSIZE="11.5"/>
+        <STYLE NAME="centered prayer" PARENT="gospel" LINESP="12"/>
+        <STYLE NAME="Centered prayer with space" PARENT="centered prayer" LINESPMode="0" NACH="2" FONTSIZE="10"/>
+        <STYLE NAME="Title" PARENT="normal" VOR="1" NACH="7"/>
+        <STYLE NAME="tittle_compressed" PARENT="normal-compressed" VOR="5" NACH="0"/>
+        <STYLE NAME="gospel_extra" PARENT="gospel" NACH="5"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="Palatino Linotype Regular" FONTSIZE="10" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="en_US"/>
+        <CHARSTYLE CNAME="black" CPARENT="Default Character Style" FONT="Palatino Linotype Bold"/>
+        <CHARSTYLE CNAME="italic" CPARENT="Default Character Style" FONT="Palatino Linotype Italic"/>
+        <CHARSTYLE CNAME="italic-black" CPARENT="Default Character Style" FONT="Palatino Linotype Bold Italic"/>
+        <CHARSTYLE CNAME="Red Italic" CPARENT="italic" FCOLOR="Red"/>
+        <CHARSTYLE CNAME="Tittle" FONT="Palatino Linotype Bold" FONTSIZE="16" FONTFEATURES="-clig" LANGUAGE="en_US"/>
+        <CHARSTYLE CNAME="santo-title" CPARENT="Default Character Style" FONTSIZE="13" FCOLOR="darker_grey"/>
+        <CHARSTYLE CNAME="Day" CPARENT="Default Character Style" FONTSIZE="13"/>
+        <CHARSTYLE CNAME="versiculo" FONT="Palatino Linotype Bold" FONTSIZE="11" FONTFEATURES="-clig" FCOLOR="Black" FSHADE="60" LANGUAGE="en_US"/>
+        <CHARSTYLE CNAME="evangelio" FONT="Palatino Linotype Italic" FONTFEATURES="-clig" LANGUAGE="en_US"/>
+        <CHARSTYLE CNAME="reflexion" FONTSIZE="11" LANGUAGE="en_US"/>
+        <CHARSTYLE CNAME="reflexion-italic" CPARENT="reflexion" FONT="Palatino Linotype Italic" FONTFEATURES="-clig"/>
+        <CHARSTYLE CNAME="reflexion-black" CPARENT="reflexion" FONT="Palatino Linotype Bold" FONTFEATURES="-clig"/>
+        <CHARSTYLE CNAME="page" CPARENT="Default Character Style" FCOLOR="Black" FSHADE="70"/>
+        <TableStyle NAME="Default Table Style" DefaultStyle="1" FillColor="None" FillShade="100">
+            <TableBorderLeft>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderLeft>
+            <TableBorderRight>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderRight>
+            <TableBorderTop>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderTop>
+            <TableBorderBottom>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderBottom>
+        </TableStyle>
+        <CellStyle NAME="Default Cell Style" DefaultStyle="1" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+            <TableBorderLeft>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderLeft>
+            <TableBorderRight>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderRight>
+            <TableBorderTop>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderTop>
+            <TableBorderBottom>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderBottom>
+        </CellStyle>
+        <LAYERS NUMMER="2" LEVEL="0" NAME="Background (mp items)" SICHTBAR="0" DRUCKEN="1" EDIT="1" SELECT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
+        <LAYERS NUMMER="3" LEVEL="1" NAME="New Layer 1 (mp items)" SICHTBAR="0" DRUCKEN="1" EDIT="1" SELECT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
+        <LAYERS NUMMER="0" LEVEL="2" NAME="Background" SICHTBAR="0" DRUCKEN="1" EDIT="1" SELECT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
+        <LAYERS NUMMER="1" LEVEL="3" NAME="New Layer 1" SICHTBAR="1" DRUCKEN="1" EDIT="1" SELECT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
+        <Printer firstUse="1" toFile="0" useAltPrintCommand="0" outputSeparations="0" useSpotColors="1" useColor="1" mirrorH="0" mirrorV="0" useICC="1" doGCR="0" doClip="0" setDevParam="0" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" includePDFMarks="1" PSLevel="3" PrintEngine="3" markLength="20" markOffset="0" BleedTop="8.50110236220473" BleedLeft="8.50110236220473" BleedRight="8.50110236220473" BleedBottom="8.50110236220473" printer="" filename="" separationName="All" printerCommand=""/>
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" EmbedPDF="0" MirrorH="0" MirrorV="0" Clip="0" rangeSel="0" rangeTxt="" RotateDeg="0" PresentMode="0" RecalcPic="0" FontEmbedding="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="sRGB IEC61966-2.1" ImageP="sRGB IEC61966-2.1" PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markLength="1.0008" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" openAfterExport="0" PageLayout="0" openAction="">
+            <Subset Name="Palatino Linotype Bold"/>
+            <Subset Name="Palatino Linotype Bold Italic"/>
+            <Subset Name="Palatino Linotype Italic"/>
+            <Subset Name="Palatino Linotype Regular"/>
+            <LPI Color="" Frequency="133" Angle="45" SpotFunction="3"/>
+            <LPI Color="Black" Frequency="133" Angle="45" SpotFunction="3"/>
+            <LPI Color="Cyan" Frequency="133" Angle="105" SpotFunction="3"/>
+            <LPI Color="Magenta" Frequency="133" Angle="75" SpotFunction="3"/>
+            <LPI Color="Yellow" Frequency="133" Angle="90" SpotFunction="3"/>
+        </PDF>
+        <DocItemAttributes/>
+        <TablesOfContents/>
+        <NotesStyles>
+            <notesStyle Name="Default" Start="1" Endnotes="0" Type="Type_1_2_3" Range="0" Prefix="" Suffix=")" AutoHeight="1" AutoWidth="1" AutoRemove="1" AutoWeld="1" SuperNote="1" SuperMaster="1" MarksStyle="" NotesStyle=""/>
+        </NotesStyles>
+        <PageSets>
+            <Set Name="Single Page" FirstPage="0" Rows="1" Columns="1"/>
+            <Set Name="Double Sided" FirstPage="0" Rows="1" Columns="2">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+            <Set Name="3-Fold" FirstPage="0" Rows="1" Columns="3">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Middle"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+            <Set Name="4-Fold" FirstPage="0" Rows="1" Columns="4">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Middle Left"/>
+                <PageNames Name="Middle Right"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+        </PageSets>
+        <Sections>
+            <Section Number="0" Name="0" From="0" To="0" Type="Type_1_2_3" Start="1" Reversed="0" Active="1" FillChar="0" FieldWidth="0"/>
+        </Sections>
+        <MASTERPAGE PAGEXPOS="100.0008" PAGEYPOS="20.0016" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="0" NAM="white" MNAM="" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="20.0016" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="0" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGEOBJECT XPOS="141.912611023622" YPOS="61.7483716535433" OwnPage="0" ItemID="203890848" PTYPE="4" WIDTH="246.14062992126" HEIGHT="17.001968503937" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L246.141 0 L246.141 17.002 L0 17.002 L0 0 Z" copath="M0 0 L246.141 0 L246.141 17.002 L0 17.002 L0 0 Z" gXpos="8.58016255970745" gYpos="0" gWidth="379.079631143285" gHeight="586.410659923365" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CPARENT="black" FONTSIZE="12.5" CH="ABOUT THE AUTHOR "/>
+                <trail PARENT="normal-compressed" ALIGN="0"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="142.52048503937" YPOS="117.836560629921" OwnPage="0" ItemID="224021008" PTYPE="4" WIDTH="336.72951496063" HEIGHT="71.163439370079" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L336.73 0 L336.73 71.1634 L0 71.1634 L0 0 Z" copath="M0 0 L336.73 0 L336.73 71.1631 L0 71.1631 L0 0 Z" gXpos="8.58016255970745" gYpos="54.3624566763362" gWidth="379.079631143285" gHeight="586.410659923365" PSTYLE="normal" LAYER="1" NEXTITEM="224399472" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle PARENT="normal"/>
+                <ITEXT CPARENT="Default Character Style" CH="Rev. George Boronat M.D. S.T.D is a Catholic priest from the Prelature of Opus Dei, working in the Archdiocese of Southwark in London. He is the Chaplain of The Cedars School in Croydon, and of Kelston Club &amp; Study Centre (Balham). He also works in Oakwood School (Purley). He has developed his pastoral ministry mainly with young people."/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="Default Character Style" CH="Rev. George Boronat M.D. S.T.D is a Catholic priest from the Prelature of Opus Dei, working in the Archdiocese of Southwark in London. He is the Chaplain of The Cedars School in Croydon, and of Kelston Club &amp; Study Centre (Balham). He also works in Oakwood School (Purley). He has developed his pastoral ministry mainly with young people."/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="Default Character Style" CH="Rev. George Boronat M.D. S.T.D is a Catholic priest from the Prelature of Opus Dei, working in the Archdiocese of Southwark in London. He is the Chaplain of The Cedars School in Croydon, and of Kelston Club &amp; Study Centre (Balham). He also works in Oakwood School (Purley). He has developed his pastoral ministry mainly with young people."/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="Default Character Style" CH="Rev. George Boronat M.D. S.T.D is a Catholic priest from the Prelature of Opus Dei, working in the Archdiocese of Southwark in London. He is the Chaplain of The Cedars School in Croydon, and of Kelston Club &amp; Study Centre (Balham). He also works in Oakwood School (Purley). He has developed his pastoral ministry mainly with young people."/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="Default Character Style" CH="Rev. George Boronat M.D. S.T.D is a Catholic priest from the Prelature of Opus Dei, working in the Archdiocese of Southwark in London. He is the Chaplain of The Cedars School in Croydon, and of Kelston Club &amp; Study Centre (Balham). He also works in Oakwood School (Purley). He has developed his pastoral ministry mainly with young people."/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="Default Character Style" CH="Rev. George Boronat M.D. S.T.D is a Catholic priest from the Prelature of Opus Dei, working in the Archdiocese of Southwark in London. He is the Chaplain of The Cedars School in Croydon, and of Kelston Club &amp; Study Centre (Balham). He also works in Oakwood School (Purley). He has developed his pastoral ministry mainly with young people."/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="Default Character Style" CH="Rev. George Boronat M.D. S.T.D is a Catholic priest from the Prelature of Opus Dei, working in the Archdiocese of Southwark in London. He is the Chaplain of The Cedars School in Croydon, and of Kelston Club &amp; Study Centre (Balham). He also works in Oakwood School (Purley). He has developed his pastoral ministry mainly with young people."/>
+                <para PARENT="normal"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="141.912611023622" YPOS="72.919631496063" OwnPage="0" ItemID="205643584" PTYPE="4" WIDTH="208.937007874016" HEIGHT="30.75" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L208.937 0 L208.937 30.75 L0 30.75 L0 0 Z" copath="M0 0 L208.937 0 L208.937 30.75 L0 30.75 L0 0 Z" gXpos="8.58016255970745" gYpos="17.6088437008109" gWidth="379.079631143285" gHeight="586.410659923365" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CPARENT="Default Character Style" CH="ipraywiththegospel.org"/>
+                <trail PARENT="normal"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="137.666666666667" YPOS="209" OwnPage="0" ItemID="224399472" PTYPE="4" WIDTH="354.666666666667" HEIGHT="164.666666666667" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L354.667 0 L354.667 164.667 L0 164.667 L0 0 Z" copath="M0 0 L354.667 0 L354.667 164.667 L0 164.667 L0 0 Z" gXpos="137.666666666667" gYpos="209" gWidth="0" gHeight="0" PSTYLE="normal" LAYER="1" NEXTITEM="224427792" BACKITEM="224021008"/>
+        <PAGEOBJECT XPOS="140.333333333333" YPOS="402.666666666667" OwnPage="0" ItemID="224427792" PTYPE="4" WIDTH="356.333333333333" HEIGHT="207" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L356.333 0 L356.333 207 L0 207 L0 0 Z" copath="M0 0 L356.333 0 L356.333 207 L0 207 L0 0 Z" gXpos="140.333333333333" gYpos="402.666666666667" gWidth="0" gHeight="0" PSTYLE="normal" LAYER="1" NEXTITEM="-1" BACKITEM="224399472"/>
+    </DOCUMENT>
+</SCRIBUSUTF8NEW>

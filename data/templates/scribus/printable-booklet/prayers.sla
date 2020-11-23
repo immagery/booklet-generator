@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SCRIBUSUTF8NEW Version="1.5.5">
-    <DOCUMENT ANZPAGES="5" PAGEWIDTH="297.64" PAGEHEIGHT="419.53" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" PRESET="0" BleedTop="8.50110236220473" BleedLeft="8.50110236220473" BleedRight="8.50110236220473" BleedBottom="8.50110236220473" ORIENTATION="0" PAGESIZE="A6" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="11" UNITS="1" DFONT="Arial Regular" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" TextDistLeft="0" TextDistRight="0" TextDistBottom="0" TextDistTop="0" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="100" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="1" HCMS="1" DPSo="0" DPSFo="0" DPuse="1" DPgam="0" DPbla="1" DPPr="Fogra27L CMYK Coated Press" DPIn="sRGB IEC61966-2.1" DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="sRGB IEC61966-2.1" DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="1" LANGUAGE="en_US" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="0" SnapToGrid="0" SnapToElement="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="0" showcolborders="0" SHOWFRAME="0" SHOWControl="0" SHOWLAYERM="0" SHOWMARGIN="0" SHOWBASE="0" SHOWPICT="1" SHOWLINK="0" rulerMode="0" showrulers="0" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYIR="0" POLYCUR="0" POLYOCUR="0" POLYS="0" arcStartAngle="30" arcSweepAngle="300" spiralStartAngle="0" spiralEndAngle="1080" spiralFactor="1.2" AutoSave="1" AutoSaveTime="600000" AutoSaveCount="1" AutoSaveKeep="0" AUtoSaveInDocDir="1" AutoSaveDir="" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="d" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" CPICT="None" PICTSHADE="100" CSPICT="None" PICTSSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.155" dispY="0.155" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" renderStack="4 0 1 2 3" GridType="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript" calligraphicPenFillColor="Black" calligraphicPenLineColor="Black" calligraphicPenFillColorShade="100" calligraphicPenLineColorShade="100" calligraphicPenLineWidth="1" calligraphicPenAngle="0" calligraphicPenWidth="10" calligraphicPenStyle="1">
+<SCRIBUSUTF8NEW Version="1.5.6.1">
+    <DOCUMENT ANZPAGES="11" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" PRESET="0" BleedTop="8.50110236220473" BleedLeft="8.50110236220473" BleedRight="8.50110236220473" BleedBottom="8.50110236220473" ORIENTATION="0" PAGESIZE="Custom" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="11" UNITS="2" DFONT="Arial Regular" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" TextDistLeft="0" TextDistRight="0" TextDistBottom="0" TextDistTop="0" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="100" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="1" HCMS="1" DPSo="0" DPSFo="0" DPuse="1" DPgam="0" DPbla="1" DPPr="Fogra27L CMYK Coated Press" DPIn="sRGB IEC61966-2.1" DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="sRGB IEC61966-2.1" DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="1" LANGUAGE="en_US" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="0" SnapToGrid="0" SnapToElement="0" MINGRID="20.0016" MAJGRID="100.0008" SHOWGRID="0" SHOWGUIDES="0" showcolborders="0" SHOWFRAME="0" SHOWControl="0" SHOWLAYERM="0" SHOWMARGIN="0" SHOWBASE="0" SHOWPICT="1" SHOWLINK="0" rulerMode="0" showrulers="0" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186547" POLYR="0" POLYIR="0" POLYCUR="0" POLYOCUR="0" POLYS="0" arcStartAngle="30" arcSweepAngle="300" spiralStartAngle="0" spiralEndAngle="1080" spiralFactor="1.2" AutoSave="1" AutoSaveTime="600000" AutoSaveCount="1" AutoSaveKeep="0" AUtoSaveInDocDir="1" AutoSaveDir="" ScratchBottom="20.0016" ScratchLeft="100.0008" ScratchRight="100.0008" ScratchTop="20.0016" GapHorizontal="0" GapVertical="40.0032" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="None" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" CPICT="None" PICTSHADE="100" CSPICT="None" PICTSSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.1584" dispY="0.1584" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" renderStack="4 0 1 2 3" GridType="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript" calligraphicPenFillColor="Black" calligraphicPenLineColor="Black" calligraphicPenFillColorShade="100" calligraphicPenLineColorShade="100" calligraphicPenLineWidth="1" calligraphicPenAngle="0" calligraphicPenWidth="10" calligraphicPenStyle="1">
         <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="0" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
         <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="0" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
         <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="0" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF 1.6" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="1" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
         <CheckProfile Name="PDF/X-1a" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="0" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
         <CheckProfile Name="PDF/X-3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="0" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
         <CheckProfile Name="PDF/X-4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="1" checkFontNotEmbedded="1" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
@@ -13,28 +14,39 @@
         <COLOR NAME="Red" SPACE="CMYK" C="0" M="98.0392156862745" Y="98.0392156862745" K="0"/>
         <COLOR NAME="Registration" SPACE="CMYK" C="100" M="100" Y="100" K="100" Register="1"/>
         <COLOR NAME="White" SPACE="CMYK" C="0" M="0" Y="0" K="0"/>
+        <COLOR NAME="d" SPACE="RGB" R="153" G="102" B="51"/>
         <COLOR NAME="darker_grey" SPACE="CMYK" C="0" M="0" Y="0" K="45.8823529411765"/>
         <COLOR NAME="light_grey" SPACE="CMYK" C="0" M="0" Y="0" K="38.0392156862745"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="1" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" FONT="Palatino Linotype Regular"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" FONT="Palatino Linotype Regular"/>
         <STYLE NAME="normal-right-alignement" PARENT="Default Paragraph Style" ALIGN="2"/>
-        <STYLE NAME="gospel" PARENT="Default Paragraph Style" ALIGN="3" LINESPMode="0" LINESP="12" INDENT="8.503937008" RMARGIN="8.503937008" FIRST="5.669291339" FONT="Palatino Linotype Italic" FONTSIZE="7.5"/>
-        <STYLE NAME="normal" PARENT="Default Paragraph Style" ALIGN="3" LINESPMode="0" LINESP="12" NACH="5" ParagraphEffectOffset="2.834645669" DROP="0" DROPLIN="6" MinWordTrack="1" FONT="Palatino Linotype Regular" FONTSIZE="7.5"/>
+        <STYLE NAME="gospel" PARENT="Default Paragraph Style" ALIGN="3" LINESPMode="0" LINESP="12" INDENT="8.503937008" RMARGIN="8.503937008" FIRST="5.669291339" FONT="Palatino Linotype Italic" FONTSIZE="10"/>
+        <STYLE NAME="normal" PARENT="Default Paragraph Style" ALIGN="3" LINESPMode="0" LINESP="13" VOR="7" NACH="0" DROP="0" DROPLIN="6" MinWordTrack="1" FONT="Palatino Linotype Regular" FONTSIZE="10"/>
         <STYLE NAME="Date" PARENT="normal" FONT="Palatino Linotype Regular"/>
         <STYLE NAME="page-number" PARENT="normal" ALIGN="1" FONTSIZE="10"/>
         <STYLE NAME="Date-left" PARENT="Date" ALIGN="2"/>
         <STYLE NAME="onomastic-left" PARENT="normal" FONT="Palatino Linotype Italic" FCOLOR="darker_grey"/>
         <STYLE NAME="onomastic-right" PARENT="normal" ALIGN="2" FONT="Palatino Linotype Italic" FCOLOR="darker_grey"/>
-        <STYLE NAME="normal-compressed" PARENT="normal" LINESP="12" NACH="5" FONTSIZE="10"/>
+        <STYLE NAME="normal-compressed" PARENT="normal" LINESP="13" VOR="2" NACH="5" FONTSIZE="11.5"/>
         <STYLE NAME="centered prayer" PARENT="gospel" LINESP="12"/>
         <STYLE NAME="Centered prayer with space" PARENT="centered prayer" LINESPMode="0" NACH="2" FONTSIZE="10"/>
-        <STYLE NAME="New Style" LANGUAGE="en_US"/>
+        <STYLE NAME="Title" PARENT="normal" VOR="1" NACH="7"/>
+        <STYLE NAME="tittle_compressed" PARENT="normal-compressed" VOR="5" NACH="0"/>
+        <STYLE NAME="gospel_extra" PARENT="gospel" NACH="5"/>
         <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="Palatino Linotype Regular" FONTSIZE="10" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="en_US"/>
         <CHARSTYLE CNAME="black" CPARENT="Default Character Style" FONT="Palatino Linotype Bold"/>
         <CHARSTYLE CNAME="italic" CPARENT="Default Character Style" FONT="Palatino Linotype Italic"/>
         <CHARSTYLE CNAME="italic-black" CPARENT="Default Character Style" FONT="Palatino Linotype Bold Italic"/>
         <CHARSTYLE CNAME="Red Italic" CPARENT="italic" FCOLOR="Red"/>
         <CHARSTYLE CNAME="Tittle" FONT="Palatino Linotype Bold" FONTSIZE="16" FONTFEATURES="-clig" LANGUAGE="en_US"/>
+        <CHARSTYLE CNAME="santo-title" CPARENT="Default Character Style" FONTSIZE="13" FCOLOR="darker_grey"/>
+        <CHARSTYLE CNAME="Day" CPARENT="Default Character Style" FONTSIZE="13"/>
+        <CHARSTYLE CNAME="versiculo" FONT="Palatino Linotype Bold" FONTSIZE="11" FONTFEATURES="-clig" FCOLOR="Black" FSHADE="60" LANGUAGE="en_US"/>
+        <CHARSTYLE CNAME="evangelio" FONT="Palatino Linotype Italic" FONTFEATURES="-clig" LANGUAGE="en_US"/>
+        <CHARSTYLE CNAME="reflexion" FONTSIZE="11" LANGUAGE="en_US"/>
+        <CHARSTYLE CNAME="reflexion-italic" CPARENT="reflexion" FONT="Palatino Linotype Italic" FONTFEATURES="-clig"/>
+        <CHARSTYLE CNAME="reflexion-black" CPARENT="reflexion" FONT="Palatino Linotype Bold" FONTFEATURES="-clig"/>
+        <CHARSTYLE CNAME="page" CPARENT="Default Character Style" FCOLOR="Black" FSHADE="70"/>
         <TableStyle NAME="Default Table Style" DefaultStyle="1" FillColor="None" FillShade="100">
             <TableBorderLeft>
                 <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
@@ -67,12 +79,12 @@
         <LAYERS NUMMER="3" LEVEL="1" NAME="New Layer 1 (mp items)" SICHTBAR="0" DRUCKEN="1" EDIT="1" SELECT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <LAYERS NUMMER="0" LEVEL="2" NAME="Background" SICHTBAR="0" DRUCKEN="1" EDIT="1" SELECT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
         <LAYERS NUMMER="1" LEVEL="3" NAME="New Layer 1" SICHTBAR="1" DRUCKEN="1" EDIT="1" SELECT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
-        <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="1" useSpotColors="1" useColor="1" mirrorH="1" mirrorV="1" useICC="1" doGCR="1" doClip="1" setDevParam="1" useDocBleeds="1" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" includePDFMarks="1" PSLevel="-8363874" PDLanguage="-8363874" markLength="0" markOffset="-1.96562226501821e+306" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" EmbedPDF="0" MirrorH="0" MirrorV="0" Clip="0" rangeSel="0" rangeTxt="" RotateDeg="0" PresentMode="0" RecalcPic="0" FontEmbedding="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="sRGB IEC61966-2.1" ImageP="sRGB IEC61966-2.1" PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markLength="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" openAfterExport="0" PageLayout="0" openAction="">
-            <Fonts Name="Bembo Italic"/>
+        <Printer firstUse="1" toFile="0" useAltPrintCommand="0" outputSeparations="0" useSpotColors="1" useColor="1" mirrorH="0" mirrorV="0" useICC="1" doGCR="0" doClip="0" setDevParam="0" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" includePDFMarks="1" PSLevel="3" PrintEngine="3" markLength="20" markOffset="0" BleedTop="8.50110236220473" BleedLeft="8.50110236220473" BleedRight="8.50110236220473" BleedBottom="8.50110236220473" printer="" filename="" separationName="All" printerCommand=""/>
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" EmbedPDF="0" MirrorH="0" MirrorV="0" Clip="0" rangeSel="0" rangeTxt="" RotateDeg="0" PresentMode="0" RecalcPic="0" FontEmbedding="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="sRGB IEC61966-2.1" ImageP="sRGB IEC61966-2.1" PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markLength="1.0008" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" openAfterExport="0" PageLayout="0" openAction="">
+            <Subset Name="Palatino Linotype Bold"/>
             <Subset Name="Palatino Linotype Bold Italic"/>
-            <Subset Name="Bembo Regular"/>
-            <Subset Name="Bembo Std Bold"/>
+            <Subset Name="Palatino Linotype Italic"/>
+            <Subset Name="Palatino Linotype Regular"/>
             <LPI Color="" Frequency="133" Angle="45" SpotFunction="3"/>
             <LPI Color="Black" Frequency="133" Angle="45" SpotFunction="3"/>
             <LPI Color="Cyan" Frequency="133" Angle="105" SpotFunction="3"/>
@@ -84,7 +96,6 @@
         <NotesStyles>
             <notesStyle Name="Default" Start="1" Endnotes="0" Type="Type_1_2_3" Range="0" Prefix="" Suffix=")" AutoHeight="1" AutoWidth="1" AutoRemove="1" AutoWeld="1" SuperNote="1" SuperMaster="1" MarksStyle="" NotesStyle=""/>
         </NotesStyles>
-        <NotesFrames/>
         <PageSets>
             <Set Name="Single Page" FirstPage="0" Rows="1" Columns="1"/>
             <Set Name="Double Sided" FirstPage="0" Rows="1" Columns="2">
@@ -104,42 +115,29 @@
             </Set>
         </PageSets>
         <Sections>
-            <Section Number="0" Name="0" From="0" To="4" Type="Type_1_2_3" Start="1" Reversed="0" Active="1" FillChar="0" FieldWidth="0"/>
+            <Section Number="0" Name="0" From="0" To="10" Type="Type_1_2_3" Start="1" Reversed="0" Active="1" FillChar="0" FieldWidth="0"/>
         </Sections>
-        <MASTERPAGE PAGEXPOS="100.00062992126" PAGEYPOS="20.0012598425197" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="0" NAM="Normal Left" MNAM="" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
-        <MASTERPAGE PAGEXPOS="100.00062992126" PAGEYPOS="20.0012598425197" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="1" NAM="Normal Right" MNAM="" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
-        <MASTERPAGE PAGEXPOS="100.00062992126" PAGEYPOS="20.0012598425197" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="42.5196850393701" BORDERRIGHT="42.5196850393701" BORDERTOP="42.5196850393701" BORDERBOTTOM="42.5196850393701" NUM="2" NAM="text_left" MNAM="" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
-        <MASTERPAGE PAGEXPOS="100.00062992126" PAGEYPOS="20.0012598425197" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="3" NAM="text_right" MNAM="" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
-        <MASTERPAGE PAGEXPOS="100.00062992126" PAGEYPOS="20.0012598425197" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="4" NAM="white" MNAM="" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
-        <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="20.0012598425197" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="42.5196850393701" BORDERRIGHT="42.5196850393701" BORDERTOP="42.5196850393701" BORDERBOTTOM="42.5196850393701" NUM="0" NAM="" MNAM="text_left" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
-        <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="708.00094488189" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="1" NAM="" MNAM="text_right" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
-        <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="1396.00062992126" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="42.5196850393701" BORDERRIGHT="42.5196850393701" BORDERTOP="42.5196850393701" BORDERBOTTOM="42.5196850393701" NUM="2" NAM="" MNAM="text_left" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
-        <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="2084.00031496063" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="42.5196850393701" BORDERRIGHT="42.5196850393701" BORDERTOP="42.5196850393701" BORDERBOTTOM="42.5196850393701" NUM="3" NAM="" MNAM="text_left" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
-        <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="2772" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="42.5196850393701" BORDERRIGHT="42.5196850393701" BORDERTOP="42.5196850393701" BORDERBOTTOM="42.5196850393701" NUM="4" NAM="" MNAM="text_left" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
-        <MASTEROBJECT XPOS="362.096456690551" YPOS="48.0642519725197" OwnPage="0" ItemID="5261040" PTYPE="6" WIDTH="7.37007874" HEIGHT="7.37007874" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="light_grey" PLINEART="1" ANNAME="little_square" path="M0 0 L7.37008 0 L7.37008 7.37008 L0 7.37008 L0 0 Z" copath="M0 0 L7.37008 0 L7.37008 7.37008 L0 7.37008 L0 0 Z" OnMasterPage="Normal Left" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="3"/>
-        <MASTEROBJECT XPOS="122.963464570551" YPOS="34.1744881925197" OwnPage="0" ItemID="5272368" PTYPE="6" WIDTH="5.669291339" HEIGHT="25.51181102" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="light_grey" PCOLOR2="light_grey" PLINEART="1" path="M0 0 L5.66929 0 L5.66929 25.5118 L0 25.5118 L0 0 Z" copath="M0 0 L5.66929 0 L5.66929 25.5118 L0 25.5118 L0 0 Z" OnMasterPage="Normal Left" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="3"/>
-        <MASTEROBJECT XPOS="114.632755920551" YPOS="425.16501794252" OwnPage="0" ItemID="5275200" PTYPE="5" WIDTH="110.9820472" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR2="Black" PLINEART="1" ANNAME="Copy of bottom_line_left" path="" OnMasterPage="Normal Left" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="3"/>
-        <MASTEROBJECT XPOS="262.527558990551" YPOS="425.16501794252" OwnPage="0" ItemID="5263872" PTYPE="5" WIDTH="110.0607874" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR2="Black" PLINEART="1" ANNAME="Copy of bottom_line_right" path="" OnMasterPage="Normal Left" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="3"/>
-        <MASTEROBJECT XPOS="122.782362220551" YPOS="59.7558768825197" OwnPage="0" ItemID="5278032" PTYPE="5" WIDTH="246.7540394" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" ROT="0.05697742788" PWIDTH="1" PCOLOR="Black" PCOLOR2="light_grey" PLINEART="1" path="" OnMasterPage="Normal Left" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="3"/>
-        <MASTEROBJECT XPOS="121.48314962126" YPOS="425.326535479528" OwnPage="1" ItemID="5269536" PTYPE="5" WIDTH="110.9820472" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR2="Black" PLINEART="1" ANNAME="bottom_line_left" path="" OnMasterPage="Normal Right" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="3"/>
-        <MASTEROBJECT XPOS="269.37795272126" YPOS="425.326535479528" OwnPage="1" ItemID="5258208" PTYPE="5" WIDTH="110.0607874" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR2="Black" PLINEART="1" ANNAME="bottom_line_right" path="" OnMasterPage="Normal Right" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="3"/>
-        <MASTEROBJECT XPOS="134.07663392126" YPOS="59.9697637795276" OwnPage="1" ItemID="5280864" PTYPE="5" WIDTH="244.7950524" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" ROT="0.1164082335" PWIDTH="1" PCOLOR="Black" PCOLOR2="light_grey" PLINEART="1" path="" OnMasterPage="Normal Right" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="3"/>
-        <MASTEROBJECT XPOS="372.80598422126" YPOS="33.9499785095276" OwnPage="1" ItemID="5255376" PTYPE="6" WIDTH="5.669291339" HEIGHT="25.51181102" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="light_grey" PCOLOR2="light_grey" PLINEART="1" path="M0 0 L5.66929 0 L5.66929 25.5118 L0 25.5118 L0 0 Z" copath="M0 0 L5.66929 0 L5.66929 25.5118 L0 25.5118 L0 0 Z" OnMasterPage="Normal Right" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="3"/>
-        <MASTEROBJECT XPOS="133.84448822126" YPOS="48.0327559095276" OwnPage="1" ItemID="5283696" PTYPE="6" WIDTH="7.37007874" HEIGHT="7.37007874" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="light_grey" PLINEART="1" ANNAME="Copy of little_square (2)" path="M0 0 L7.37008 0 L7.37008 7.37008 L0 7.37008 L0 0 Z" copath="M0 0 L7.37008 0 L7.37008 7.37008 L0 7.37008 L0 0 Z" OnMasterPage="Normal Right" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="3"/>
-        <MASTEROBJECT XPOS="114.63275592126" YPOS="425.16501794252" OwnPage="2" ItemID="5266704" PTYPE="5" WIDTH="110.9820472" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR2="Black" PLINEART="1" ANNAME="Copy of bottom_line_left (2)" path="" OnMasterPage="text_left" gXpos="0" gYpos="1074380.60047244" gWidth="0" gHeight="0" LAYER="3"/>
-        <MASTEROBJECT XPOS="262.52755902126" YPOS="425.16501794252" OwnPage="2" ItemID="219255488" PTYPE="5" WIDTH="110.0607874" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR2="Black" PLINEART="1" ANNAME="Copy of bottom_line_right (2)" path="" OnMasterPage="text_left" gXpos="0" gYpos="1074380.60047244" gWidth="0" gHeight="0" LAYER="3"/>
-        <MASTEROBJECT XPOS="121.48314962126" YPOS="425.32653544252" OwnPage="3" ItemID="219241328" PTYPE="5" WIDTH="110.9820472" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR2="Black" PLINEART="1" ANNAME="Copy of bottom_line_left (3)" path="" OnMasterPage="text_right" gXpos="0" gYpos="76741.4574015748" gWidth="0" gHeight="0" LAYER="3"/>
-        <MASTEROBJECT XPOS="269.37795272126" YPOS="425.32653544252" OwnPage="3" ItemID="219244160" PTYPE="5" WIDTH="110.0607874" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR2="Black" PLINEART="1" ANNAME="Copy of bottom_line_right (3)" path="" OnMasterPage="text_right" gXpos="0" gYpos="76741.4574015748" gWidth="0" gHeight="0" LAYER="3"/>
-        <PAGEOBJECT XPOS="136.8" YPOS="64.5543307086614" OwnPage="0" ItemID="218503072" PTYPE="4" WIDTH="365.72031496063" HEIGHT="561.902362204724" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" ANNAME="main_text_left" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="5.66929133858268" TEXTRA="0" BEXTRA="0" REXTRA="5.66929133858268" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L365.72 0 L365.72 561.902 L0 561.902 L0 0 Z" copath="M0 0 L365.72 0 L365.72 561.902 L0 561.902 L0 0 Z" gXpos="17.1346456480319" gYpos="13.3719685039368" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="219732000" BACKITEM="-1">
+        <MASTERPAGE PAGEXPOS="100.0008" PAGEYPOS="20.0016" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="0" NAM="white" MNAM="" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="20.0016" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="0" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="708.0048" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="1" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="1396.008" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="2" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="2084.0112" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="3" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="2772.0144" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="4" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="3460.0176" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="5" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="4148.0208" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="6" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="4836.024" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="7" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="5524.0272" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="8" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="6212.0304" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="9" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="6900.0336" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="10" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGEOBJECT XPOS="138.80017007874" YPOS="4192.57387086614" OwnPage="6" ItemID="248574016" PTYPE="4" WIDTH="356.977607699038" HEIGHT="561.902362204724" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" ANNAME="main_text_left" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="5.66929133858268" TEXTRA="0" BEXTRA="0" REXTRA="5.66929133858268" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L356.978 0 L356.978 561.902 L0 561.902 L0 0 Z" copath="M0 0 L356.978 0 L356.978 561.902 L0 561.902 L0 0 Z" gXpos="19.1348157267719" gYpos="4141.39150866142" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="250529824" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle/>
                 <ITEXT CPARENT="Tittle" CH="Common prayers"/>
                 <para PARENT="normal-compressed" ALIGN="1"/>
                 <ITEXT CPARENT="black" CH=" "/>
-                <para PARENT="normal-compressed" ALIGN="1"/>
                 <para PARENT="normal-compressed"/>
-                <ITEXT CPARENT="black" CH="Visit to the Blessed Sacrament: "/>
-                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="reflexion-black" CH="Visit to the Blessed Sacrament: "/>
+                <para PARENT="Title"/>
                 <ITEXT CPARENT="Red Italic" CH="V/ "/>
                 <ITEXT CPARENT="italic" CH="O Sacrament most holy! O Sacrament divine! "/>
                 <para PARENT="normal-compressed"/>
@@ -152,8 +150,10 @@
                 <para PARENT="normal-compressed" ALIGN="1"/>
                 <ITEXT CPARENT="italic" CH="I wish, Lord, to receive You, with the purity, humility and devotion with which Your most holy Mother received You; with the spirit and fervour of the saints."/>
                 <para PARENT="normal-compressed"/>
-                <ITEXT CPARENT="black" CH="Angelus: "/>
-                <para PARENT="normal"/>
+                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="reflexion-black" CH="Angelus:"/>
+                <ITEXT CPARENT="black" CH=" "/>
+                <para PARENT="Title"/>
                 <ITEXT CPARENT="Red Italic" CH="V/ "/>
                 <ITEXT CPARENT="italic" CH="The Angel of the Lord declared unto Mary, "/>
                 <para PARENT="centered prayer"/>
@@ -183,49 +183,46 @@
                 <para PARENT="gospel"/>
                 <ITEXT CPARENT="italic" CH="Pour forth, we beseech Thee, O Lord, Thy grace into our hearts: that we, to whom the Incarnation of Christ, Thy Son, was made known by the message of an Angel, may by His Passion and Cross be brought to the glory of His Resurrection, through the same Christ our Lord. Amen."/>
                 <para PARENT="normal-compressed"/>
-                <para PARENT="normal-compressed"/>
-                <ITEXT CPARENT="black" CH="Memorare: "/>
+                <ITEXT CPARENT="reflexion-black" CH="Memorare: "/>
                 <para PARENT="normal-compressed"/>
                 <ITEXT CPARENT="italic" CH="Remember, O most gracious Virgin Mary, that never was it known that anyone who fled to thy protection, implored thy help, or sought thy intercession was left unaided. Inspired by this confidence, I fly unto thee, O Virgin of virgins, my mother; to thee do I come, before thee I stand, sinful and sorrowful. O Mother of the Word Incarnate, despise not my petitions, but in thy mercy hear and answer me. Amen. "/>
                 <para PARENT="normal-compressed"/>
-                <ITEXT CPARENT="black" CH="Morning offering: "/>
+                <ITEXT CPARENT="reflexion-black" CH="Morning offering: "/>
                 <para PARENT="normal-compressed"/>
                 <ITEXT CPARENT="italic" CH="O Jesus, through the most pure heart of Mary, I offer you all the prayers, works, sufferings and joys of this day, for all the intentions of your Divine Heart. Amen."/>
                 <para PARENT="normal-compressed"/>
-                <ITEXT CPARENT="black" CH="Blessing before meals: "/>
-                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="reflexion-black" CH="Blessing before meals: "/>
+                <para PARENT="tittle_compressed"/>
                 <ITEXT CPARENT="italic" CH="Bless us, O Lord, and these Thy gifts which we are about to receive from Thy bounty, through Christ our Lord, Amen. "/>
                 <para PARENT="normal-compressed"/>
-                <ITEXT CPARENT="black" CH="Grace after meals: "/>
-                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="reflexion-black" CH="Grace after meals: "/>
+                <para PARENT="tittle_compressed"/>
                 <ITEXT CPARENT="italic" CH="We give you thanks, Almighty God, for all Your benefits, who live and reign, world without end. Amen. "/>
                 <para PARENT="normal-compressed"/>
-                <ITEXT CPARENT="black" CH="Act of contrition: "/>
-                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="reflexion-black" CH="Act of contrition: "/>
+                <para PARENT="tittle_compressed"/>
                 <ITEXT CPARENT="italic" CH="O My God, because you are so good, I am very sorry that I have sinned against you, and by the help of your grace, I will not sin again. Amen. "/>
                 <para PARENT="normal-compressed"/>
-                <ITEXT CPARENT="black" CH="Guardian Angel: "/>
-                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="reflexion-black" CH="Guardian Angel: "/>
+                <para PARENT="tittle_compressed"/>
                 <ITEXT CPARENT="italic" CH="Angel of God, my Guardian dear, to whom His love commits me here, ever this day (or night) be at my side, to light and guard, to rule and guide. Amen."/>
                 <para PARENT="normal-compressed"/>
-                <ITEXT CPARENT="black" CH="Morning offering: "/>
-                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="reflexion-black" CH="Morning offering: "/>
+                <para PARENT="tittle_compressed"/>
                 <ITEXT CPARENT="italic" CH="O Jesus, through the most pure heart of Mary, I offer you all the prayers, works, sufferings and joys of this day, for all the intentions of your Divine Heart. Amen."/>
                 <para PARENT="normal-compressed"/>
-                <ITEXT CPARENT="black" CH="Prayer to St. Michael: "/>
-                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="reflexion-black" CH="Prayer to St. Michael: "/>
+                <para PARENT="tittle_compressed"/>
                 <ITEXT CPARENT="italic" CH="St. Michael the Archangel, defend us in the day battle: be our defence against the wickedness and snares of the devil. May God rebuke him, we humbly pray. And do you, O prince of the heavenly host, by the power of God cast into hell Satan and all the evil spirits who prowl about the world fo the ruin of souls. Amen."/>
                 <para PARENT="normal-compressed"/>
-                <para PARENT="normal-compressed"/>
-                <ITEXT CPARENT="black" FONTSIZE="10.5" CH="Holy Rosary:"/>
-                <ITEXT CPARENT="black" CH=" "/>
-                <para PARENT="normal-compressed"/>
+                <ITEXT CPARENT="reflexion-black" CH="Holy Rosary: "/>
+                <para PARENT="tittle_compressed"/>
                 <ITEXT CPARENT="italic" CH="In the name of the Father, and of the Son, and of the Holy Spirit. Amen."/>
                 <para PARENT="normal-compressed"/>
                 <ITEXT CPARENT="italic" FONT="Palatino Linotype Bold Italic" CH="The Apostles’ Creed "/>
-                <para PARENT="normal-compressed"/>
+                <para PARENT="gospel"/>
                 <ITEXT CPARENT="italic" CH="I believe in God, the Father Almighty, Creator of heaven and earth; and in Jesus Christ, His only Son, our Lord; Who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried. He descended into hell; the third day He arose again from the dead. He ascended into heaven, and sits at the right hand of God, the Father Almighty; from thence He shall come to judge the living and the dead. I believe in the Holy Spirit, the Holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body and life everlasting. Amen. "/>
-                <para PARENT="normal-compressed"/>
+                <para PARENT="gospel_extra"/>
                 <ITEXT CPARENT="Default Character Style" CH="Then you can say one “Our Father”, three “Hail Marys” and the “Glory be to the Father.”"/>
                 <para PARENT="normal-compressed"/>
                 <ITEXT CPARENT="Red Italic" CH="V.  "/>
@@ -245,12 +242,11 @@
                 <para PARENT="centered prayer"/>
                 <ITEXT CPARENT="Red Italic" CH="R. "/>
                 <ITEXT CPARENT="italic" CH="As it was in the beginning, is now, and ever shall be, world without end. Amen. "/>
-                <para PARENT="centered prayer"/>
+                <para PARENT="gospel_extra"/>
                 <ITEXT CPARENT="Default Character Style" CH="After each decade say the following prayer requested by the Blessed Virgin Mary at Fatima: "/>
                 <para PARENT="normal-compressed"/>
                 <ITEXT CPARENT="italic" CH="“O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those in most need of your mercy.”   "/>
-                <para PARENT="centered prayer"/>
-                <para PARENT="normal-compressed"/>
+                <para PARENT="gospel_extra"/>
                 <ITEXT CPARENT="italic-black" CH="The Joyful Mysteries"/>
                 <ITEXT CPARENT="italic" CH=" (recited Monday and Saturday) "/>
                 <para PARENT="centered prayer"/>
@@ -460,12 +456,12 @@
                 <trail PARENT="normal-compressed"/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="128.843149606299" YPOS="750.20811023622" OwnPage="1" ItemID="219732000" PTYPE="4" WIDTH="372.055748031496" HEIGHT="563.657244094489" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" ANNAME="Copy of main_text_left" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L372.056 0 L372.056 563.657 L0 563.657 L0 0 Z" copath="M0 0 L372.056 0 L372.056 563.657 L0 563.657 L0 0 Z" gXpos="9" gYpos="253.669291338583" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="219734832" BACKITEM="218503072"/>
-        <PAGEOBJECT XPOS="128.843149606299" YPOS="1424.9031496063" OwnPage="2" ItemID="219734832" PTYPE="4" WIDTH="372.889133858268" HEIGHT="443.128346456693" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L372.889 0 L372.889 443.128 L0 443.128 L0 0 Z" copath="M0 0 L372.889 0 L372.889 443.128 L0 443.128 L0 0 Z" gXpos="9" gYpos="466" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="219737664" BACKITEM="219732000"/>
-        <PAGEOBJECT XPOS="129.092677165354" YPOS="2122.33464566929" OwnPage="3" ItemID="219737664" PTYPE="4" WIDTH="153.106220472441" HEIGHT="407.20393700787" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L153.106 0 L153.106 407.204 L0 407.204 L0 0 Z" copath="M0 0 L153.106 0 L153.106 407.204 L0 407.204 L0 0 Z" gXpos="-50.081181102363" gYpos="251.885748048037" gWidth="264.325818897637" gHeight="1244.58034650165" LAYER="1" NEXTITEM="219740496" BACKITEM="219734832"/>
-        <PAGEOBJECT XPOS="318.338582677166" YPOS="2166.29999999999" OwnPage="3" ItemID="219740496" PTYPE="4" WIDTH="183.393700787401" HEIGHT="378.53858267717" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L183.394 0 L183.394 378.539 L0 378.539 L0 0 Z" copath="M0 0 L183.394 0 L183.394 378.539 L0 378.539 L0 0 Z" gXpos="139.164724409449" gYpos="295.851102378746" gWidth="264.325818897637" gHeight="1244.58034650165" LAYER="1" NEXTITEM="219743328" BACKITEM="219737664"/>
-        <PAGEOBJECT XPOS="129.198897637795" YPOS="2568.18897637795" OwnPage="3" ItemID="219743328" PTYPE="4" WIDTH="373.5" HEIGHT="93.5433070866138" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L373.5 0 L373.5 93.5433 L0 93.5433 L0 0 Z" copath="M0 0 L373.5 0 L373.5 93.5431 L0 93.5431 L0 0 Z" gXpos="-49.9749606299217" gYpos="697.740078756702" gWidth="264.325818897637" gHeight="1244.58034650165" LAYER="1" NEXTITEM="219448880" BACKITEM="219740496"/>
-        <PAGEOBJECT XPOS="137.173858267717" YPOS="1877.51037329585" OwnPage="2" ItemID="219443216" PTYPE="4" WIDTH="180.325039370078" HEIGHT="110.771516467928" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L180.325 0 L180.325 110.772 L0 110.772 L0 0 Z" copath="M0 0 L180.325 0 L180.325 110.772 L0 110.772 L0 0 Z" gXpos="-42" gYpos="7.0614756745918" gWidth="264.325818897637" gHeight="1244.58034650165" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="142.555555555556" YPOS="4870.23116535433" OwnPage="7" ItemID="250529824" PTYPE="4" WIDTH="343.343512160979" HEIGHT="562.657723534558" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" ANNAME="Copy of main_text_left" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L343.344 0 L343.344 562.658 L0 562.658 L0 0 Z" copath="M0 0 L343.344 0 L343.344 562.658 L0 562.658 L0 0 Z" gXpos="22.7124059492565" gYpos="4373.69234645669" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="250535200" BACKITEM="248574016"/>
+        <PAGEOBJECT XPOS="129.843319685039" YPOS="5546.92971968504" OwnPage="8" ItemID="250535200" PTYPE="4" WIDTH="364.934458092739" HEIGHT="530.403613648293" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L364.934 0 L364.934 530.404 L0 530.404 L0 0 Z" copath="M0 0 L364.934 0 L364.934 530.404 L0 530.404 L0 0 Z" gXpos="10.00017007874" gYpos="4588.02657007874" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="248677728" BACKITEM="250529824"/>
+        <PAGEOBJECT XPOS="131.092847244094" YPOS="6298.22222222222" OwnPage="9" ItemID="248677728" PTYPE="4" WIDTH="153.106220472441" HEIGHT="406.777777777777" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L153.106 0 L153.106 406.778 L0 406.778 L0 0 Z" copath="M0 0 L153.106 0 L153.106 406.778 L0 406.778 L0 0 Z" gXpos="-48.081011023623" gYpos="4427.77332460097" gWidth="264.325818897637" gHeight="1244.58034650165" LAYER="1" NEXTITEM="248683104" BACKITEM="250535200"/>
+        <PAGEOBJECT XPOS="324.338752755906" YPOS="6336.44444444444" OwnPage="9" ItemID="248683104" PTYPE="4" WIDTH="183.393700787401" HEIGHT="379.555555555556" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L183.394 0 L183.394 379.556 L0 379.556 L0 0 Z" copath="M0 0 L183.394 0 L183.394 379.556 L0 379.556 L0 0 Z" gXpos="145.164894488189" gYpos="4465.9955468232" gWidth="264.325818897637" gHeight="1244.58034650165" LAYER="1" NEXTITEM="248688480" BACKITEM="248677728"/>
+        <PAGEOBJECT XPOS="129.199067716535" YPOS="6720.81906141732" OwnPage="9" ItemID="248688480" PTYPE="4" WIDTH="373.5" HEIGHT="93.5433070866138" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L373.5 0 L373.5 93.5433 L0 93.5433 L0 0 Z" copath="M0 0 L373.5 0 L373.5 93.5431 L0 93.5431 L0 0 Z" gXpos="-49.9747905511817" gYpos="4850.37016379607" gWidth="264.325818897637" gHeight="1244.58034650165" LAYER="1" NEXTITEM="248608704" BACKITEM="248683104"/>
+        <PAGEOBJECT XPOS="133.174028346457" YPOS="6080.53694337459" OwnPage="8" ItemID="248627600" PTYPE="4" WIDTH="180.325039370078" HEIGHT="65.9075010698534" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L180.325 0 L180.325 65.9075 L0 65.9075 L0 0 Z" copath="M0 0 L180.325 0 L180.325 65.9078 L0 65.9078 L0 0 Z" gXpos="-45.99982992126" gYpos="4210.08804575333" gWidth="264.325818897637" gHeight="1244.58034650165" LAYER="1" NEXTITEM="137149040" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle/>
                 <ITEXT CPARENT="Red Italic" CH="V. "/>
@@ -494,7 +490,7 @@
                 <trail PARENT="Centered prayer with space"/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="330.673228323465" YPOS="1876.64762810412" OwnPage="2" ItemID="225124384" PTYPE="4" WIDTH="180.098897660787" HEIGHT="126.034261659659" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L180.099 0 L180.099 126.034 L0 126.034 L0 0 Z" copath="M0 0 L180.099 0 L180.099 126.034 L0 126.034 L0 0 Z" gXpos="151.499370055748" gYpos="6.19873048286086" gWidth="264.325818897637" gHeight="1244.58034650165" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="328.673398402205" YPOS="6068.67419818286" OwnPage="8" ItemID="248632976" PTYPE="4" WIDTH="180.098897660787" HEIGHT="64.659135150473" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L180.099 0 L180.099 64.6591 L0 64.6591 L0 0 Z" copath="M0 0 L180.099 0 L180.099 64.659 L0 64.659 L0 0 Z" gXpos="149.499540134488" gYpos="4198.2253005616" gWidth="264.325818897637" gHeight="1244.58034650165" LAYER="1" NEXTITEM="137163200" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle/>
                 <ITEXT CPARENT="Red Italic" CH="R."/>
@@ -523,7 +519,7 @@
                 <trail PARENT="Centered prayer with space"/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="318.758228367716" YPOS="2137.1293463959" OwnPage="3" ItemID="219446048" PTYPE="4" WIDTH="93.375" HEIGHT="13.0362737157903" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L93.375 0 L93.375 13.0363 L0 13.0363 L0 0 Z" copath="M0 0 L93.375 0 L93.375 13.0363 L0 13.0363 L0 0 Z" gXpos="139.584370099999" gYpos="266.680448774651" gWidth="264.325818897637" gHeight="1244.58034650165" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="324.758398446456" YPOS="6314.15943143527" OwnPage="9" ItemID="248638352" PTYPE="4" WIDTH="93.375" HEIGHT="13.0362737157903" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L93.375 0 L93.375 13.0363 L0 13.0363 L0 0 Z" copath="M0 0 L93.375 0 L93.375 13.0363 L0 13.0363 L0 0 Z" gXpos="145.584540178739" gYpos="4443.71053381402" gWidth="264.325818897637" gHeight="1244.58034650165" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle/>
                 <ITEXT CPARENT="Red Italic" CH="R. "/>
@@ -531,41 +527,165 @@
                 <trail PARENT="Centered prayer with space"/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="129.334645669291" YPOS="2814.4438976378" OwnPage="4" ItemID="219448880" PTYPE="4" WIDTH="373.364251968504" HEIGHT="304.9561023622" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L373.364 0 L373.364 304.956 L0 304.956 L0 0 Z" copath="M0 0 L373.364 0 L373.364 304.956 L0 304.956 L0 0 Z" gXpos="11" gYpos="707" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="-1" BACKITEM="219743328"/>
-        <PAGEOBJECT XPOS="129.198897637795" YPOS="2695.82633377605" OwnPage="3" ItemID="219451712" PTYPE="4" WIDTH="373.5" HEIGHT="12.300680244254" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" ANNAME="Copy of page_number_left (4)" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L373.5 0 L373.5 12.3007 L0 12.3007 L0 0 Z" copath="M0 0 L373.5 0 L373.5 12.3007 L0 12.3007 L0 0 Z" gXpos="-49.9749606299218" gYpos="825.377436154791" gWidth="264.325818897637" gHeight="1244.58034650165" PSTYLE="page-number" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="129.334815748031" YPOS="6928.4774976378" OwnPage="10" ItemID="248608704" PTYPE="4" WIDTH="373.364251968504" HEIGHT="379.522502362199" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L373.364 0 L373.364 379.523 L0 379.523 L0 0 Z" copath="M0 0 L373.364 0 L373.364 379.523 L0 379.523 L0 0 Z" gXpos="11.00017007874" gYpos="4821.0336" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="-1" BACKITEM="248688480"/>
+        <PAGEOBJECT XPOS="129.199067716535" YPOS="4759.84681881542" OwnPage="6" ItemID="125705952" PTYPE="4" WIDTH="373.5" HEIGHT="12.300680244254" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" ANNAME="Copy of page_number_left (8)" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L373.5 0 L373.5 12.3007 L0 12.3007 L0 0 Z" copath="M0 0 L373.5 0 L373.5 12.3007 L0 12.3007 L0 0 Z" gXpos="-49.9747905511818" gYpos="4953.39697631227" gWidth="264.325818897637" gHeight="1244.58034650165" PSTYLE="page-number" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle PARENT="page-number"/>
                 <ITEXT CH="{{page_number}}"/>
                 <trail PARENT="page-number" ALIGN="1"/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="129.198897637795" YPOS="3383.82601881542" OwnPage="4" ItemID="219454544" PTYPE="4" WIDTH="373.5" HEIGHT="12.300680244254" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" ANNAME="Copy of page_number_left (5)" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L373.5 0 L373.5 12.3007 L0 12.3007 L0 0 Z" copath="M0 0 L373.5 0 L373.5 12.3007 L0 12.3007 L0 0 Z" gXpos="-49.9749606299218" gYpos="825.377436154791" gWidth="264.325818897637" gHeight="1244.58034650165" PSTYLE="page-number" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="142.52048503937" YPOS="394.973804724409" OwnPage="0" ItemID="134580448" PTYPE="4" WIDTH="332.97951496063" HEIGHT="168.126195275591" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" ANNAME="Copy of main_text_left (2)" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L332.98 0 L332.98 168.126 L0 168.126 L0 0 Z" copath="M0 0 L332.98 0 L332.98 168.126 L0 168.126 L0 0 Z" gXpos="0" gYpos="366.678866083417" gWidth="379.079631143285" gHeight="586.410659923365" PSTYLE="normal" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
-                <DefaultStyle PARENT="page-number"/>
-                <ITEXT CH="{{page_number}}"/>
-                <trail PARENT="page-number" ALIGN="1"/>
+                <DefaultStyle PARENT="normal"/>
+                <ITEXT CPARENT="Default Character Style" CH="Scripture quotations are from The Revised Standard Version of the Bible: Catholic Edition, copyright © 1965, 1966 the Division of Christian Education of the National Council of the Churches of Christ in the United States of America. Used by permission. All rights reserved."/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="Default Character Style" CH="Copyright © 2015 by George Boronat. All rights reserved. This book or any portion thereof may not be reproduced or used in any manner whatsoever without the express written permission of the publisher except for the use of brief quotations. For permission requests, write to"/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="black" CH=" ipraywiththegospel.org/contact-us/"/>
+                <trail PARENT="normal"/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="129.198897637795" YPOS="2007.82664873668" OwnPage="2" ItemID="224833552" PTYPE="4" WIDTH="373.5" HEIGHT="12.300680244254" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" ANNAME="Copy of page_number_left (6)" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L373.5 0 L373.5 12.3007 L0 12.3007 L0 0 Z" copath="M0 0 L373.5 0 L373.5 12.3007 L0 12.3007 L0 0 Z" gXpos="-49.9749606299218" gYpos="825.377436154791" gWidth="264.325818897637" gHeight="1244.58034650165" PSTYLE="page-number" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="141.912611023622" YPOS="61.7483716535433" OwnPage="0" ItemID="134569120" PTYPE="4" WIDTH="246.14062992126" HEIGHT="17.001968503937" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L246.141 0 L246.141 17.002 L0 17.002 L0 0 Z" copath="M0 0 L246.141 0 L246.141 17.002 L0 17.002 L0 0 Z" gXpos="8.58016255970745" gYpos="0" gWidth="379.079631143285" gHeight="586.410659923365" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
-                <DefaultStyle PARENT="page-number"/>
-                <ITEXT CH="{{page_number}}"/>
-                <trail PARENT="page-number" ALIGN="1"/>
+                <DefaultStyle/>
+                <ITEXT CPARENT="black" FONTSIZE="12.5" CH="ABOUT THE AUTHOR "/>
+                <trail PARENT="normal-compressed" ALIGN="0"/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="129.198897637795" YPOS="1319.82696369731" OwnPage="1" ItemID="224836384" PTYPE="4" WIDTH="373.5" HEIGHT="12.300680244254" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" ANNAME="Copy of page_number_left (7)" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L373.5 0 L373.5 12.3007 L0 12.3007 L0 0 Z" copath="M0 0 L373.5 0 L373.5 12.3007 L0 12.3007 L0 0 Z" gXpos="-49.9749606299218" gYpos="825.377436154791" gWidth="264.325818897637" gHeight="1244.58034650165" PSTYLE="page-number" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="142.52048503937" YPOS="117.836560629921" OwnPage="0" ItemID="134574784" PTYPE="4" WIDTH="336.72951496063" HEIGHT="100.263439370079" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L336.73 0 L336.73 100.263 L0 100.263 L0 0 Z" copath="M0 0 L336.73 0 L336.73 100.263 L0 100.263 L0 0 Z" gXpos="8.58016255970745" gYpos="54.3624566763362" gWidth="379.079631143285" gHeight="586.410659923365" PSTYLE="normal" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
-                <DefaultStyle PARENT="page-number"/>
-                <ITEXT CH="{{page_number}}"/>
-                <trail PARENT="page-number" ALIGN="1"/>
+                <DefaultStyle PARENT="normal"/>
+                <ITEXT CPARENT="Default Character Style" CH="Rev. George Boronat M.D. S.T.D is a Catholic priest from the Prelature of Opus Dei, working in the Archdiocese of Southwark in London. He is the Chaplain of The Cedars School in Croydon, and of Kelston Club &amp; Study Centre (Balham). He also works in Oakwood School (Purley). He has developed his pastoral ministry mainly with young people."/>
+                <para PARENT="normal"/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="129.198897637795" YPOS="631.827278657941" OwnPage="0" ItemID="224839216" PTYPE="4" WIDTH="373.5" HEIGHT="12.300680244254" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" ANNAME="Copy of page_number_left (8)" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L373.5 0 L373.5 12.3007 L0 12.3007 L0 0 Z" copath="M0 0 L373.5 0 L373.5 12.3007 L0 12.3007 L0 0 Z" gXpos="-49.9749606299218" gYpos="825.377436154791" gWidth="264.325818897637" gHeight="1244.58034650165" PSTYLE="page-number" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="141.912611023622" YPOS="72.919631496063" OwnPage="0" ItemID="134560624" PTYPE="4" WIDTH="208.937007874016" HEIGHT="30.75" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L208.937 0 L208.937 30.75 L0 30.75 L0 0 Z" copath="M0 0 L208.937 0 L208.937 30.75 L0 30.75 L0 0 Z" gXpos="8.58016255970745" gYpos="17.6088437008109" gWidth="379.079631143285" gHeight="586.410659923365" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
-                <DefaultStyle PARENT="page-number"/>
-                <ITEXT CH="{{page_number}}"/>
-                <trail PARENT="page-number" ALIGN="1"/>
+                <DefaultStyle/>
+                <ITEXT CPARENT="Default Character Style" CH="ipraywiththegospel.org"/>
+                <trail PARENT="normal"/>
             </StoryText>
         </PAGEOBJECT>
+        <PAGEOBJECT XPOS="200.843319685039" YPOS="225.282544881889" OwnPage="0" ItemID="137195712" PTYPE="2" WIDTH="251.906680314961" HEIGHT="170.817455118111" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.247944941996754" LOCALSCY="0.247944941996754" LOCALX="57.162804904656" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="../images/qr_codes.jpg" PRFILE="sRGB IEC61966-2.1" IRENDER="0" EMBEDDED="0" path="M0 0 L251.907 0 L251.907 170.817 L0 170.817 L0 0 Z" copath="M0 0 L251.907 0 L251.907 170.817 L0 170.817 L0 0 Z" gXpos="31.0944166682703" gYpos="149.641225950269" gWidth="379.079631143285" gHeight="586.410659923365" LAYER="1" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="144.5016" YPOS="818.689603149608" OwnPage="1" ItemID="137103728" PTYPE="4" WIDTH="331.998400000001" HEIGHT="480.760396850393" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L331.998 0 L331.998 480.76 L0 480.76 L0 0 Z" copath="M0 0 L331.998 0 L331.998 480.76 L0 480.76 L0 0 Z" gXpos="0" gYpos="0" gWidth="0" gHeight="0" PSTYLE="normal" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle PARENT="normal"/>
+                <ITEXT CPARENT="black" CH="— Can I pray? "/>
+                <ITEXT CH="as in talk with God? Most certainly! God created you to be His friend; and friends talk to each other. To do mental prayer you don’t need training. There is no standard method. "/>
+                <para PARENT="normal"/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="black" CH="— How do I begin? "/>
+                <ITEXT CH="You can begin with the Introductory prayer to tune in. Then… just start talking to Him. As St Josemaría teaches, it is all a matter of getting the conversation started: “You don’t know how to pray? Put yourself in the presence of God, and as soon as you have said, “Lord, I don’t know how to pray!” you can be sure you’ve already begun.”"/>
+                <para PARENT="normal"/>
+                <ITEXT CH=" "/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="black" CH="— What should I do then? "/>
+                <ITEXT CH="You can read the Gospel and the comments of the iPray. They can trigger a topic for your prayer. But remember: the most important part of your prayer is not written in this booklet. The main part is what you say to Him and, especially, what He says to you. "/>
+                <para PARENT="normal"/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="black" CH="— What should I talk about? "/>
+                <ITEXT CH="About everything! “About Him, about yourself—joys, sorrows, successes and failures, noble ambitions, daily worries, weaknesses! And acts of thanksgiving and petitions—and Love and reparation” (St Josemaría)."/>
+                <para PARENT="normal"/>
+                <ITEXT CH=" "/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="black" CH="— How do I finish?"/>
+                <ITEXT CH=" At the end of your prayer you can ask Our Lady for help; you should also give thanks to Our Lord for that dialogue. You can finish, if you want, with the Closing prayer."/>
+                <para PARENT="normal"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="141.51261102" YPOS="759.247634642126" OwnPage="1" ItemID="137117888" PTYPE="4" WIDTH="246.1406299" HEIGHT="17.0019685" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L246.141 0 L246.141 17.002 L0 17.002 L0 0 Z" copath="M0 0 L246.141 0 L246.141 17.002 L0 17.002 L0 0 Z" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CPARENT="black" FONTSIZE="12.5" CH="HOW TO APPROACH YOUR PRAYER "/>
+                <trail PARENT="normal-compressed" ALIGN="0"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="141.51261102" YPOS="774.5" OwnPage="1" ItemID="137129216" PTYPE="4" WIDTH="334.23738898" HEIGHT="23.3931464566934" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L334.237 0 L334.237 23.3931 L0 23.3931 L0 0 Z" copath="M0 0 L334.237 0 L334.237 23.3931 L0 23.3931 L0 0 Z" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CH="Some ideas that might be useful before you start your prayer"/>
+                <trail PARENT="normal"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="148.52048503937" YPOS="1505.98721259843" OwnPage="2" ItemID="137132048" PTYPE="4" WIDTH="341.47951496063" HEIGHT="234.01278740157" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L341.48 0 L341.48 234.013 L0 234.013 L0 0 Z" copath="M0 0 L341.48 0 L341.48 234.013 L0 234.013 L0 0 Z" gXpos="6" gYpos="0" gWidth="0" gHeight="0" PSTYLE="normal" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle PARENT="normal"/>
+                <ITEXT CPARENT="reflexion-black" CH="Introductory prayer"/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="reflexion-italic" CH="My Lord and my God, I firmly believe that you are here, that you see me, that you hear me. I adore you with profound reverence, I ask you for pardon of my sins, and the grace to make this time of prayer fruitful. My Mother Immaculate, Saint Joseph my father and lord, my guardian angel, intercede for me. "/>
+                <para PARENT="normal"/>
+                <ITEXT CH=" "/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="reflexion-black" CH="Closing prayer "/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="reflexion-italic" CH="I give you thanks, my God, for the good resolutions, affections and inspirations you have communicated to me in this meditation. I ask you for help to put them into effect. My Mother Immaculate, Saint Joseph my father and lord, my guardian angel, intercede for me."/>
+                <trail PARENT="normal"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="146.759971374452" YPOS="2703.70523118468" OwnPage="3" ItemID="137106560" PTYPE="4" WIDTH="340.60559293001" HEIGHT="13.2947356224931" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" ANNAME="page_number_left" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L340.606 0 L340.606 13.2947 L0 13.2947 L0 0 Z" copath="M0 0 L340.606 0 L340.606 13.2947 L0 13.2947 L0 0 Z" gXpos="146.759971374452" gYpos="2703.70523118468" gWidth="341.239527854018" gHeight="13.2947356224931" PSTYLE="normal" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle PARENT="normal"/>
+                <ITEXT CPARENT="page" CH="{{page_number}}"/>
+                <trail PARENT="normal"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="157" YPOS="2117.1982230001" OwnPage="3" ItemID="137126384" PTYPE="4" WIDTH="328.032230971129" HEIGHT="569.468443666569" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" ANNAME="iPray_day" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L328.032 0 L328.032 569.468 L0 569.468 L0 0 Z" copath="M0 0 L328.032 0 L328.032 569.468 L0 569.468 L0 0 Z" gXpos="157" gYpos="2117.1982230001" gWidth="291.421863882518" gHeight="375.823939317095" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CPARENT="santo-title" CH="Mary, the Holy Mother of God"/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="Day" CH="Friday 1st January"/>
+                <para PARENT="Title"/>
+                <ITEXT CPARENT="versiculo" CH="Lk 2:16-21"/>
+                <para PARENT="gospel"/>
+                <ITEXT CPARENT="italic" CH="And they went with haste, and found Mary and Joseph, and the babe lying in a manger. And when they saw it they made known the saying which had been told them concerning this child; and ali who heard it wondered at what the shepherds told them. But Mary kept ali these things, pondering them in her heart. And the shepherds returned, glorifying and praising God far ali they had heard and seen, as it had been told them. And at the end of eight days, when he was circumcised, he was called Jesus, the name given by the angel."/>
+                <para PARENT="gospel"/>
+                <ITEXT CPARENT="reflexion" CH="Mary, the Holy Mother of God, is the beginning. It just makes sense. She initiated our Redemption. She opens the New Year also. Is there any better way to kick off? You have heard that a good start is half of the battle. Let’s make that good start today, with Our Lady. "/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="reflexion" CH="We are still in the Christmas Season and we are reminded of Our Mother keeping ali the memories of Jesus and “pondering” them in her Immaculate Heart. Christmas is a season to focus our sights on Jesus. There is no better way than to leam from Mary. To look at Him with the loving eyes of Our Lady. St John Paul II invites us to contemplate the Virgin’s gaze on her Child: "/>
+                <ITEXT CPARENT="reflexion-italic" CH="“The contemplation of Christ has a remarkable model in Mary. In a unique way the face of the Son belongs to Mary. It was in her womb that Christ was formed, receiving from her a human resemblance which points to an even greater spiritual closeness. No one has ever devoted himself to the contemplation of the face of Christ as faithfully as Mary.”"/>
+                <ITEXT CPARENT="reflexion" CH=" "/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="reflexion" CH="We hurry like curious little children to the crib - and there we find Jesus, in the arms of His enraptured Mother. As you are little you can get really close; in the ar"/>
+                <ITEXT CPARENT="reflexion-black" CH="ms of Mary there is roo"/>
+                <ITEXT CPARENT="reflexion" CH="m for two, Jesus and you. There, in silence, you look at Him and smile at her; you contemplate them both and you leam to love. "/>
+                <para PARENT="normal"/>
+                <ITEXT CPARENT="reflexion" CH="And in the arms of Mary, beside that beautiful Baby, we promise for the New Year to struggle to be good children of Mary, to remain in her arms during the whole year, to try to grow in !ove with Jesus. Throughout this year that we begin today, with the Grace of God, may I keep my eyes on Jesus and, from your lap, Mary, my Mother, may I be like you, keeping a permanent dialogue with Jesus every single one of the 366 (yes! One extra!) days of this year."/>
+                <trail PARENT="normal"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="140.843319685027" YPOS="3395.26279999998" OwnPage="4" ItemID="291364256" PTYPE="2" WIDTH="608.59613333331" HEIGHT="343.100022397212" FRTYPE="0" CLIPEDIT="1" ROT="270" PWIDTH="1" PLINEART="1" LOCALSCX="0.17" LOCALSCY="0.17" LOCALX="27.6564705882353" LOCALY="170.682352941176" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="../images/norms.jpg" PRFILE="sRGB IEC61966-2.1" IRENDER="0" EMBEDDED="0" path="M0 0 L608.596 0 L608.596 343.1 L0 343.1 L0 0 Z" copath="M0 0 L-608.596 0 L-608.596 -343.1 L0 -343.1 L0 0 Z" gXpos="-35.0000000000116" gYpos="574.449842519662" gWidth="340.600696062992" gHeight="485.449842519685" LAYER="1" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="161.365564304462" YPOS="3383" OwnPage="4" ItemID="137151872" PTYPE="4" WIDTH="239" HEIGHT="13.3333333333335" FRTYPE="0" CLIPEDIT="0" ROT="270" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L239 0 L239 13.3333 L0 13.3333 L0 0 Z" copath="M0 0 L239 0 L239 13.3333 L0 13.3333 L0 0 Z" gXpos="161.365564304462" gYpos="3383" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CH="Some topics you could include on your examination"/>
+                <trail PARENT="normal"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="146.365564304462" YPOS="3384" OwnPage="4" ItemID="137140544" PTYPE="4" WIDTH="239" HEIGHT="13.3333333333335" FRTYPE="0" CLIPEDIT="0" ROT="270" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L239 0 L239 13.3333 L0 13.3333 L0 0 Z" copath="M0 0 L239 0 L239 13.3333 L0 13.3333 L0 0 Z" gXpos="146.365564304462" gYpos="3384" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CPARENT="black" FONTSIZE="12.5" CH="EXAMINATION OF CONSCIENCE"/>
+                <trail PARENT="normal-compressed" ALIGN="0"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="496.247186351718" YPOS="3477.66986666667" OwnPage="5" ItemID="263655344" PTYPE="2" WIDTH="608.59613333331" HEIGHT="343.100022397212" FRTYPE="0" CLIPEDIT="1" ROT="90" PWIDTH="1" PLINEART="1" LOCALSCX="0.17" LOCALSCY="0.17" LOCALX="27.6564705882353" LOCALY="170.682352941176" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" Pagenumber="0" PFILE="../images/norms.jpg" PRFILE="sRGB IEC61966-2.1" IRENDER="0" EMBEDDED="0" path="M0 0 L608.596 0 L608.596 343.1 L0 343.1 L0 0 Z" copath="M0 0 L-608.596 0 L-608.596 -343.1 L0 -343.1 L0 0 Z" gXpos="928.999999999988" gYpos="577.449842519662" gWidth="340.600696062992" gHeight="485.449842519685" LAYER="1" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="475.724941732283" YPOS="3489.93266666664" OwnPage="5" ItemID="137160368" PTYPE="4" WIDTH="239" HEIGHT="13.3333333333335" FRTYPE="0" CLIPEDIT="0" ROT="90" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L239 0 L239 13.3333 L0 13.3333 L0 0 Z" copath="M0 0 L239 0 L239 13.3333 L0 13.3333 L0 0 Z" gXpos="1125.36556430446" gYpos="3386" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CH="Some topics you could include on your examination"/>
+                <trail PARENT="normal"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="490.724941732283" YPOS="3488.93266666664" OwnPage="5" ItemID="137137712" PTYPE="4" WIDTH="239" HEIGHT="13.3333333333335" FRTYPE="0" CLIPEDIT="0" ROT="90" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L239 0 L239 13.3333 L0 13.3333 L0 0 Z" copath="M0 0 L239 0 L239 13.3333 L0 13.3333 L0 0 Z" gXpos="1110.36556430446" gYpos="3387" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CPARENT="black" FONTSIZE="12.5" CH="EXAMINATION OF CONSCIENCE"/>
+                <trail PARENT="normal-compressed" ALIGN="0"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="131.333333333333" YPOS="6238.77777777778" OwnPage="9" ItemID="137149040" PTYPE="4" WIDTH="202.222222222222" HEIGHT="91.1111111111113" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L202.222 0 L202.222 91.1111 L0 91.1111 L0 0 Z" copath="M0 0 L202.222 0 L202.222 91.1111 L0 91.1111 L0 0 Z" gXpos="131.333333333333" gYpos="6238.77777777778" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="-1" BACKITEM="248627600"/>
+        <PAGEOBJECT XPOS="326" YPOS="6238.55555555556" OwnPage="9" ItemID="137163200" PTYPE="4" WIDTH="176.888888888889" HEIGHT="52.666666666667" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L176.889 0 L176.889 52.6667 L0 52.6667 L0 0 Z" copath="M0 0 L176.889 0 L176.889 52.6667 L0 52.6667 L0 0 Z" gXpos="326" gYpos="6238.55555555556" gWidth="0" gHeight="0" LAYER="1" NEXTITEM="-1" BACKITEM="248632976"/>
     </DOCUMENT>
 </SCRIBUSUTF8NEW>

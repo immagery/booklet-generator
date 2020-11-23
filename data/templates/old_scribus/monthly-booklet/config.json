@@ -6,9 +6,32 @@
                  "norm_sheet" : "../images/norms.jpg"         
     },
 
+    "cover": {
+        "filename" : "cover.sla",
+        "images" : [ "cover_reference.jpg", "cover" ],
+        "front" : 0,
+        "back" : 2
+    },
+
+    "prayers": {
+        "filename": "prayers.sla"
+    },
+    
+    "intro": {
+        "filename": "intro.sla",
+        "images" : [ "qr_codes.jpg", "qr_codes" ]
+    },
+
+    "exam": {
+        "filename": "exam.sla",
+        "images" : [ "norms.jpg", "norm_sheet" ],
+        "left": 0,
+        "right": 1
+    },
+
     "main_content": {
 
-        "filename" : "base_booklet_connections.sla",
+        "filename" : "main_content.sla",
 
         "left_page": 1,
         "right_page": 0,
@@ -84,10 +107,10 @@
     ],
 
     "character_style_templates" : {
-        "normal":"reflexion",
-        "bold":"reflexion-black",
-        "italic":"reflexion-italic",
-        "boldItalic":"italic-black",
-        "Red-talic": "Red-Italic"
+        "normal":"<ITEXT CH=\"{{text}}\"/>",
+        "bold":"<ITEXT CPARENT=\"black\" CH=\"{{text}}\"/>\n",
+        "italic":"<ITEXT CPARENT=\"italic\" CH=\"{{text}}\"/>\n",
+        "boldItalic":"<ITEXT CPARENT=\"italic-black\" CH=\"{{text}}\"/>\n",
+        "Red-talic": "Red-Italic{{text}}"
     }
 }
