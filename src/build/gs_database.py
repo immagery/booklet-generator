@@ -72,8 +72,9 @@ class DaySpec(object):
         return day
 
     @classmethod
-    def blank_day(cls):
+    def blank_day(cls, title = None):
         blank = cls()
+        blank.title = title
         blank.is_blank = True
         return blank
 
@@ -141,10 +142,13 @@ class GoogleSpreadSheetMgr:
         pass
 
 class DataBaseHandler:
-    def __init__(self, spreadsheet_link, language = None):
+    def __init__(self, spreadsheet_link, language = None, no_db_access = False):
         self.gs = spreadsheet_link
         self.days = {}
         self.language = language if language is not None else 'english'
+
+        if no_db_access:
+            return
 
         for sheet in self.gs:
             print("processing sheet {0} with {1} days.".format(sheet.title, sheet.col_count))
@@ -218,7 +222,8 @@ class DataBaseHandler:
                     new_day.version = version
                     days_collected.append( new_day )
                 elif text_in_day == SKIP_DAY_CODE :
-                    new_day = DaySpec.blank_day()
+                    title = None if len(day_code)<3 else day_code[2]
+                    new_day = DaySpec.blank_day( title = title )
                     new_day.version = version
                     days_collected.append( new_day )
                 else:
@@ -244,7 +249,7 @@ def load_db( credentials, scope):
     GoogleSpreadSheetMgr.gc = gspread.authorize(credentials)
 
 # will return a data base related to a language
-def read_data_base(data_base_name, language):
+def read_data_base(data_base_name, language, no_db_access = False):
     if language in GoogleSpreadSheetMgr.language_databases:
         return GoogleSpreadSheetMgr.language_databases[language]
 
@@ -255,7 +260,7 @@ def read_data_base(data_base_name, language):
 
     print("Found a {0} data base.".format(language))
 
-    GoogleSpreadSheetMgr.language_databases[language] = DataBaseHandler(data_base_handle, language)
+    GoogleSpreadSheetMgr.language_databases[language] = DataBaseHandler(data_base_handle, language, no_db_access)
     return GoogleSpreadSheetMgr.language_databases[language]
 
 # Returns the list of days that a task will be processing

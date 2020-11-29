@@ -119,13 +119,6 @@
         </Sections>
         <MASTERPAGE PAGEXPOS="100.0008" PAGEYPOS="20.0016" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="0" NAM="white" MNAM="" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
         <PAGE PAGEXPOS="100.0008" PAGEYPOS="20.0016" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="0" NAM="" MNAM="white" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="28.3465 402.52 " HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
-        <PAGEOBJECT XPOS="141.912611023622" YPOS="61.7483716535433" OwnPage="0" ItemID="203890848" PTYPE="4" WIDTH="246.14062992126" HEIGHT="17.001968503937" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L246.141 0 L246.141 17.002 L0 17.002 L0 0 Z" copath="M0 0 L246.141 0 L246.141 17.002 L0 17.002 L0 0 Z" gXpos="8.58016255970745" gYpos="0" gWidth="379.079631143285" gHeight="586.410659923365" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
-            <StoryText>
-                <DefaultStyle/>
-                <ITEXT CPARENT="black" FONTSIZE="12.5" CH="ABOUT THE AUTHOR "/>
-                <trail PARENT="normal-compressed" ALIGN="0"/>
-            </StoryText>
-        </PAGEOBJECT>
         <PAGEOBJECT XPOS="142.52048503937" YPOS="117.836560629921" OwnPage="0" ItemID="224021008" PTYPE="4" WIDTH="336.72951496063" HEIGHT="71.163439370079" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L336.73 0 L336.73 71.1634 L0 71.1634 L0 0 Z" copath="M0 0 L336.73 0 L336.73 71.1631 L0 71.1631 L0 0 Z" gXpos="8.58016255970745" gYpos="54.3624566763362" gWidth="379.079631143285" gHeight="586.410659923365" PSTYLE="normal" LAYER="1" NEXTITEM="224399472" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle PARENT="normal"/>
@@ -143,13 +136,6 @@
                 <para PARENT="normal"/>
                 <ITEXT CPARENT="Default Character Style" CH="Rev. George Boronat M.D. S.T.D is a Catholic priest from the Prelature of Opus Dei, working in the Archdiocese of Southwark in London. He is the Chaplain of The Cedars School in Croydon, and of Kelston Club &amp; Study Centre (Balham). He also works in Oakwood School (Purley). He has developed his pastoral ministry mainly with young people."/>
                 <para PARENT="normal"/>
-            </StoryText>
-        </PAGEOBJECT>
-        <PAGEOBJECT XPOS="141.912611023622" YPOS="72.919631496063" OwnPage="0" ItemID="205643584" PTYPE="4" WIDTH="208.937007874016" HEIGHT="30.75" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L208.937 0 L208.937 30.75 L0 30.75 L0 0 Z" copath="M0 0 L208.937 0 L208.937 30.75 L0 30.75 L0 0 Z" gXpos="8.58016255970745" gYpos="17.6088437008109" gWidth="379.079631143285" gHeight="586.410659923365" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
-            <StoryText>
-                <DefaultStyle/>
-                <ITEXT CPARENT="Default Character Style" CH="ipraywiththegospel.org"/>
-                <trail PARENT="normal"/>
             </StoryText>
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="137.666666666667" YPOS="209" OwnPage="0" ItemID="224399472" PTYPE="4" WIDTH="354.666666666667" HEIGHT="164.666666666667" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L354.667 0 L354.667 164.667 L0 164.667 L0 0 Z" copath="M0 0 L354.667 0 L354.667 164.667 L0 164.667 L0 0 Z" gXpos="137.666666666667" gYpos="209" gWidth="0" gHeight="0" PSTYLE="normal" LAYER="1" NEXTITEM="224427792" BACKITEM="224021008"/>

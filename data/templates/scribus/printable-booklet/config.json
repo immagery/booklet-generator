@@ -8,7 +8,7 @@
 
     "main_content": {
 
-        "filename" : "base_booklet_connections.sla",
+        "filename" : "base_booklet_cleanup.sla",
 
         "left_page": 1,
         "right_page": 0,
@@ -53,9 +53,9 @@
     ],
 
     "character_styles": [
-        "Default Character Style",
-        "black",
-        "italic",
+        "reflexion",
+        "reflexion-black",
+        "reflexion-italic",
         "italic-black",
         "Red Italic"
     ],

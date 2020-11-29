@@ -6,6 +6,8 @@ from build.utils import read_json_file
 from build.gs_database import load_db, read_data_base
 from build import build_functions
 
+import traceback
+
 import copy
 
 # merges the two dictionaries, with child values having preference
@@ -59,13 +61,13 @@ data_base = {}
 for language, data_base_name in session_config['spreadsheet'].items():
     try:
         db = read_data_base(data_base_name, language)
-        
         if db is None:
             continue
-
+        
         data_base[language] = db
     except Exception as e:
         print("problem reading database: {}, error: {}".format(data_base_name, e))
+        traceback.print_exc()
 
 # Build the different mediums based on the tasks config file
 for task_name, task_folder in session_config['tasks'].items():
@@ -74,7 +76,6 @@ for task_name, task_folder in session_config['tasks'].items():
     # read the configuration task for the leaflet
     task_path = os.path.join(session_path, base_config_path, task_folder)
     task_decription_file_name = os.path.join(task_path, "config.json")
-    print(task_decription_file_name)
     task_description = read_json_file(task_decription_file_name)
 
     # merge the child config (session_config) into the parent (task_description)
@@ -108,4 +109,5 @@ for task_name, task_folder in session_config['tasks'].items():
             if os.path.exists(out_path):
                 shutil.rmtree(out_path, ignore_errors = True)
 
+            print(data_base.keys())
             build_functions[medium](task_config, data_base[language], task_path, session_path, out_path)
