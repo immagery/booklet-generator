@@ -215,17 +215,20 @@ class DataBaseHandler:
         
         for day_code in list_of_days:
             version = 0
+        
+            if day_code[1] == SKIP_DAY_CODE:
+                title = None if len(day_code)<3 else day_code[2]
+                new_day = DaySpec.blank_day( title = title )
+                new_day.version = version
+                days_collected.append( new_day )
+                continue
+
             # run over all the entries for the day_code (date)
             for text_in_day in day_code[1:]:
                 if text_in_day in self.days:
                     new_day = DaySpec.copy_contructor(self.days[text_in_day][0], day_code[0])
                     new_day.version = version
-                    days_collected.append( new_day )
-                elif text_in_day == SKIP_DAY_CODE :
-                    title = None if len(day_code)<3 else day_code[2]
-                    new_day = DaySpec.blank_day( title = title )
-                    new_day.version = version
-                    days_collected.append( new_day )
+                    days_collected.append( new_day )                   
                 else:
                     print("The text code {0} for day {1} is not the data base".format(text_in_day, day_code[0]))
                 version += 1
