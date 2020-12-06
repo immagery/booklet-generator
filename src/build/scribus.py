@@ -45,7 +45,7 @@ def copy_header(doc, new_doc):
 def is_next_left(pages_list):
     return len(pages_list) % 2 == 0
 
-class Paragraph:
+class Paragraph():
     STYLE_ATTR = 'PARENT'
     PARAGRAPH_TAG = 'para'
     END_TAG = 'trail'
@@ -54,14 +54,14 @@ class Paragraph:
         self.style = style
         self.end = end
 
-    def add_items(self, parent):
+    def get_xml(self):
         if self.end:
             xml_item = ET.Element(self.END_TAG)
         else:
             xml_item = ET.Element(self.PARAGRAPH_TAG)
 
         xml_item.attrib[self.STYLE_ATTR] = self.style
-        parent.append(xml_item)
+        return [xml_item]
     
 class Itext:
     # attributes
@@ -79,32 +79,30 @@ class Itext:
         if self.CHARACTER_ATTR not in self._text.attrib:
             raise Exception("this piece of text is not well built")
         
+        #xml_collection = []
         if self._paragraph:
-            self._paragraph.add_items(parent)
+            parent.append(self._paragraph)
 
         parent.append(self._text)
-
-        return self._text
+        #return xml_collection
 
 class ContentStory:
     STORY_TAG = "StoryText"
     DEFAULT_STYLE_TAG = "DefaultStyle"
 
     def __init__(self, xml_item = None, content = None):
-        if xml_item:
-            self.xml_item = xml_item
-        else:
-            self.xml_item = None
-        
-        if self.xml_item is not None and self.xml_item:
-            return
-
         # If we have to build a contents xml element
         self._style =  ET.Element(self.DEFAULT_STYLE_TAG)
         self._style.attrib[Paragraph.STYLE_ATTR] = "normal"
-
+        
         self._text = []
         self._elements = {}
+
+        if xml_item:
+            self.xml_item = create_from_header(xml_item, with_children=True)
+        else:
+            self.xml_item = None
+            return
 
         if not content:
             return
@@ -146,12 +144,9 @@ class ContentStory:
 
                 self._text.append(comment_item)
 
-    def add_items(self, parent):
-        parent.append(self.get_xml_item())
-
-    def get_xml_item(self):
-        if self.xml_item is not None and self.xml_item:
-            return create_from_header(self.xml_item, with_children=True)
+    def get_xml(self):
+        if self.xml_item:
+            return self.xml_item
 
         story_item = ET.Element(self.STORY_TAG)
         story_item.append(self._style)
@@ -166,6 +161,10 @@ class Page:
     LEFT = False
     RIGHT = True
     
+    @classmethod
+    def from_page(cls, orig_page):
+        return cls()
+
     def __init__(self, page_xml = None, page_obj_xml = None, content = None):
 
         # Current position of the page
@@ -173,8 +172,9 @@ class Page:
         self.pos_y = 0.0
 
         # to compute all the objects in reference to the current page
-        self.page_xml = page_xml
+        
         if page_xml != None:
+            self.page_xml = create_from_header(page_xml, with_children=True)
             self.number = int(page_xml.attrib['NUM'])
             self.pos_x = float(page_xml.attrib['PAGEXPOS'])
             self.pos_y = float(page_xml.attrib['PAGEYPOS'])
@@ -189,10 +189,20 @@ class Page:
         if content and page_obj_xml:
             PageObject(xml_item = page_obj_xml, owner_page = self, content = content)
 
-        self.side = self.LEFT
+        self._side = None
 
     def set_side(self, left = True):
-        self.side = self.LEFT if left else self.RIGHT
+        self._side = self.LEFT if left else self.RIGHT
+
+    @property
+    def side(self):
+        if self._side is not None:
+            return self._side
+
+        if (self.number % 2) == 1:
+            return self.LEFT
+        
+        return self.RIGHT
 
     def add_object(self, page_obj):
         self.page_objects.append(page_obj)
@@ -212,6 +222,21 @@ class Page:
         page_xml.attrib['PAGEXPOS'] = str(self.pos_x)
         page_xml.attrib['PAGEYPOS'] = str(self.pos_y)
         parent.append(page_xml)
+
+class MonthPage(Page):
+    def __init__(self, page):
+        super(MonthPage, self).__init__(page.page_xml)
+
+        for obj in page.page_objects:
+            self.page_objects.append(PageObject(xml_item = obj.xml_item, owner_page = self))
+
+        month_title_obj = get_object_with_name(self.page_objects, 'month_tittle')
+        if month_title_obj:
+            self.month_title_text = month_title_obj.xml_item.find("StoryText").find("ITEXT")
+
+    def set_title(self, title):
+        if self.month_title_text:
+            self.month_title_text.attrib['CH'] = title
 
 class PageObject:
     _name_idx = 0
@@ -269,11 +294,12 @@ class PageObject:
         page_obj_xml.attrib['YPOS'] = str(self.pos_y + self.owner_page.pos_y)
         
         if self.content:
-            content = self.content.get_xml_item()
+            content = self.content.get_xml()
             if not isinstance(content, list):
                 page_obj_xml.append(content)
         
         parent.append(page_obj_xml)
+
         return page_obj_xml
 
 '''
@@ -302,7 +328,7 @@ class PageNumber(PageObject):
         # read the xml reference, it will upadted by the page when it's positioned
         new_page_number.page_number = new_page.number
         new_page_number.id = page_number.id
-        new_page_number.xml_item = page_number.xml_item
+        new_page_number.xml_item = create_from_header(page_number.xml_item, with_children=True)
 
         # unique number per object
         new_page_number._new_id = new_page_number.get_and_increment_id()
@@ -327,7 +353,7 @@ class PageNumber(PageObject):
         
         # set style
         style = story.find("DefaultStyle")
-        style.attrib['PARENT'] = "normal" if self.owner_page.side == Page.LEFT else "normal"
+        style.attrib['PARENT'] = "normal" if self.owner_page.side == Page.LEFT else "normal-left"
 
         return added_item
 
@@ -472,15 +498,6 @@ def read_scribus_template(template_file_name):
 
     return pages, other_elements
 
-def restore_image_link( pages, code_str, code_image ):
-    # replace the image paths to point to the right place (again, it's generic!!!)
-    for page in pages:
-        for obj in page.page_objects:
-            # if it's image, look for path
-            if int(obj.header.attrib['PTYPE']) == 2 and 'PFILE' in obj.header.attrib:
-                if code_str in obj.header.attrib['PFILE']:
-                    obj.header.attrib['PFILE'] = code_image
-
 def get_object_with_name(objects, name):
     for obj in objects:
         if 'ANNAME' in obj.xml_item.attrib and obj.xml_item.attrib['ANNAME'] == name:
@@ -500,16 +517,21 @@ def build_main_pages(reference_page, task_description, data_base, template_decri
     ref_page_obj = get_object_with_name(reference_page.page_objects, 'page_number')
     reference_page.remove_object(ref_page_obj)
     
-    content_pages = []
+    # init the classification
+    content_pages = {}
+    content_pages['no_classified'] = []
+    current_block = content_pages['no_classified']
+
     for day in task_days:
-        if day.code == 'white':
-            # TODO: support for month breaking pages...
-            print("there should be a white page at this point with title: {}".format(day.title))
+        if day.is_blank:
+            content_pages[day.title] = []
+            current_block = content_pages[day.title]
+            print("Title page with: {}".format(day.title))
             continue
         
         day.style_translation = template_decription['character_style_templates']
         page = Page(page_xml = ref_page_xml, page_obj_xml = ref_content_obj.xml_item, content = day)
-        content_pages.append(page)
+        current_block.append(page)
 
     return content_pages, PageNumber(ref_page_obj)
 
@@ -541,31 +563,31 @@ def build_scribus_leaflet(task_description, data_base, task_path, session_path, 
 
     # copy all the images needed from the task and the template
     '''
-    image_references = {}
-    for image_code, image_descr in pdf_config['images'].items():
-        if data_base.language in image_descr:
-            image_file_name = image_descr[data_base.language]
-        else:
-            image_file_name = image_descr['english']
+        image_references = {}
+        for image_code, image_descr in pdf_config['images'].items():
+            if data_base.language in image_descr:
+                image_file_name = image_descr[data_base.language]
+            else:
+                image_file_name = image_descr['english']
 
-        image_file_path = os.path.join(task_path, image_file_name)
-        try:
-            temp_image_file = os.path.join(temp_folder, "pdf_{0}_image.jpg".format(image_code))
-            copyfile(image_file_path, temp_image_file)
-            image_references[image_code] = temp_image_file
-        except IOError as e:
-            print(
-                "Unable to copy the cover image to generate the pdf. [{0}]".format(e))
+            image_file_path = os.path.join(task_path, image_file_name)
+            try:
+                temp_image_file = os.path.join(temp_folder, "pdf_{0}_image.jpg".format(image_code))
+                copyfile(image_file_path, temp_image_file)
+                image_references[image_code] = temp_image_file
+            except IOError as e:
+                print(
+                    "Unable to copy the cover image to generate the pdf. [{0}]".format(e))
 
-    for image_code, image_descr in template_decription['images'].items():
-        image_file_path = os.path.join(base_template_path, image_descr)
-        try:
-            temp_image_file = os.path.join(temp_folder, "pdf_{0}_image.jpg".format(image_code))
-            copyfile(image_file_path, temp_image_file)
-            image_references[image_code] = temp_image_file
-        except IOError as e:
-            print(
-                "Unable to copy the cover image to generate the pdf. [{0}]".format(e))
+        for image_code, image_descr in template_decription['images'].items():
+            image_file_path = os.path.join(base_template_path, image_descr)
+            try:
+                temp_image_file = os.path.join(temp_folder, "pdf_{0}_image.jpg".format(image_code))
+                copyfile(image_file_path, temp_image_file)
+                image_references[image_code] = temp_image_file
+            except IOError as e:
+                print(
+                    "Unable to copy the cover image to generate the pdf. [{0}]".format(e))
     '''
 
     template_file_name = os.path.join( base_template_path, template_decription['main_content']['filename'] )
@@ -574,20 +596,40 @@ def build_scribus_leaflet(task_description, data_base, task_path, session_path, 
     # add intro
     final_pages = pages[:2]
 
+    month_break = MonthPage(pages[3])
+    white_page = pages[4]
+
     # create_content
-    content_pages, page_number = build_main_pages(pages[3], task_description, data_base, template_decription)
-    final_pages += content_pages
+    content_pages, page_number = build_main_pages(pages[5], task_description, data_base, template_decription)
+
+    for block, block_pages in content_pages.items():
+        # skip any empty block, line no_classified most of the time
+        if len(block_pages) == 0:
+            continue
+
+        # add the title
+        if len(final_pages) % 2 == 1:
+            # Left -> +1 white
+            final_pages.append(white_page)
+
+        final_pages.append(month_break)
+        final_pages.append(white_page)
+
+        print("block: {} with {} pages".format(block, len(block_pages)))
+
+        final_pages += block_pages
+        break
 
     # TODO: pick the different pages of the template looking at the specifications in the config file
 
     # pick left or right for the exam
     if is_next_left(final_pages):
-        final_pages.append(pages[4])
+        final_pages.append(pages[6])
     else:
-        final_pages.append(pages[5])
+        final_pages.append(pages[7])
 
     # add the end of the booklet (prayers)
-    final_pages += pages[6:]
+    final_pages += pages[8:]
 
     print("+  Final pages count: ", len(final_pages))
 
@@ -613,7 +655,6 @@ def build_scribus_leaflet(task_description, data_base, task_path, session_path, 
     # add the new composed pages
     for page in final_pages:
         new_document.add_page(page)
-        #TODO: for each page add a page_number if proceeds
         PageNumber.assign_to_page(page_number, page)
 
     # add the page objects for all those pages
