@@ -1,0 +1,33 @@
+{
+    "name": "Dec 2020",
+    "type": "leaflet",
+    "first_day": 1,
+    "first_month": 12,
+    "first_year": 2020,
+    "text_count": 31,
+    "first_weekday_day": "Tuesday",
+    "days_list": "leaflet-descriptions/Dec_20",
+
+    "languages": [
+        "english"
+    ],
+    "spreadsheet": {
+        "english": "iPray2021-english"
+    },
+
+    "mediums": {
+        "pdf": {
+            "images": {
+                "cover": {
+                    "english": "full_cover-english.jpg"
+                }
+            }
+        },
+
+        "epub": {
+            "cover": {
+                "english" : "cover_hi.jpg"
+            }
+        }
+    }
+}

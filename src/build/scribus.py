@@ -105,11 +105,11 @@ class ContentStory:
         self._text = []
         self._elements = {}
 
-        saint_item = Itext( style = "santo-title", pstyle = "normal", text = content.onomastic)
+        saint_item = Itext( style = "santo-title", pstyle = "gospel", text = content.onomastic)
         self._elements['saint'] = saint_item
         self._text.append(saint_item)
 
-        day_item = Itext( style = "Day", pstyle = "Title", text = content.getFullStringDay())
+        day_item = Itext( style = "Day", pstyle = "gospel", text = content.getFullStringDay())
         self._elements['day'] = day_item
         self._text.append(day_item)
 
@@ -212,7 +212,10 @@ class PageObject:
         x_pos, y_pos = self.global_positions()
         page_obj_xml = create_from_header(self.xml_item, with_children=True)
         page_obj_xml.attrib['OwnPage'] = str(self.owner_page.number)
-        page_obj_xml.attrib['XPOS'] = str(x_pos)
+        
+        offset_x = 20 if self.owner_page.side == Page.RIGHT else -20
+        
+        page_obj_xml.attrib['XPOS'] = str(x_pos + offset_x)
         page_obj_xml.attrib['YPOS'] = str(y_pos)
 
         return [page_obj_xml]
@@ -259,9 +262,13 @@ class PageNumber(PageObject):
         text = story.find("ITEXT")
         text.attrib['CH'] = str(self.owner_page.number + 1)
         
+        style_str = "normal" if self.owner_page.side == Page.LEFT else "normal-left"
+
         # set style
-        style = story.find("DefaultStyle")
-        style.attrib['PARENT'] = "normal" if self.owner_page.side == Page.LEFT else "normal-left"
+        story.find("DefaultStyle").attrib['PARENT'] = style_str
+        story.find("ITEXT").attrib['PARENT'] = style_str
+        story.find("trail").attrib['PARENT'] = style_str
+        xml_item.attrib['PSTYLE'] = style_str
 
         return [xml_item]
 
@@ -285,7 +292,6 @@ class Page:
 
     @classmethod
     def set_page_number_template(cls, page_number_ref):
-        print("page_numer_template: {}".format(ET.tostring(page_number_ref.xml_item)))
         cls.page_number_template =  create_from_header(page_number_ref.xml_item, with_children=True)
 
         # make local, so we can place it wherever we want
