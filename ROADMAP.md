@@ -14,7 +14,6 @@ Big TODO's
 
 * make a distribution package
 * Generate the pdf's in the background using scribus
-* generate mobi files straight away
 * generate the home printable version of the leaflet
 
 Future tasks

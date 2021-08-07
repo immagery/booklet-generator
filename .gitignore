@@ -15,3 +15,4 @@ data/export
 data/credentials
 !data/credentials/README.md
 iPray.code-workspace
+exports
