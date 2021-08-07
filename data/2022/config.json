@@ -1,0 +1,14 @@
+{
+    "info": "iPray 2022",
+    "tasks": {
+        "first_half": "2022_I",
+        "second_half": "2022_II",
+        "full_year": "full_year2022"
+    },
+    "languages": [
+        "english"
+    ],
+    "spreadsheet": {
+        "english": "iPray_database-english"
+    }
+}

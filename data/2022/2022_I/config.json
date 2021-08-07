@@ -1,0 +1,33 @@
+{
+    "name": "2022_first_half",
+    "type": "leaflet",
+    "first_day": 1,
+    "first_month": 1,
+    "first_year": 2022,
+    "text_count": 365,
+    "first_weekday_day": "Saturday",
+    "days_list": "leaflet-descriptions/2022_I",
+
+    "languages": [
+        "english"
+    ],
+    "spreadsheet": {
+        "english": "iPray_database-english"
+    },
+
+    "mediums": {
+        "pdf": {
+            "images": {
+                "cover": {
+                    "english": "full_cover-english.jpg"
+                }
+            }
+        },
+
+        "epub": {
+            "cover": {
+                "english" : "cover_hi.jpg"
+            }
+        }
+    }
+}
