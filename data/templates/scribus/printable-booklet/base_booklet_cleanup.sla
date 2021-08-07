@@ -41,6 +41,7 @@
         <CHARSTYLE CNAME="Red Italic" CPARENT="italic" FCOLOR="Red"/>
         <CHARSTYLE CNAME="Tittle" FONT="Palatino Linotype Bold" FONTSIZE="15" FONTFEATURES="-clig" LANGUAGE="en_US"/>
         <CHARSTYLE CNAME="santo-title" CPARENT="Default Character Style" FONTSIZE="12" FCOLOR="darker_grey"/>
+        <CHARSTYLE CNAME="special-period" CPARENT="Default Character Style" FONTSIZE="10" FCOLOR="light_grey"/>
         <CHARSTYLE CNAME="Day" CPARENT="Default Character Style" FONTSIZE="12"/>
         <CHARSTYLE CNAME="versiculo" FONT="Palatino Linotype Bold" FONTSIZE="11" FONTFEATURES="-clig" FCOLOR="Black" FSHADE="60" LANGUAGE="en_US"/>
         <CHARSTYLE CNAME="evangelio" FONT="Palatino Linotype Italic" FONTFEATURES="-clig" LANGUAGE="en_US"/>

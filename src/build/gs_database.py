@@ -53,6 +53,7 @@ class DaySpec(object):
         self.comment_in_html = ""
         self.day_string = ""
         self.is_blank = False
+        self.special_period = ""
 
     @classmethod
     def copy_contructor(cls, day_data, date_key):
@@ -69,6 +70,7 @@ class DaySpec(object):
         day.date = day_data.date
         day.code = day_data.code
         day.link = day_data.link
+        day.special_period = day_data.special_period
         return day
 
     @classmethod
@@ -216,21 +218,39 @@ class DataBaseHandler:
         for day_code in list_of_days:
             version = 0
         
-            if day_code[1] == SKIP_DAY_CODE:
-                title = None if len(day_code)<3 else day_code[2]
+            if day_code[3] == SKIP_DAY_CODE:
+                title = None if len(day_code)<5 else day_code[4]
                 new_day = DaySpec.blank_day( title = title )
                 new_day.version = version
                 days_collected.append( new_day )
                 continue
 
+            if len(day_code) < 2:
+                continue
+
+            saint = day_code[1]
+            
+            if len(day_code) < 3:
+                continue
+            
+            special_period = day_code[2]
+
             # run over all the entries for the day_code (date)
-            for text_in_day in day_code[1:]:
+            for text_in_day in day_code[3:]:
+                if text_in_day == "":
+                    continue
+
                 if text_in_day in self.days:
                     new_day = DaySpec.copy_contructor(self.days[text_in_day][0], day_code[0])
+                    if new_day.onomastic == "" and saint != "":
+                        new_day.onomastic = saint
+                    if special_period != "":
+                        new_day.special_period = special_period
+
                     new_day.version = version
                     days_collected.append( new_day )                   
                 else:
-                    print("The text code {0} for day {1} is not the data base".format(text_in_day, day_code[0]))
+                    print("The text code {0} for day {1} is not in the data base".format(text_in_day, day_code[0]))
                 version += 1
 
         return days_collected
@@ -290,8 +310,7 @@ def read_list_of_days(list_name):
     for day_code_idx in range(len(sheet_day_values)):
         texts = []
         for text in range(len(sheet_day_values[day_code_idx])):
-            if sheet_day_values[day_code_idx][text] != "":
-                texts.append(sheet_day_values[day_code_idx][text])
+            texts.append(sheet_day_values[day_code_idx][text])
         
         if len(texts) < 2:
             print("There is no texts on the day {0}", day_code_idx)

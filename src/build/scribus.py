@@ -105,9 +105,15 @@ class ContentStory:
         self._text = []
         self._elements = {}
 
-        saint_item = Itext( style = "santo-title", pstyle = "gospel", text = content.onomastic)
-        self._elements['saint'] = saint_item
-        self._text.append(saint_item)
+        if content.special_period:
+            special_period_item = Itext( style = "special-period", pstyle = "gospel", text = content.special_period)
+            self._elements['special_period'] = special_period_item
+            self._text.append(special_period_item)
+
+        if content.onomastic:
+            saint_item = Itext( style = "santo-title", pstyle = "gospel", text = content.onomastic)
+            self._elements['saint'] = saint_item
+            self._text.append(saint_item)
 
         day_item = Itext( style = "Day", pstyle = "gospel", text = content.getFullStringDay())
         self._elements['day'] = day_item

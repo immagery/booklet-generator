@@ -18,6 +18,8 @@ def generateContent(day_data, content_id, language = None, template = None):
 	contents['day_number_string'] = day_data.get_string_day()
 	contents['day_number'] = day_data.day
 	contents['month_string'] = day_data.getMonthString( language )
+	if day_data.special_period != "":
+		contents['special_period'] = day_data.special_period
 
 	if template is not None:
 		page_text = template.render(**contents)

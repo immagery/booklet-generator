@@ -1,6 +1,9 @@
 iPray booklet generator
 =======================
 
+Intallation and getting ready
+-----------------------------
+
 This is a Python based app to generate iPray booklets
 
 for development I'm using several python packages to make our life easier:
@@ -18,3 +21,9 @@ https://gspread.readthedocs.io/en/latest/oauth2.html
 In order to access the database you need the credentials, created through:
 
 https://console.developers.google.com/apis
+
+
+Things to have into account when running it
+-------------------------------------------
+
+* The database has to be in a google spreadsheet shared with the right address to access through the API

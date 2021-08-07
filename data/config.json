@@ -9,7 +9,7 @@
     "export_path" : "export",
 
     "tasks": {
-        "2021": "full_year2021"
+        "2022": "full_year2022"
     },
     
     "languages": [
@@ -18,7 +18,7 @@
     ],
 
     "spreadsheet": {
-        "english": "iPray2021-english"
+        "english": "iPray_database-english"
     },
 
     "mediums": {
