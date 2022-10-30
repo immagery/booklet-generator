@@ -9,7 +9,7 @@
     "export_path" : "export",
 
     "tasks": {
-        "2022": "full_year2022"
+        "full_year2022": "full_year2022"
     },
     
     "languages": [
