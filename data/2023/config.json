@@ -1,0 +1,14 @@
+{
+    "info": "iPray 2023",
+    "tasks": {
+        "full_year": "full_year"
+    },
+    "languages": [
+        "english",
+        "spanish"
+    ],
+    "spreadsheet": {
+        "english": "iPray_database-english",
+        "spanish": "iPray_database-Spanish"
+    }
+}

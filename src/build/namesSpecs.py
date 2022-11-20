@@ -2,21 +2,25 @@ import calendar
 
 monthDays = [0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 monthNames = {"english": ['dummy', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
-              "german":  ['dummy', 'Januar', 'Februar', 'Marz', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember']}
+              "german":  ['dummy', 'Januar', 'Februar', 'Marz', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'],
+              "spanish":  ['dummy', 'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']}
 
 weekdays = {"english": ['dummy', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-            "german":  ['dummy', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag']}
+            "german":  ['dummy', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag'],
+            "spanish":  ['dummy', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']}
 
 
 monthNumber = {"english": {},
-               "german": {}}
+               "german": {},
+               "spanish": {}}
 
 for lan in monthNames.keys():
     for i in range(len(monthNames[lan])):
         monthNumber[lan][monthNames[lan][i]] = i
 
 weekdayNumber = {"english": {},
-                 "german": {}}
+                 "german": {},
+                 "spanish": {}}
 
 for lan in monthNames.keys():
     for i in range(len(weekdays[lan])):

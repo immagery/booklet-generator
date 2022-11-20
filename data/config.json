@@ -1,6 +1,6 @@
 {
     "description": "iPray building system 0.0.1",
-    "creation": "20/10/2019",
+    "creation": "20/10/2022",
     "credentials": "iPray-de4954104202.json",
     "scope": [
         "https://spreadsheets.google.com/feeds",
@@ -9,16 +9,17 @@
     "export_path" : "export",
 
     "tasks": {
-        "full_year2022": "full_year2022"
+        "full_year": "full_year"
     },
     
     "languages": [
         "english",
-        "german"
+        "spanish"
     ],
 
     "spreadsheet": {
-        "english": "iPray_database-english"
+        "english": "iPray_database-english",
+        "spanish": "iPray_database-Spanish"
     },
 
     "mediums": {
@@ -31,7 +32,7 @@
             "images": {
                 "cover": {
                     "english": "full_cover-english.jpg",
-                    "german" : "full_cover-english.jpg"
+                    "spanish" : "full_cover-english.jpg"
                 }
             }
         },
@@ -41,7 +42,7 @@
             "template": "monthly_booklet",
             "cover": {
                 "english" : "cover_mid.jpg",
-                "german" : "cover_mid.jpg"
+                "spanish" : "cover_mid.jpg"
             },
             "logo" : "logo.jpg"
         },

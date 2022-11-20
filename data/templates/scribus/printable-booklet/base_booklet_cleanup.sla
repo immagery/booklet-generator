@@ -538,7 +538,7 @@
                 <DefaultStyle PARENT="normal"/>
                 <ITEXT CPARENT="Default Character Style" CH="Scripture quotations are from The Revised Standard Version of the Bible: Catholic Edition, copyright © 1965, 1966 the Division of Christian Education of the National Council of the Churches of Christ in the United States of America. Used by permission. All rights reserved."/>
                 <para PARENT="normal"/>
-                <ITEXT CPARENT="Default Character Style" CH="Copyright © 2015 by George Boronat. All rights reserved. This book or any portion thereof may not be reproduced or used in any manner whatsoever without the express written permission of the publisher except for the use of brief quotations. For permission requests, write to"/>
+                <ITEXT CPARENT="Default Character Style" CH="Copyright © 2022 by George Boronat. All rights reserved. This book or any portion thereof may not be reproduced or used in any manner whatsoever without the express written permission of the publisher except for the use of brief quotations. For permission requests, write to"/>
                 <para PARENT="normal"/>
                 <ITEXT CPARENT="black" CH=" ipraywiththegospel.org/contact-us/"/>
                 <trail PARENT="normal"/>
@@ -554,7 +554,7 @@
         <PAGEOBJECT XPOS="148.52048503937" YPOS="117.836560629921" OwnPage="0" ItemID="142637600" PTYPE="4" WIDTH="336.72951496063" HEIGHT="100.263439370079" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L336.73 0 L336.73 100.263 L0 100.263 L0 0 Z" copath="M0 0 L336.73 0 L336.73 100.263 L0 100.263 L0 0 Z" gXpos="14.5801625597074" gYpos="54.3624566763362" gWidth="379.079631143285" gHeight="586.410659923365" PSTYLE="normal" LAYER="1" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle PARENT="normal"/>
-                <ITEXT CPARENT="Default Character Style" CH="Rev. George Boronat M.D. S.T.D is a Catholic priest from the Prelature of Opus Dei, working in the Archdiocese of Southwark in London. He is the Chaplain of The Cedars School in Croydon, and of Kelston Club &amp; Study Centre (Balham). He also works in Oakwood School (Purley). He has developed his pastoral ministry mainly with young people."/>
+                <ITEXT CPARENT="Default Character Style" CH="Rev. George Boronat M.D. S.T.D is a Catholic priest from the Prelature of Opus Dei, working in the Archdiocese of Southwark in London. He is the Chaplain of The Cedars and The Laurels School in West Norwood, and of Kelston Club &amp; Study Centre (Balham). He also works at Oakwood School (South Croydon). He has developed his pastoral ministry mainly with young people."/>
                 <para PARENT="normal"/>
             </StoryText>
         </PAGEOBJECT>

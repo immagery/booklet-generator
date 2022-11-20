@@ -298,6 +298,8 @@ def read_list_of_days(list_name):
     if data_base_handle is None:
         return None
 
+    print(tasks_path[1])
+
     ws = data_base_handle.worksheet(tasks_path[1])
 
     if data_base_handle is None:

@@ -27,3 +27,11 @@ Things to have into account when running it
 -------------------------------------------
 
 * The database has to be in a google spreadsheet shared with the right address to access through the API
+
+Running the build
+-----------------
+
+python .\src\build_iPray.py D:\dev\booklet-generator\data\ 2023
+
+You will need scribus 1.5.7+ to open the result and generate the final booklet pdf
+You need to install the keepcalm font to edit the cover

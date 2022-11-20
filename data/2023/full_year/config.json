@@ -1,0 +1,26 @@
+{
+    "name": "Full year",
+    "type": "leaflet",
+    "first_day": 1,
+    "first_month": 1,
+    "first_year": 2023,
+    "text_count": 365,
+    "first_weekday_day": "Sunday",
+    "days_list": "leaflet-descriptions/2023",
+
+    "mediums": {
+        "app": {
+            "images": {
+                "cover": {
+                    "english": "full_cover-english.jpg"
+                }
+            }
+        },
+
+        "epub": {
+            "cover": {
+                "english" : "cover_hi.jpg"
+            }
+        }
+    }
+}
